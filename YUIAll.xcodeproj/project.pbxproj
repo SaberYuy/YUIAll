@@ -1,0 +1,1888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA77D3C6289FAC9900F323EB /* YUIAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3C5289FAC9900F323EB /* YUIAllTests.swift */; };
+		BA77D3D0289FAC9900F323EB /* YUIAllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3CF289FAC9900F323EB /* YUIAllUITests.swift */; };
+		BA77D3D2289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3D1289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift */; };
+		BA77D500289FADC300F323EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3F7289FADC100F323EB /* HomeViewController.m */; };
+		BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3FA289FADC100F323EB /* HomeModelManager.m */; };
+		BA77D502289FADC300F323EB /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D402289FADC100F323EB /* ExampleViewController.swift */; };
+		BA77D503289FADC300F323EB /* Target_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D404289FADC100F323EB /* Target_Example.swift */; };
+		BA77D504289FADC300F323EB /* ExampleMVVMViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D407289FADC100F323EB /* ExampleMVVMViewManager.m */; };
+		BA77D505289FADC300F323EB /* ExampleMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D40A289FADC100F323EB /* ExampleMVVMViewController.m */; };
+		BA77D506289FADC300F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D40F289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m */; };
+		BA77D507289FADC300F323EB /* ExampleMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D410289FADC100F323EB /* ExampleMVVMViewModel.m */; };
+		BA77D508289FADC300F323EB /* ExampleMVVMDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D412289FADC100F323EB /* ExampleMVVMDataSourceObject.m */; };
+		BA77D509289FADC300F323EB /* ExampleMVVMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D416289FADC100F323EB /* ExampleMVVMTableViewCell.m */; };
+		BA77D50A289FADC300F323EB /* ExampleMVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D418289FADC100F323EB /* ExampleMVVMView.m */; };
+		BA77D50B289FADC300F323EB /* ExampleMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D41B289FADC100F323EB /* ExampleMVCViewController.m */; };
+		BA77D50C289FADC300F323EB /* ExampleMVCDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D41E289FADC100F323EB /* ExampleMVCDataSourceObject.m */; };
+		BA77D50D289FADC300F323EB /* ExampleMVCEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D422289FADC100F323EB /* ExampleMVCEmptyDataSetDelegateObject.m */; };
+		BA77D50E289FADC300F323EB /* ExampleMVCModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D423289FADC100F323EB /* ExampleMVCModelManager.m */; };
+		BA77D50F289FADC300F323EB /* ExampleMVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D428289FADC200F323EB /* ExampleMVCTableViewCell.m */; };
+		BA77D510289FADC300F323EB /* ExampleMVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D429289FADC200F323EB /* ExampleMVCView.m */; };
+		BA77D511289FADC300F323EB /* ExampleObjViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42D289FADC200F323EB /* ExampleObjViewModel.m */; };
+		BA77D512289FADC300F323EB /* ExampleObjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42F289FADC200F323EB /* ExampleObjViewController.m */; };
+		BA77D513289FADC300F323EB /* Target_ExampleObj.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D432289FADC200F323EB /* Target_ExampleObj.m */; };
+		BA77D515289FADC300F323EB /* ExampleObjDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D436289FADC200F323EB /* ExampleObjDataSource.m */; };
+		BA77D516289FADC300F323EB /* ExampleObjModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D439289FADC200F323EB /* ExampleObjModelManager.m */; };
+		BA77D517289FADC300F323EB /* ExampleObjImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43B289FADC200F323EB /* ExampleObjImage.m */; };
+		BA77D518289FADC300F323EB /* ExampleObjRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43E289FADC200F323EB /* ExampleObjRequest.m */; };
+		BA77D519289FADC300F323EB /* ExampleObjViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D441289FADC200F323EB /* ExampleObjViewManager.m */; };
+		BA77D51A289FADC300F323EB /* ExampleObjView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D443289FADC200F323EB /* ExampleObjView.m */; };
+		BA77D51B289FADC300F323EB /* ExampleObjTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D445289FADC200F323EB /* ExampleObjTableViewCell.m */; };
+		BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D44A289FADC200F323EB /* MainTabBarController.m */; };
+		BA77D51D289FADC300F323EB /* Target_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D44D289FADC200F323EB /* Target_Main.m */; };
+		BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D453289FADC200F323EB /* LoginViewController.m */; };
+		BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D456289FADC200F323EB /* LoginModelManager.m */; };
+		BA77D520289FADC300F323EB /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D45A289FADC200F323EB /* LoginRequest.m */; };
+		BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D45D289FADC200F323EB /* LoginViewManager.m */; };
+		BA77D522289FADC300F323EB /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D462289FADC200F323EB /* GlobalState.m */; };
+		BA77D523289FADC300F323EB /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D466289FADC200F323EB /* LaunchScreen.strings */; };
+		BA77D524289FADC300F323EB /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D468289FADC200F323EB /* Main.strings */; };
+		BA77D526289FADC300F323EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */; };
+		BA77D527289FADC300F323EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA77D471289FADC200F323EB /* Main.storyboard */; };
+		BA77D528289FADC300F323EB /* YUIAppLifeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D476289FADC200F323EB /* YUIAppLifeModule.m */; };
+		BA77D529289FADC300F323EB /* AppLifeCycleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D477289FADC200F323EB /* AppLifeCycleMediator.m */; };
+		BA77D52A289FADC300F323EB /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA77D479289FADC200F323EB /* ModulesRegister.plist */; };
+		BA77D52B289FADC300F323EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D47A289FADC200F323EB /* AppDelegate.swift */; };
+		BA77D52C289FADC300F323EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D47C289FADC200F323EB /* Localizable.strings */; };
+		BA77D52D289FADC300F323EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D47F289FADC200F323EB /* InfoPlist.strings */; };
+		BA77D52E289FADC300F323EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA77D481289FADC200F323EB /* Assets.xcassets */; };
+		BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA77D482289FADC200F323EB /* YUIAll.xcdatamodeld */; };
+		BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D485289FADC200F323EB /* SceneDelegate.swift */; };
+		BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D488289FADC200F323EB /* UIKit+YUI.swift */; };
+		BA77D533289FADC300F323EB /* CommonAlterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D48D289FADC200F323EB /* CommonAlterController.m */; };
+		BA77D534289FADC300F323EB /* YUIViewManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D494289FADC200F323EB /* YUIViewManager+Common.m */; };
+		BA77D535289FADC300F323EB /* CommonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D496289FADC200F323EB /* CommonViewManager.m */; };
+		BA77D536289FADC300F323EB /* YUIViewModel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D49B289FADC200F323EB /* YUIViewModel+Common.m */; };
+		BA77D537289FADC300F323EB /* CommonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D49E289FADC200F323EB /* CommonViewModel.m */; };
+		BA77D538289FADC300F323EB /* CommonEmptyDataSetSourceAndDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4A0289FADC200F323EB /* CommonEmptyDataSetSourceAndDelegateObject.m */; };
+		BA77D539289FADC300F323EB /* CommonAmountTextFieldViewDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4A2289FADC200F323EB /* CommonAmountTextFieldViewDelegateObject.m */; };
+		BA77D53A289FADC300F323EB /* ComnonArchitectureDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4A6289FADC200F323EB /* ComnonArchitectureDelegateObject.m */; };
+		BA77D53B289FADC300F323EB /* CommonViewController+SubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4AA289FADC200F323EB /* CommonViewController+SubclassingHooks.m */; };
+		BA77D53C289FADC300F323EB /* CommonViewController+PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4AB289FADC200F323EB /* CommonViewController+PopupView.m */; };
+		BA77D53D289FADC300F323EB /* CommonViewController+EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4AF289FADC200F323EB /* CommonViewController+EmptyView.m */; };
+		BA77D53E289FADC300F323EB /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4B0289FADC200F323EB /* CommonViewController.m */; };
+		BA77D53F289FADC300F323EB /* CommonLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4B4289FADC200F323EB /* CommonLayoutModel.m */; };
+		BA77D540289FADC300F323EB /* CommonTransferModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4B5289FADC200F323EB /* CommonTransferModel.m */; };
+		BA77D541289FADC300F323EB /* CommonModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4B7289FADC200F323EB /* CommonModelManager.m */; };
+		BA77D542289FADC300F323EB /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4BC289FADC200F323EB /* UIView+Common.m */; };
+		BA77D543289FADC300F323EB /* CommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4BF289FADC200F323EB /* CommonView.m */; };
+		BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */; };
+		BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */; };
+		BA77D546289FADC300F323EB /* MediationKit+ExampleObjAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjAction.m */; };
+		BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */; };
+		BA77D548289FADC300F323EB /* CommonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4CF289FADC200F323EB /* CommonRequest.m */; };
+		BA77D549289FADC300F323EB /* LayoutKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4D3289FADC200F323EB /* LayoutKit.m */; };
+		BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4D7289FADC200F323EB /* UIViewController+YUI.m */; };
+		BA77D54B289FADC300F323EB /* NSObject+YUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4DD289FADC200F323EB /* NSObject+YUIModel.m */; };
+		BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4E2289FADC200F323EB /* NSObject+YUIViewManager.m */; };
+		BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4E6289FADC200F323EB /* CommonPopupAlertController.m */; };
+		BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4ED289FADC200F323EB /* MediationKit+HandyTools.m */; };
+		BA77D54F289FADC300F323EB /* MediationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4EE289FADC200F323EB /* MediationKit.m */; };
+		BA77D550289FADC300F323EB /* NetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4F0289FADC200F323EB /* NetworkKit.m */; };
+		F7B300D9DA96C83B18C1F250 /* Pods_YUIAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A20A01A15F4BFDC4E0F886 /* Pods_YUIAll.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA77D3C2289FAC9900F323EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA77D3A0289FAC9600F323EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA77D3A7289FAC9700F323EB;
+			remoteInfo = YUIAll;
+		};
+		BA77D3CC289FAC9900F323EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA77D3A0289FAC9600F323EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA77D3A7289FAC9700F323EB;
+			remoteInfo = YUIAll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190F12E058B8EBFE9E3E28BC /* Pods-YUIAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.debug.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.debug.xcconfig"; sourceTree = "<group>"; };
+		72E9BD2221A36A7AA20E842C /* Pods-YUIAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.release.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.release.xcconfig"; sourceTree = "<group>"; };
+		B9A20A01A15F4BFDC4E0F886 /* Pods_YUIAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUIAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77D3A8289FAC9700F323EB /* YUIAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUIAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77D3C1289FAC9900F323EB /* YUIAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUIAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77D3C5289FAC9900F323EB /* YUIAllTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUIAllTests.swift; sourceTree = "<group>"; };
+		BA77D3CB289FAC9900F323EB /* YUIAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUIAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA77D3CF289FAC9900F323EB /* YUIAllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUIAllUITests.swift; sourceTree = "<group>"; };
+		BA77D3D1289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUIAllUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA77D3F7289FADC100F323EB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BA77D3F8289FADC100F323EB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BA77D3FA289FADC100F323EB /* HomeModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModelManager.m; sourceTree = "<group>"; };
+		BA77D3FB289FADC100F323EB /* HomeModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModelManager.h; sourceTree = "<group>"; };
+		BA77D400289FADC100F323EB /* Target_ExampleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ExampleList.h; sourceTree = "<group>"; };
+		BA77D402289FADC100F323EB /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		BA77D404289FADC100F323EB /* Target_Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_Example.swift; sourceTree = "<group>"; };
+		BA77D407289FADC100F323EB /* ExampleMVVMViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMViewManager.m; sourceTree = "<group>"; };
+		BA77D408289FADC100F323EB /* ExampleMVVMViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMViewManager.h; sourceTree = "<group>"; };
+		BA77D40A289FADC100F323EB /* ExampleMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMViewController.m; sourceTree = "<group>"; };
+		BA77D40B289FADC100F323EB /* ExampleMVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMViewController.h; sourceTree = "<group>"; };
+		BA77D40D289FADC100F323EB /* ExampleMVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMViewModel.h; sourceTree = "<group>"; };
+		BA77D40E289FADC100F323EB /* ExampleMVVMDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMDataSourceObject.h; sourceTree = "<group>"; };
+		BA77D40F289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
+		BA77D410289FADC100F323EB /* ExampleMVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMViewModel.m; sourceTree = "<group>"; };
+		BA77D411289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMEmptyDataSetDelegateObject.h; sourceTree = "<group>"; };
+		BA77D412289FADC100F323EB /* ExampleMVVMDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMDataSourceObject.m; sourceTree = "<group>"; };
+		BA77D414289FADC100F323EB /* ExampleMVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMView.h; sourceTree = "<group>"; };
+		BA77D416289FADC100F323EB /* ExampleMVVMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMTableViewCell.m; sourceTree = "<group>"; };
+		BA77D417289FADC100F323EB /* ExampleMVVMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMTableViewCell.h; sourceTree = "<group>"; };
+		BA77D418289FADC100F323EB /* ExampleMVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMView.m; sourceTree = "<group>"; };
+		BA77D41B289FADC100F323EB /* ExampleMVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVCViewController.m; sourceTree = "<group>"; };
+		BA77D41C289FADC100F323EB /* ExampleMVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVCViewController.h; sourceTree = "<group>"; };
+		BA77D41E289FADC100F323EB /* ExampleMVCDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVCDataSourceObject.m; sourceTree = "<group>"; };
+		BA77D41F289FADC100F323EB /* ExampleMVCModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVCModelManager.h; sourceTree = "<group>"; };
+		BA77D420289FADC100F323EB /* ExampleMVCEmptyDataSetDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVCEmptyDataSetDelegateObject.h; sourceTree = "<group>"; };
+		BA77D421289FADC100F323EB /* ExampleMVCDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVCDataSourceObject.h; sourceTree = "<group>"; };
+		BA77D422289FADC100F323EB /* ExampleMVCEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVCEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
+		BA77D423289FADC100F323EB /* ExampleMVCModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVCModelManager.m; sourceTree = "<group>"; };
+		BA77D425289FADC100F323EB /* ExampleMVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVCView.h; sourceTree = "<group>"; };
+		BA77D427289FADC100F323EB /* ExampleMVCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVCTableViewCell.h; sourceTree = "<group>"; };
+		BA77D428289FADC200F323EB /* ExampleMVCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVCTableViewCell.m; sourceTree = "<group>"; };
+		BA77D429289FADC200F323EB /* ExampleMVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVCView.m; sourceTree = "<group>"; };
+		BA77D42C289FADC200F323EB /* ExampleObjViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjViewModel.h; sourceTree = "<group>"; };
+		BA77D42D289FADC200F323EB /* ExampleObjViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjViewModel.m; sourceTree = "<group>"; };
+		BA77D42F289FADC200F323EB /* ExampleObjViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjViewController.m; sourceTree = "<group>"; };
+		BA77D430289FADC200F323EB /* ExampleObjViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjViewController.h; sourceTree = "<group>"; };
+		BA77D432289FADC200F323EB /* Target_ExampleObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ExampleObj.m; sourceTree = "<group>"; };
+		BA77D433289FADC200F323EB /* Target_ExampleObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ExampleObj.h; sourceTree = "<group>"; };
+		BA77D436289FADC200F323EB /* ExampleObjDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjDataSource.m; sourceTree = "<group>"; };
+		BA77D437289FADC200F323EB /* ExampleObjModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjModelManager.h; sourceTree = "<group>"; };
+		BA77D438289FADC200F323EB /* ExampleObjImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjImage.h; sourceTree = "<group>"; };
+		BA77D439289FADC200F323EB /* ExampleObjModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjModelManager.m; sourceTree = "<group>"; };
+		BA77D43A289FADC200F323EB /* ExampleObjDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjDataSource.h; sourceTree = "<group>"; };
+		BA77D43B289FADC200F323EB /* ExampleObjImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjImage.m; sourceTree = "<group>"; };
+		BA77D43D289FADC200F323EB /* ExampleObjRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjRequest.h; sourceTree = "<group>"; };
+		BA77D43E289FADC200F323EB /* ExampleObjRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjRequest.m; sourceTree = "<group>"; };
+		BA77D441289FADC200F323EB /* ExampleObjViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjViewManager.m; sourceTree = "<group>"; };
+		BA77D442289FADC200F323EB /* ExampleObjViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjViewManager.h; sourceTree = "<group>"; };
+		BA77D443289FADC200F323EB /* ExampleObjView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjView.m; sourceTree = "<group>"; };
+		BA77D445289FADC200F323EB /* ExampleObjTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjTableViewCell.m; sourceTree = "<group>"; };
+		BA77D446289FADC200F323EB /* ExampleObjTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjTableViewCell.h; sourceTree = "<group>"; };
+		BA77D447289FADC200F323EB /* ExampleObjView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjView.h; sourceTree = "<group>"; };
+		BA77D44A289FADC200F323EB /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		BA77D44B289FADC200F323EB /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		BA77D44D289FADC200F323EB /* Target_Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Main.m; sourceTree = "<group>"; };
+		BA77D44E289FADC200F323EB /* Target_Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Main.h; sourceTree = "<group>"; };
+		BA77D453289FADC200F323EB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BA77D454289FADC200F323EB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BA77D456289FADC200F323EB /* LoginModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModelManager.m; sourceTree = "<group>"; };
+		BA77D457289FADC200F323EB /* LoginModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModelManager.h; sourceTree = "<group>"; };
+		BA77D459289FADC200F323EB /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		BA77D45A289FADC200F323EB /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		BA77D45C289FADC200F323EB /* LoginViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewManager.h; sourceTree = "<group>"; };
+		BA77D45D289FADC200F323EB /* LoginViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewManager.m; sourceTree = "<group>"; };
+		BA77D45F289FADC200F323EB /* GlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalState.h; sourceTree = "<group>"; };
+		BA77D461289FADC200F323EB /* YUIGlobalConst.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIGlobalConst.pch; sourceTree = "<group>"; };
+		BA77D462289FADC200F323EB /* GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalState.m; sourceTree = "<group>"; };
+		BA77D463289FADC200F323EB /* YUIGlobalMacro.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIGlobalMacro.pch; sourceTree = "<group>"; };
+		BA77D464289FADC200F323EB /* YUIPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIPrefixHeader.pch; sourceTree = "<group>"; };
+		BA77D467289FADC200F323EB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BA77D469289FADC200F323EB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BA77D46C289FADC200F323EB /* YUIAll-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIAll-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA77D46D289FADC200F323EB /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BA77D46E289FADC200F323EB /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		BA77D470289FADC200F323EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA77D472289FADC200F323EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA77D474289FADC200F323EB /* AppLifeCycleMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLifeCycleMediator.h; sourceTree = "<group>"; };
+		BA77D475289FADC200F323EB /* AppLifeCycleMediatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLifeCycleMediatorProtocol.h; sourceTree = "<group>"; };
+		BA77D476289FADC200F323EB /* YUIAppLifeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIAppLifeModule.m; sourceTree = "<group>"; };
+		BA77D477289FADC200F323EB /* AppLifeCycleMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLifeCycleMediator.m; sourceTree = "<group>"; };
+		BA77D478289FADC200F323EB /* YUIAppLifeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIAppLifeModule.h; sourceTree = "<group>"; };
+		BA77D479289FADC200F323EB /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
+		BA77D47A289FADC200F323EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA77D47D289FADC200F323EB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BA77D47E289FADC200F323EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA77D480289FADC200F323EB /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BA77D481289FADC200F323EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA77D483289FADC200F323EB /* YUIAll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YUIAll.xcdatamodel; sourceTree = "<group>"; };
+		BA77D484289FADC200F323EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA77D485289FADC200F323EB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA77D488289FADC200F323EB /* UIKit+YUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+YUI.swift"; sourceTree = "<group>"; };
+		BA77D48D289FADC200F323EB /* CommonAlterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlterController.m; sourceTree = "<group>"; };
+		BA77D48E289FADC200F323EB /* CommonAlterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlterController.h; sourceTree = "<group>"; };
+		BA77D48F289FADC200F323EB /* CommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUI.h; sourceTree = "<group>"; };
+		BA77D493289FADC200F323EB /* YUIViewManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewManager+Common.h"; sourceTree = "<group>"; };
+		BA77D494289FADC200F323EB /* YUIViewManager+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YUIViewManager+Common.m"; sourceTree = "<group>"; };
+		BA77D495289FADC200F323EB /* CommonViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewManager.h; sourceTree = "<group>"; };
+		BA77D496289FADC200F323EB /* CommonViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewManager.m; sourceTree = "<group>"; };
+		BA77D499289FADC200F323EB /* CommonAmountTextFieldViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAmountTextFieldViewModel.h; sourceTree = "<group>"; };
+		BA77D49B289FADC200F323EB /* YUIViewModel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YUIViewModel+Common.m"; sourceTree = "<group>"; };
+		BA77D49C289FADC200F323EB /* YUIViewModel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewModel+Common.h"; sourceTree = "<group>"; };
+		BA77D49D289FADC200F323EB /* CommonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewModel.h; sourceTree = "<group>"; };
+		BA77D49E289FADC200F323EB /* CommonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewModel.m; sourceTree = "<group>"; };
+		BA77D4A0289FADC200F323EB /* CommonEmptyDataSetSourceAndDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonEmptyDataSetSourceAndDelegateObject.m; sourceTree = "<group>"; };
+		BA77D4A2289FADC200F323EB /* CommonAmountTextFieldViewDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAmountTextFieldViewDelegateObject.m; sourceTree = "<group>"; };
+		BA77D4A3289FADC200F323EB /* CommonAmountTextFieldViewDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAmountTextFieldViewDelegateObject.h; sourceTree = "<group>"; };
+		BA77D4A4289FADC200F323EB /* ComnonArchitectureDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComnonArchitectureDelegateObject.h; sourceTree = "<group>"; };
+		BA77D4A5289FADC200F323EB /* CommonEmptyDataSetSourceAndDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonEmptyDataSetSourceAndDelegateObject.h; sourceTree = "<group>"; };
+		BA77D4A6289FADC200F323EB /* ComnonArchitectureDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComnonArchitectureDelegateObject.m; sourceTree = "<group>"; };
+		BA77D4AA289FADC200F323EB /* CommonViewController+SubclassingHooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CommonViewController+SubclassingHooks.m"; sourceTree = "<group>"; };
+		BA77D4AB289FADC200F323EB /* CommonViewController+PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CommonViewController+PopupView.m"; sourceTree = "<group>"; };
+		BA77D4AC289FADC200F323EB /* CommonViewController+EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CommonViewController+EmptyView.h"; sourceTree = "<group>"; };
+		BA77D4AD289FADC200F323EB /* CommonViewController+SubclassingHooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CommonViewController+SubclassingHooks.h"; sourceTree = "<group>"; };
+		BA77D4AE289FADC200F323EB /* CommonViewController+PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CommonViewController+PopupView.h"; sourceTree = "<group>"; };
+		BA77D4AF289FADC200F323EB /* CommonViewController+EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CommonViewController+EmptyView.m"; sourceTree = "<group>"; };
+		BA77D4B0289FADC200F323EB /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		BA77D4B1289FADC200F323EB /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		BA77D4B3289FADC200F323EB /* CommonModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonModelManager.h; sourceTree = "<group>"; };
+		BA77D4B4289FADC200F323EB /* CommonLayoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLayoutModel.m; sourceTree = "<group>"; };
+		BA77D4B5289FADC200F323EB /* CommonTransferModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTransferModel.m; sourceTree = "<group>"; };
+		BA77D4B7289FADC200F323EB /* CommonModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonModelManager.m; sourceTree = "<group>"; };
+		BA77D4B8289FADC200F323EB /* CommonLayoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLayoutModel.h; sourceTree = "<group>"; };
+		BA77D4B9289FADC200F323EB /* CommonTransferModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTransferModel.h; sourceTree = "<group>"; };
+		BA77D4BC289FADC200F323EB /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		BA77D4BD289FADC200F323EB /* CommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonView.h; sourceTree = "<group>"; };
+		BA77D4BE289FADC200F323EB /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		BA77D4BF289FADC200F323EB /* CommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonView.m; sourceTree = "<group>"; };
+		BA77D4C0289FADC200F323EB /* CommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLib.h; sourceTree = "<group>"; };
+		BA77D4C3289FADC200F323EB /* MediationKit+HomeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+HomeAction.h"; sourceTree = "<group>"; };
+		BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+HomeAction.m"; sourceTree = "<group>"; };
+		BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediationKit+Example.swift"; sourceTree = "<group>"; };
+		BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+ExampleObjAction.m"; sourceTree = "<group>"; };
+		BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+ExampleObjAction.h"; sourceTree = "<group>"; };
+		BA77D4CC289FADC200F323EB /* MediationKit+MainAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+MainAction.h"; sourceTree = "<group>"; };
+		BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+MainAction.m"; sourceTree = "<group>"; };
+		BA77D4CF289FADC200F323EB /* CommonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonRequest.m; sourceTree = "<group>"; };
+		BA77D4D0289FADC200F323EB /* CommonRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonRequest.h; sourceTree = "<group>"; };
+		BA77D4D3289FADC200F323EB /* LayoutKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutKit.m; sourceTree = "<group>"; };
+		BA77D4D4289FADC200F323EB /* LayoutKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutKit.h; sourceTree = "<group>"; };
+		BA77D4D7289FADC200F323EB /* UIViewController+YUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YUI.m"; sourceTree = "<group>"; };
+		BA77D4D9289FADC200F323EB /* YUIViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIViewControllerProtocol.h; sourceTree = "<group>"; };
+		BA77D4DA289FADC200F323EB /* UIViewController+YUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YUI.h"; sourceTree = "<group>"; };
+		BA77D4DD289FADC200F323EB /* NSObject+YUIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YUIModel.m"; sourceTree = "<group>"; };
+		BA77D4DE289FADC200F323EB /* NSObject+YUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YUIModel.h"; sourceTree = "<group>"; };
+		BA77D4E1289FADC200F323EB /* NSObject+YUIViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YUIViewManager.h"; sourceTree = "<group>"; };
+		BA77D4E2289FADC200F323EB /* NSObject+YUIViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YUIViewManager.m"; sourceTree = "<group>"; };
+		BA77D4E6289FADC200F323EB /* CommonPopupAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPopupAlertController.m; sourceTree = "<group>"; };
+		BA77D4E7289FADC200F323EB /* CommonPopupAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPopupAlertController.h; sourceTree = "<group>"; };
+		BA77D4E8289FADC200F323EB /* BaseLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLib.h; sourceTree = "<group>"; };
+		BA77D4EA289FADC200F323EB /* MediationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediationKit.h; sourceTree = "<group>"; };
+		BA77D4EC289FADC200F323EB /* MediationKit+HandyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+HandyTools.h"; sourceTree = "<group>"; };
+		BA77D4ED289FADC200F323EB /* MediationKit+HandyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+HandyTools.m"; sourceTree = "<group>"; };
+		BA77D4EE289FADC200F323EB /* MediationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediationKit.m; sourceTree = "<group>"; };
+		BA77D4F0289FADC200F323EB /* NetworkKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkKit.m; sourceTree = "<group>"; };
+		BA77D4F1289FADC200F323EB /* RequestHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHeader.pch; sourceTree = "<group>"; };
+		BA77D4F2289FADC200F323EB /* NetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA77D3A5289FAC9700F323EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B300D9DA96C83B18C1F250 /* Pods_YUIAll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77D3BE289FAC9900F323EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77D3C8289FAC9900F323EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE63A8FF842AC79B50066F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A20A01A15F4BFDC4E0F886 /* Pods_YUIAll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA77D39F289FAC9600F323EB = {
+			isa = PBXGroup;
+			children = (
+				BA77D3AA289FAC9700F323EB /* YUIAll */,
+				BA77D3C4289FAC9900F323EB /* YUIAllTests */,
+				BA77D3CE289FAC9900F323EB /* YUIAllUITests */,
+				BA77D3A9289FAC9700F323EB /* Products */,
+				E285A2825A998E7AB6065786 /* Pods */,
+				4EE63A8FF842AC79B50066F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA77D3A9289FAC9700F323EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3A8289FAC9700F323EB /* YUIAll.app */,
+				BA77D3C1289FAC9900F323EB /* YUIAllTests.xctest */,
+				BA77D3CB289FAC9900F323EB /* YUIAllUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA77D3AA289FAC9700F323EB /* YUIAll */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D45E289FADC200F323EB /* Global */,
+				BA77D3F4289FADC100F323EB /* Module */,
+				BA77D486289FADC200F323EB /* Component */,
+				BA77D465289FADC200F323EB /* Other */,
+			);
+			path = YUIAll;
+			sourceTree = "<group>";
+		};
+		BA77D3C4289FAC9900F323EB /* YUIAllTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3C5289FAC9900F323EB /* YUIAllTests.swift */,
+			);
+			path = YUIAllTests;
+			sourceTree = "<group>";
+		};
+		BA77D3CE289FAC9900F323EB /* YUIAllUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3CF289FAC9900F323EB /* YUIAllUITests.swift */,
+				BA77D3D1289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift */,
+			);
+			path = YUIAllUITests;
+			sourceTree = "<group>";
+		};
+		BA77D3F4289FADC100F323EB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3F5289FADC100F323EB /* Home */,
+				BA77D3FC289FADC100F323EB /* Example */,
+				BA77D448289FADC200F323EB /* Main */,
+				BA77D451289FADC200F323EB /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BA77D3F5289FADC100F323EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3F6289FADC100F323EB /* Controller */,
+				BA77D3F9289FADC100F323EB /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA77D3F6289FADC100F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3F7289FADC100F323EB /* HomeViewController.m */,
+				BA77D3F8289FADC100F323EB /* HomeViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D3F9289FADC100F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3FA289FADC100F323EB /* HomeModelManager.m */,
+				BA77D3FB289FADC100F323EB /* HomeModelManager.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D3FC289FADC100F323EB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3FD289FADC100F323EB /* ExampleList */,
+				BA77D401289FADC100F323EB /* Example */,
+				BA77D405289FADC100F323EB /* ExampleMVVM */,
+				BA77D419289FADC100F323EB /* ExampleMVC */,
+				BA77D42A289FADC200F323EB /* ExampleObj */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		BA77D3FD289FADC100F323EB /* ExampleList */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3FE289FADC100F323EB /* ExampleList */,
+			);
+			path = ExampleList;
+			sourceTree = "<group>";
+		};
+		BA77D3FE289FADC100F323EB /* ExampleList */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D3FF289FADC100F323EB /* Action */,
+			);
+			path = ExampleList;
+			sourceTree = "<group>";
+		};
+		BA77D3FF289FADC100F323EB /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D400289FADC100F323EB /* Target_ExampleList.h */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		BA77D401289FADC100F323EB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D402289FADC100F323EB /* ExampleViewController.swift */,
+				BA77D403289FADC100F323EB /* Action */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		BA77D403289FADC100F323EB /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D404289FADC100F323EB /* Target_Example.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		BA77D405289FADC100F323EB /* ExampleMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D406289FADC100F323EB /* ViewManager */,
+				BA77D409289FADC100F323EB /* Controller */,
+				BA77D40C289FADC100F323EB /* Model */,
+				BA77D413289FADC100F323EB /* View */,
+			);
+			path = ExampleMVVM;
+			sourceTree = "<group>";
+		};
+		BA77D406289FADC100F323EB /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D407289FADC100F323EB /* ExampleMVVMViewManager.m */,
+				BA77D408289FADC100F323EB /* ExampleMVVMViewManager.h */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		BA77D409289FADC100F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D40A289FADC100F323EB /* ExampleMVVMViewController.m */,
+				BA77D40B289FADC100F323EB /* ExampleMVVMViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D40C289FADC100F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D40D289FADC100F323EB /* ExampleMVVMViewModel.h */,
+				BA77D40E289FADC100F323EB /* ExampleMVVMDataSourceObject.h */,
+				BA77D40F289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m */,
+				BA77D410289FADC100F323EB /* ExampleMVVMViewModel.m */,
+				BA77D411289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.h */,
+				BA77D412289FADC100F323EB /* ExampleMVVMDataSourceObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D413289FADC100F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D414289FADC100F323EB /* ExampleMVVMView.h */,
+				BA77D415289FADC100F323EB /* Cell */,
+				BA77D418289FADC100F323EB /* ExampleMVVMView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D415289FADC100F323EB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D416289FADC100F323EB /* ExampleMVVMTableViewCell.m */,
+				BA77D417289FADC100F323EB /* ExampleMVVMTableViewCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA77D419289FADC100F323EB /* ExampleMVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D41A289FADC100F323EB /* Controller */,
+				BA77D41D289FADC100F323EB /* Model */,
+				BA77D424289FADC100F323EB /* View */,
+			);
+			path = ExampleMVC;
+			sourceTree = "<group>";
+		};
+		BA77D41A289FADC100F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D41B289FADC100F323EB /* ExampleMVCViewController.m */,
+				BA77D41C289FADC100F323EB /* ExampleMVCViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D41D289FADC100F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D41E289FADC100F323EB /* ExampleMVCDataSourceObject.m */,
+				BA77D41F289FADC100F323EB /* ExampleMVCModelManager.h */,
+				BA77D420289FADC100F323EB /* ExampleMVCEmptyDataSetDelegateObject.h */,
+				BA77D421289FADC100F323EB /* ExampleMVCDataSourceObject.h */,
+				BA77D422289FADC100F323EB /* ExampleMVCEmptyDataSetDelegateObject.m */,
+				BA77D423289FADC100F323EB /* ExampleMVCModelManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D424289FADC100F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D425289FADC100F323EB /* ExampleMVCView.h */,
+				BA77D426289FADC100F323EB /* Cell */,
+				BA77D429289FADC200F323EB /* ExampleMVCView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D426289FADC100F323EB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D427289FADC100F323EB /* ExampleMVCTableViewCell.h */,
+				BA77D428289FADC200F323EB /* ExampleMVCTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA77D42A289FADC200F323EB /* ExampleObj */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D42B289FADC200F323EB /* ViewModel */,
+				BA77D42E289FADC200F323EB /* Controller */,
+				BA77D431289FADC200F323EB /* Action */,
+				BA77D435289FADC200F323EB /* Model */,
+				BA77D43F289FADC200F323EB /* View */,
+			);
+			path = ExampleObj;
+			sourceTree = "<group>";
+		};
+		BA77D42B289FADC200F323EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D42C289FADC200F323EB /* ExampleObjViewModel.h */,
+				BA77D42D289FADC200F323EB /* ExampleObjViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA77D42E289FADC200F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D42F289FADC200F323EB /* ExampleObjViewController.m */,
+				BA77D430289FADC200F323EB /* ExampleObjViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D431289FADC200F323EB /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D432289FADC200F323EB /* Target_ExampleObj.m */,
+				BA77D433289FADC200F323EB /* Target_ExampleObj.h */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		BA77D435289FADC200F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D436289FADC200F323EB /* ExampleObjDataSource.m */,
+				BA77D437289FADC200F323EB /* ExampleObjModelManager.h */,
+				BA77D438289FADC200F323EB /* ExampleObjImage.h */,
+				BA77D439289FADC200F323EB /* ExampleObjModelManager.m */,
+				BA77D43A289FADC200F323EB /* ExampleObjDataSource.h */,
+				BA77D43B289FADC200F323EB /* ExampleObjImage.m */,
+				BA77D43C289FADC200F323EB /* Request */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D43C289FADC200F323EB /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D43D289FADC200F323EB /* ExampleObjRequest.h */,
+				BA77D43E289FADC200F323EB /* ExampleObjRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BA77D43F289FADC200F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D440289FADC200F323EB /* ViewManager */,
+				BA77D443289FADC200F323EB /* ExampleObjView.m */,
+				BA77D444289FADC200F323EB /* Cell */,
+				BA77D447289FADC200F323EB /* ExampleObjView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D440289FADC200F323EB /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D441289FADC200F323EB /* ExampleObjViewManager.m */,
+				BA77D442289FADC200F323EB /* ExampleObjViewManager.h */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		BA77D444289FADC200F323EB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D445289FADC200F323EB /* ExampleObjTableViewCell.m */,
+				BA77D446289FADC200F323EB /* ExampleObjTableViewCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA77D448289FADC200F323EB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D449289FADC200F323EB /* Controller */,
+				BA77D44C289FADC200F323EB /* Action */,
+				BA77D44F289FADC200F323EB /* Model */,
+				BA77D450289FADC200F323EB /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BA77D449289FADC200F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D44A289FADC200F323EB /* MainTabBarController.m */,
+				BA77D44B289FADC200F323EB /* MainTabBarController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D44C289FADC200F323EB /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D44D289FADC200F323EB /* Target_Main.m */,
+				BA77D44E289FADC200F323EB /* Target_Main.h */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		BA77D44F289FADC200F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D450289FADC200F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D451289FADC200F323EB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D452289FADC200F323EB /* Controller */,
+				BA77D455289FADC200F323EB /* Model */,
+				BA77D45B289FADC200F323EB /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BA77D452289FADC200F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D453289FADC200F323EB /* LoginViewController.m */,
+				BA77D454289FADC200F323EB /* LoginViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D455289FADC200F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D456289FADC200F323EB /* LoginModelManager.m */,
+				BA77D457289FADC200F323EB /* LoginModelManager.h */,
+				BA77D458289FADC200F323EB /* Request */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D458289FADC200F323EB /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D459289FADC200F323EB /* LoginRequest.h */,
+				BA77D45A289FADC200F323EB /* LoginRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BA77D45B289FADC200F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D45C289FADC200F323EB /* LoginViewManager.h */,
+				BA77D45D289FADC200F323EB /* LoginViewManager.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D45E289FADC200F323EB /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D45F289FADC200F323EB /* GlobalState.h */,
+				BA77D460289FADC200F323EB /* Const */,
+				BA77D462289FADC200F323EB /* GlobalState.m */,
+				BA77D463289FADC200F323EB /* YUIGlobalMacro.pch */,
+				BA77D464289FADC200F323EB /* YUIPrefixHeader.pch */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BA77D460289FADC200F323EB /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D461289FADC200F323EB /* YUIGlobalConst.pch */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		BA77D465289FADC200F323EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D466289FADC200F323EB /* LaunchScreen.strings */,
+				BA77D468289FADC200F323EB /* Main.strings */,
+				BA77D46B289FADC200F323EB /* Configuration */,
+				BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */,
+				BA77D471289FADC200F323EB /* Main.storyboard */,
+				BA77D473289FADC200F323EB /* Application */,
+				BA77D47A289FADC200F323EB /* AppDelegate.swift */,
+				BA77D47B289FADC200F323EB /* Resource */,
+				BA77D482289FADC200F323EB /* YUIAll.xcdatamodeld */,
+				BA77D484289FADC200F323EB /* Info.plist */,
+				BA77D485289FADC200F323EB /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BA77D46B289FADC200F323EB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D46C289FADC200F323EB /* YUIAll-Bridging-Header.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BA77D473289FADC200F323EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D474289FADC200F323EB /* AppLifeCycleMediator.h */,
+				BA77D477289FADC200F323EB /* AppLifeCycleMediator.m */,
+				BA77D475289FADC200F323EB /* AppLifeCycleMediatorProtocol.h */,
+				BA77D479289FADC200F323EB /* ModulesRegister.plist */,
+				BA77D478289FADC200F323EB /* YUIAppLifeModule.h */,
+				BA77D476289FADC200F323EB /* YUIAppLifeModule.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BA77D47B289FADC200F323EB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D47C289FADC200F323EB /* Localizable.strings */,
+				BA77D47F289FADC200F323EB /* InfoPlist.strings */,
+				BA77D481289FADC200F323EB /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BA77D486289FADC200F323EB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D487289FADC200F323EB /* Core */,
+				BA77D4D1289FADC200F323EB /* Base */,
+				BA77D48A289FADC200F323EB /* Common */,
+				BA77D488289FADC200F323EB /* UIKit+YUI.swift */,
+				BA77D489289FADC200F323EB /* Business */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		BA77D487289FADC200F323EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BA77D489289FADC200F323EB /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		BA77D48A289FADC200F323EB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4C0289FADC200F323EB /* CommonLib.h */,
+				BA77D48B289FADC200F323EB /* UI */,
+				BA77D4C1289FADC200F323EB /* ModuleDependent */,
+				BA77D4CE289FADC200F323EB /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BA77D48B289FADC200F323EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D48C289FADC200F323EB /* AlterController */,
+				BA77D48F289FADC200F323EB /* CommonUI.h */,
+				BA77D490289FADC200F323EB /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BA77D48C289FADC200F323EB /* AlterController */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D48D289FADC200F323EB /* CommonAlterController.m */,
+				BA77D48E289FADC200F323EB /* CommonAlterController.h */,
+			);
+			path = AlterController;
+			sourceTree = "<group>";
+		};
+		BA77D490289FADC200F323EB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D491289FADC200F323EB /* ViewManager */,
+				BA77D497289FADC200F323EB /* ViewModel */,
+				BA77D49F289FADC200F323EB /* Delegate */,
+				BA77D4A7289FADC200F323EB /* Controller */,
+				BA77D4B2289FADC200F323EB /* Model */,
+				BA77D4BA289FADC200F323EB /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BA77D491289FADC200F323EB /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D492289FADC200F323EB /* Category */,
+				BA77D495289FADC200F323EB /* CommonViewManager.h */,
+				BA77D496289FADC200F323EB /* CommonViewManager.m */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		BA77D492289FADC200F323EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D493289FADC200F323EB /* YUIViewManager+Common.h */,
+				BA77D494289FADC200F323EB /* YUIViewManager+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA77D497289FADC200F323EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D498289FADC200F323EB /* Extension */,
+				BA77D49A289FADC200F323EB /* Category */,
+				BA77D49D289FADC200F323EB /* CommonViewModel.h */,
+				BA77D49E289FADC200F323EB /* CommonViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA77D498289FADC200F323EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D499289FADC200F323EB /* CommonAmountTextFieldViewModel.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA77D49A289FADC200F323EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D49B289FADC200F323EB /* YUIViewModel+Common.m */,
+				BA77D49C289FADC200F323EB /* YUIViewModel+Common.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA77D49F289FADC200F323EB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4A0289FADC200F323EB /* CommonEmptyDataSetSourceAndDelegateObject.m */,
+				BA77D4A1289FADC200F323EB /* Extension */,
+				BA77D4A4289FADC200F323EB /* ComnonArchitectureDelegateObject.h */,
+				BA77D4A5289FADC200F323EB /* CommonEmptyDataSetSourceAndDelegateObject.h */,
+				BA77D4A6289FADC200F323EB /* ComnonArchitectureDelegateObject.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		BA77D4A1289FADC200F323EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4A2289FADC200F323EB /* CommonAmountTextFieldViewDelegateObject.m */,
+				BA77D4A3289FADC200F323EB /* CommonAmountTextFieldViewDelegateObject.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA77D4A7289FADC200F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4A8289FADC200F323EB /* Extension */,
+				BA77D4A9289FADC200F323EB /* Category */,
+				BA77D4B0289FADC200F323EB /* CommonViewController.m */,
+				BA77D4B1289FADC200F323EB /* CommonViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D4A8289FADC200F323EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA77D4A9289FADC200F323EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4AA289FADC200F323EB /* CommonViewController+SubclassingHooks.m */,
+				BA77D4AB289FADC200F323EB /* CommonViewController+PopupView.m */,
+				BA77D4AC289FADC200F323EB /* CommonViewController+EmptyView.h */,
+				BA77D4AD289FADC200F323EB /* CommonViewController+SubclassingHooks.h */,
+				BA77D4AE289FADC200F323EB /* CommonViewController+PopupView.h */,
+				BA77D4AF289FADC200F323EB /* CommonViewController+EmptyView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA77D4B2289FADC200F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4B3289FADC200F323EB /* CommonModelManager.h */,
+				BA77D4B4289FADC200F323EB /* CommonLayoutModel.m */,
+				BA77D4B5289FADC200F323EB /* CommonTransferModel.m */,
+				BA77D4B6289FADC200F323EB /* Extension */,
+				BA77D4B7289FADC200F323EB /* CommonModelManager.m */,
+				BA77D4B8289FADC200F323EB /* CommonLayoutModel.h */,
+				BA77D4B9289FADC200F323EB /* CommonTransferModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D4B6289FADC200F323EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA77D4BA289FADC200F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4BB289FADC200F323EB /* Extension */,
+				BA77D4BC289FADC200F323EB /* UIView+Common.m */,
+				BA77D4BD289FADC200F323EB /* CommonView.h */,
+				BA77D4BE289FADC200F323EB /* UIView+Common.h */,
+				BA77D4BF289FADC200F323EB /* CommonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D4BB289FADC200F323EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA77D4C1289FADC200F323EB /* ModuleDependent */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4C2289FADC200F323EB /* Home */,
+				BA77D4C5289FADC200F323EB /* Example */,
+				BA77D4CB289FADC200F323EB /* Main */,
+			);
+			path = ModuleDependent;
+			sourceTree = "<group>";
+		};
+		BA77D4C2289FADC200F323EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4C3289FADC200F323EB /* MediationKit+HomeAction.h */,
+				BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA77D4C5289FADC200F323EB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4C6289FADC200F323EB /* Example */,
+				BA77D4C8289FADC200F323EB /* ExampleObj */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		BA77D4C6289FADC200F323EB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		BA77D4C8289FADC200F323EB /* ExampleObj */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjAction.m */,
+				BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjAction.h */,
+			);
+			path = ExampleObj;
+			sourceTree = "<group>";
+		};
+		BA77D4CB289FADC200F323EB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4CC289FADC200F323EB /* MediationKit+MainAction.h */,
+				BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BA77D4CE289FADC200F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4CF289FADC200F323EB /* CommonRequest.m */,
+				BA77D4D0289FADC200F323EB /* CommonRequest.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D4D1289FADC200F323EB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4E8289FADC200F323EB /* BaseLib.h */,
+				BA77D4D2289FADC200F323EB /* LayoutKit */,
+				BA77D4D5289FADC200F323EB /* TestKit */,
+				BA77D4E4289FADC200F323EB /* StorageKit */,
+				BA77D4E5289FADC200F323EB /* HUDKit */,
+				BA77D4E9289FADC200F323EB /* MediationKit */,
+				BA77D4EF289FADC200F323EB /* NetworkKit */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BA77D4D2289FADC200F323EB /* LayoutKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4D3289FADC200F323EB /* LayoutKit.m */,
+				BA77D4D4289FADC200F323EB /* LayoutKit.h */,
+			);
+			path = LayoutKit;
+			sourceTree = "<group>";
+		};
+		BA77D4D5289FADC200F323EB /* TestKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4D6289FADC200F323EB /* Controller */,
+				BA77D4DB289FADC200F323EB /* Model */,
+				BA77D4DF289FADC200F323EB /* View */,
+			);
+			path = TestKit;
+			sourceTree = "<group>";
+		};
+		BA77D4D6289FADC200F323EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4D7289FADC200F323EB /* UIViewController+YUI.m */,
+				BA77D4D8289FADC200F323EB /* Protocol */,
+				BA77D4DA289FADC200F323EB /* UIViewController+YUI.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA77D4D8289FADC200F323EB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4D9289FADC200F323EB /* YUIViewControllerProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BA77D4DB289FADC200F323EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4DC289FADC200F323EB /* Category */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA77D4DC289FADC200F323EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4DD289FADC200F323EB /* NSObject+YUIModel.m */,
+				BA77D4DE289FADC200F323EB /* NSObject+YUIModel.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA77D4DF289FADC200F323EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4E0289FADC200F323EB /* Category */,
+				BA77D4E3289FADC200F323EB /* Protocol */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA77D4E0289FADC200F323EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4E1289FADC200F323EB /* NSObject+YUIViewManager.h */,
+				BA77D4E2289FADC200F323EB /* NSObject+YUIViewManager.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA77D4E3289FADC200F323EB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BA77D4E4289FADC200F323EB /* StorageKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StorageKit;
+			sourceTree = "<group>";
+		};
+		BA77D4E5289FADC200F323EB /* HUDKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4E6289FADC200F323EB /* CommonPopupAlertController.m */,
+				BA77D4E7289FADC200F323EB /* CommonPopupAlertController.h */,
+			);
+			path = HUDKit;
+			sourceTree = "<group>";
+		};
+		BA77D4E9289FADC200F323EB /* MediationKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4EA289FADC200F323EB /* MediationKit.h */,
+				BA77D4EB289FADC200F323EB /* Category */,
+				BA77D4EE289FADC200F323EB /* MediationKit.m */,
+			);
+			path = MediationKit;
+			sourceTree = "<group>";
+		};
+		BA77D4EB289FADC200F323EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4EC289FADC200F323EB /* MediationKit+HandyTools.h */,
+				BA77D4ED289FADC200F323EB /* MediationKit+HandyTools.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA77D4EF289FADC200F323EB /* NetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D4F0289FADC200F323EB /* NetworkKit.m */,
+				BA77D4F1289FADC200F323EB /* RequestHeader.pch */,
+				BA77D4F2289FADC200F323EB /* NetworkKit.h */,
+			);
+			path = NetworkKit;
+			sourceTree = "<group>";
+		};
+		E285A2825A998E7AB6065786 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				190F12E058B8EBFE9E3E28BC /* Pods-YUIAll.debug.xcconfig */,
+				72E9BD2221A36A7AA20E842C /* Pods-YUIAll.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA77D3A7289FAC9700F323EB /* YUIAll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA77D3D5289FAC9900F323EB /* Build configuration list for PBXNativeTarget "YUIAll" */;
+			buildPhases = (
+				D0065B03CA24961B7C809490 /* [CP] Check Pods Manifest.lock */,
+				BA77D3A4289FAC9700F323EB /* Sources */,
+				BA77D3A5289FAC9700F323EB /* Frameworks */,
+				BA77D3A6289FAC9700F323EB /* Resources */,
+				B86E8364552E569C6B09ED80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUIAll;
+			productName = YUIAll;
+			productReference = BA77D3A8289FAC9700F323EB /* YUIAll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA77D3C0289FAC9900F323EB /* YUIAllTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA77D3D8289FAC9900F323EB /* Build configuration list for PBXNativeTarget "YUIAllTests" */;
+			buildPhases = (
+				BA77D3BD289FAC9900F323EB /* Sources */,
+				BA77D3BE289FAC9900F323EB /* Frameworks */,
+				BA77D3BF289FAC9900F323EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA77D3C3289FAC9900F323EB /* PBXTargetDependency */,
+			);
+			name = YUIAllTests;
+			productName = YUIAllTests;
+			productReference = BA77D3C1289FAC9900F323EB /* YUIAllTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA77D3CA289FAC9900F323EB /* YUIAllUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA77D3DB289FAC9900F323EB /* Build configuration list for PBXNativeTarget "YUIAllUITests" */;
+			buildPhases = (
+				BA77D3C7289FAC9900F323EB /* Sources */,
+				BA77D3C8289FAC9900F323EB /* Frameworks */,
+				BA77D3C9289FAC9900F323EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA77D3CD289FAC9900F323EB /* PBXTargetDependency */,
+			);
+			name = YUIAllUITests;
+			productName = YUIAllUITests;
+			productReference = BA77D3CB289FAC9900F323EB /* YUIAllUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA77D3A0289FAC9600F323EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BA77D3A7289FAC9700F323EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BA77D3C0289FAC9900F323EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BA77D3A7289FAC9700F323EB;
+					};
+					BA77D3CA289FAC9900F323EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BA77D3A7289FAC9700F323EB;
+					};
+				};
+			};
+			buildConfigurationList = BA77D3A3289FAC9600F323EB /* Build configuration list for PBXProject "YUIAll" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"en-GB",
+			);
+			mainGroup = BA77D39F289FAC9600F323EB;
+			productRefGroup = BA77D3A9289FAC9700F323EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA77D3A7289FAC9700F323EB /* YUIAll */,
+				BA77D3C0289FAC9900F323EB /* YUIAllTests */,
+				BA77D3CA289FAC9900F323EB /* YUIAllUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA77D3A6289FAC9700F323EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77D527289FADC300F323EB /* Main.storyboard in Resources */,
+				BA77D52E289FADC300F323EB /* Assets.xcassets in Resources */,
+				BA77D52C289FADC300F323EB /* Localizable.strings in Resources */,
+				BA77D526289FADC300F323EB /* LaunchScreen.storyboard in Resources */,
+				BA77D52A289FADC300F323EB /* ModulesRegister.plist in Resources */,
+				BA77D523289FADC300F323EB /* LaunchScreen.strings in Resources */,
+				BA77D524289FADC300F323EB /* Main.strings in Resources */,
+				BA77D52D289FADC300F323EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77D3BF289FAC9900F323EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77D3C9289FAC9900F323EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B86E8364552E569C6B09ED80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUIAll/Pods-YUIAll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUIAll/Pods-YUIAll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YUIAll/Pods-YUIAll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0065B03CA24961B7C809490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUIAll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA77D3A4289FAC9700F323EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77D542289FADC300F323EB /* UIView+Common.m in Sources */,
+				BA77D53D289FADC300F323EB /* CommonViewController+EmptyView.m in Sources */,
+				BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */,
+				BA77D519289FADC300F323EB /* ExampleObjViewManager.m in Sources */,
+				BA77D508289FADC300F323EB /* ExampleMVVMDataSourceObject.m in Sources */,
+				BA77D549289FADC300F323EB /* LayoutKit.m in Sources */,
+				BA77D529289FADC300F323EB /* AppLifeCycleMediator.m in Sources */,
+				BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */,
+				BA77D539289FADC300F323EB /* CommonAmountTextFieldViewDelegateObject.m in Sources */,
+				BA77D50A289FADC300F323EB /* ExampleMVVMView.m in Sources */,
+				BA77D515289FADC300F323EB /* ExampleObjDataSource.m in Sources */,
+				BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */,
+				BA77D53F289FADC300F323EB /* CommonLayoutModel.m in Sources */,
+				BA77D53C289FADC300F323EB /* CommonViewController+PopupView.m in Sources */,
+				BA77D510289FADC300F323EB /* ExampleMVCView.m in Sources */,
+				BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */,
+				BA77D535289FADC300F323EB /* CommonViewManager.m in Sources */,
+				BA77D500289FADC300F323EB /* HomeViewController.m in Sources */,
+				BA77D511289FADC300F323EB /* ExampleObjViewModel.m in Sources */,
+				BA77D522289FADC300F323EB /* GlobalState.m in Sources */,
+				BA77D548289FADC300F323EB /* CommonRequest.m in Sources */,
+				BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */,
+				BA77D516289FADC300F323EB /* ExampleObjModelManager.m in Sources */,
+				BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */,
+				BA77D53E289FADC300F323EB /* CommonViewController.m in Sources */,
+				BA77D502289FADC300F323EB /* ExampleViewController.swift in Sources */,
+				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
+				BA77D50F289FADC300F323EB /* ExampleMVCTableViewCell.m in Sources */,
+				BA77D507289FADC300F323EB /* ExampleMVVMViewModel.m in Sources */,
+				BA77D509289FADC300F323EB /* ExampleMVVMTableViewCell.m in Sources */,
+				BA77D51B289FADC300F323EB /* ExampleObjTableViewCell.m in Sources */,
+				BA77D506289FADC300F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m in Sources */,
+				BA77D537289FADC300F323EB /* CommonViewModel.m in Sources */,
+				BA77D50E289FADC300F323EB /* ExampleMVCModelManager.m in Sources */,
+				BA77D54B289FADC300F323EB /* NSObject+YUIModel.m in Sources */,
+				BA77D52B289FADC300F323EB /* AppDelegate.swift in Sources */,
+				BA77D528289FADC300F323EB /* YUIAppLifeModule.m in Sources */,
+				BA77D504289FADC300F323EB /* ExampleMVVMViewManager.m in Sources */,
+				BA77D540289FADC300F323EB /* CommonTransferModel.m in Sources */,
+				BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */,
+				BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */,
+				BA77D503289FADC300F323EB /* Target_Example.swift in Sources */,
+				BA77D543289FADC300F323EB /* CommonView.m in Sources */,
+				BA77D505289FADC300F323EB /* ExampleMVVMViewController.m in Sources */,
+				BA77D546289FADC300F323EB /* MediationKit+ExampleObjAction.m in Sources */,
+				BA77D54F289FADC300F323EB /* MediationKit.m in Sources */,
+				BA77D50B289FADC300F323EB /* ExampleMVCViewController.m in Sources */,
+				BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */,
+				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
+				BA77D53A289FADC300F323EB /* ComnonArchitectureDelegateObject.m in Sources */,
+				BA77D50C289FADC300F323EB /* ExampleMVCDataSourceObject.m in Sources */,
+				BA77D534289FADC300F323EB /* YUIViewManager+Common.m in Sources */,
+				BA77D541289FADC300F323EB /* CommonModelManager.m in Sources */,
+				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
+				BA77D50D289FADC300F323EB /* ExampleMVCEmptyDataSetDelegateObject.m in Sources */,
+				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
+				BA77D518289FADC300F323EB /* ExampleObjRequest.m in Sources */,
+				BA77D53B289FADC300F323EB /* CommonViewController+SubclassingHooks.m in Sources */,
+				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
+				BA77D51A289FADC300F323EB /* ExampleObjView.m in Sources */,
+				BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */,
+				BA77D550289FADC300F323EB /* NetworkKit.m in Sources */,
+				BA77D513289FADC300F323EB /* Target_ExampleObj.m in Sources */,
+				BA77D517289FADC300F323EB /* ExampleObjImage.m in Sources */,
+				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
+				BA77D538289FADC300F323EB /* CommonEmptyDataSetSourceAndDelegateObject.m in Sources */,
+				BA77D536289FADC300F323EB /* YUIViewModel+Common.m in Sources */,
+				BA77D512289FADC300F323EB /* ExampleObjViewController.m in Sources */,
+				BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */,
+				BA77D533289FADC300F323EB /* CommonAlterController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77D3BD289FAC9900F323EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77D3C6289FAC9900F323EB /* YUIAllTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA77D3C7289FAC9900F323EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77D3D2289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift in Sources */,
+				BA77D3D0289FAC9900F323EB /* YUIAllUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA77D3C3289FAC9900F323EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA77D3A7289FAC9700F323EB /* YUIAll */;
+			targetProxy = BA77D3C2289FAC9900F323EB /* PBXContainerItemProxy */;
+		};
+		BA77D3CD289FAC9900F323EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA77D3A7289FAC9700F323EB /* YUIAll */;
+			targetProxy = BA77D3CC289FAC9900F323EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA77D466289FADC200F323EB /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77D467289FADC200F323EB /* zh-Hans */,
+				BA77D46D289FADC200F323EB /* en-GB */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+		BA77D468289FADC200F323EB /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77D469289FADC200F323EB /* zh-Hans */,
+				BA77D46E289FADC200F323EB /* en-GB */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77D470289FADC200F323EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA77D471289FADC200F323EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77D472289FADC200F323EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA77D47C289FADC200F323EB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77D47D289FADC200F323EB /* zh-Hans */,
+				BA77D47E289FADC200F323EB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BA77D47F289FADC200F323EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA77D480289FADC200F323EB /* en-GB */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA77D3D3289FAC9900F323EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA77D3D4289FAC9900F323EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA77D3D6289FAC9900F323EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190F12E058B8EBFE9E3E28BC /* Pods-YUIAll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE88E8FN92;
+				GCC_PREFIX_HEADER = YUIAll/Global/YUIPrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YUIAll/Other/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YUI.YUIAll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YUIAll/Other/Configuration/YUIAll-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA77D3D7289FAC9900F323EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E9BD2221A36A7AA20E842C /* Pods-YUIAll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE88E8FN92;
+				GCC_PREFIX_HEADER = YUIAll/Global/YUIPrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YUIAll/Other/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YUI.YUIAll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YUIAll/Other/Configuration/YUIAll-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA77D3D9289FAC9900F323EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE88E8FN92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YUI.YUIAllTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUIAll.app/YUIAll";
+			};
+			name = Debug;
+		};
+		BA77D3DA289FAC9900F323EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE88E8FN92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YUI.YUIAllTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUIAll.app/YUIAll";
+			};
+			name = Release;
+		};
+		BA77D3DC289FAC9900F323EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE88E8FN92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YUI.YUIAllUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YUIAll;
+			};
+			name = Debug;
+		};
+		BA77D3DD289FAC9900F323EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE88E8FN92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YUI.YUIAllUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YUIAll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA77D3A3289FAC9600F323EB /* Build configuration list for PBXProject "YUIAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77D3D3289FAC9900F323EB /* Debug */,
+				BA77D3D4289FAC9900F323EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA77D3D5289FAC9900F323EB /* Build configuration list for PBXNativeTarget "YUIAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77D3D6289FAC9900F323EB /* Debug */,
+				BA77D3D7289FAC9900F323EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA77D3D8289FAC9900F323EB /* Build configuration list for PBXNativeTarget "YUIAllTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77D3D9289FAC9900F323EB /* Debug */,
+				BA77D3DA289FAC9900F323EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA77D3DB289FAC9900F323EB /* Build configuration list for PBXNativeTarget "YUIAllUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA77D3DC289FAC9900F323EB /* Debug */,
+				BA77D3DD289FAC9900F323EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA77D482289FADC200F323EB /* YUIAll.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA77D483289FADC200F323EB /* YUIAll.xcdatamodel */,
+			);
+			currentVersion = BA77D483289FADC200F323EB /* YUIAll.xcdatamodel */;
+			path = YUIAll.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA77D3A0289FAC9600F323EB /* Project object */;
+}
