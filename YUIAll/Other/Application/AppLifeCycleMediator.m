@@ -59,7 +59,7 @@ NSString * const kModulesRegisterFileName = @"ModulesRegister";
 
 - (void)addModule:(id<AppLifeCycleMediatorProtocol>)module{
     
-    if (![self.modules containsObject:module]) {
+    if (module && ![self.modules containsObject:module]) {
         
         [self.modules addObject:module];
     }

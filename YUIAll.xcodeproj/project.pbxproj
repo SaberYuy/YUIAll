@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41E71CA2938AD5F009D3FC6 /* QMUIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E71C92938AD5F009D3FC6 /* QMUIModule.m */; };
+		B45CF01D2939A00400C07A30 /* QMUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CF0102939A00300C07A30 /* QMUIConfigurationTemplateDark.m */; };
+		B45CF01E2939A00400C07A30 /* QMUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CF0132939A00300C07A30 /* QMUIConfigurationTemplatePinkRose.m */; };
+		B45CF01F2939A00400C07A30 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CF0162939A00300C07A30 /* QMUIConfigurationTemplate.m */; };
+		B45CF0202939A00400C07A30 /* QMUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CF0172939A00300C07A30 /* QMUIConfigurationTemplateGrass.m */; };
+		B45CF0212939A00400C07A30 /* YUIThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CF01A2939A00400C07A30 /* YUIThemeManager.m */; };
+		B45CF0222939A00400C07A30 /* QMUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CF01C2939A00400C07A30 /* QMUIConfigurationTemplateGrapefruit.m */; };
+		B4EC82B32939DB3C00EE158E /* YUIUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EC82AF2939DB3C00EE158E /* YUIUIHelper.m */; };
+		B4EC82B42939DB3C00EE158E /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EC82B02939DB3C00EE158E /* UIImageEffects.m */; };
+		B4EC82B52939DB3C00EE158E /* YUICommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EC82B12939DB3C00EE158E /* YUICommonUI.m */; };
+		B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */; };
+		B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */; };
+		B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */; };
+		B4FA763728C9CC7100BAFDD7 /* ExampleDataSourceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762D28C9CC7100BAFDD7 /* ExampleDataSourceObject.swift */; };
+		B4FA763828C9CC7100BAFDD7 /* Target_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */; };
+		B4FA763928C9CC7100BAFDD7 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA763128C9CC7100BAFDD7 /* ExampleModel.swift */; };
+		B4FA763A28C9CC7100BAFDD7 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA763328C9CC7100BAFDD7 /* ExampleView.swift */; };
 		BA77D3C6289FAC9900F323EB /* YUIAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3C5289FAC9900F323EB /* YUIAllTests.swift */; };
 		BA77D3D0289FAC9900F323EB /* YUIAllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3CF289FAC9900F323EB /* YUIAllUITests.swift */; };
 		BA77D3D2289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3D1289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift */; };
 		BA77D500289FADC300F323EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3F7289FADC100F323EB /* HomeViewController.m */; };
 		BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3FA289FADC100F323EB /* HomeModelManager.m */; };
-		BA77D502289FADC300F323EB /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D402289FADC100F323EB /* ExampleViewController.swift */; };
-		BA77D503289FADC300F323EB /* Target_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D404289FADC100F323EB /* Target_Example.swift */; };
 		BA77D504289FADC300F323EB /* ExampleMVVMViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D407289FADC100F323EB /* ExampleMVVMViewManager.m */; };
 		BA77D505289FADC300F323EB /* ExampleMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D40A289FADC100F323EB /* ExampleMVVMViewController.m */; };
 		BA77D506289FADC300F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D40F289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m */; };
@@ -111,6 +126,34 @@
 /* Begin PBXFileReference section */
 		190F12E058B8EBFE9E3E28BC /* Pods-YUIAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.debug.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.debug.xcconfig"; sourceTree = "<group>"; };
 		72E9BD2221A36A7AA20E842C /* Pods-YUIAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.release.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.release.xcconfig"; sourceTree = "<group>"; };
+		B41E71C82938AD5F009D3FC6 /* QMUIModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIModule.h; sourceTree = "<group>"; };
+		B41E71C92938AD5F009D3FC6 /* QMUIModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIModule.m; sourceTree = "<group>"; };
+		B45CF0102939A00300C07A30 /* QMUIConfigurationTemplateDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateDark.m; sourceTree = "<group>"; };
+		B45CF0112939A00300C07A30 /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		B45CF0122939A00300C07A30 /* QMUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
+		B45CF0132939A00300C07A30 /* QMUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
+		B45CF0142939A00300C07A30 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		B45CF0152939A00300C07A30 /* QMUIConfigurationTemplateDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateDark.h; sourceTree = "<group>"; };
+		B45CF0162939A00300C07A30 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		B45CF0172939A00300C07A30 /* QMUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
+		B45CF0182939A00400C07A30 /* QMUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
+		B45CF0192939A00400C07A30 /* YUIThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIThemeManager.h; sourceTree = "<group>"; };
+		B45CF01A2939A00400C07A30 /* YUIThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIThemeManager.m; sourceTree = "<group>"; };
+		B45CF01B2939A00400C07A30 /* YUIThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIThemeProtocol.h; sourceTree = "<group>"; };
+		B45CF01C2939A00400C07A30 /* QMUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
+		B4EC82AD2939DB3C00EE158E /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		B4EC82AE2939DB3C00EE158E /* YUICommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUICommonUI.h; sourceTree = "<group>"; };
+		B4EC82AF2939DB3C00EE158E /* YUIUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIUIHelper.m; sourceTree = "<group>"; };
+		B4EC82B02939DB3C00EE158E /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		B4EC82B12939DB3C00EE158E /* YUICommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUICommonUI.m; sourceTree = "<group>"; };
+		B4EC82B22939DB3C00EE158E /* YUIUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIUIHelper.h; sourceTree = "<group>"; };
+		B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewManager.swift; sourceTree = "<group>"; };
+		B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		B4FA762D28C9CC7100BAFDD7 /* ExampleDataSourceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleDataSourceObject.swift; sourceTree = "<group>"; };
+		B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_Example.swift; sourceTree = "<group>"; };
+		B4FA763128C9CC7100BAFDD7 /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		B4FA763328C9CC7100BAFDD7 /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		B9A20A01A15F4BFDC4E0F886 /* Pods_YUIAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUIAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA77D3A8289FAC9700F323EB /* YUIAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUIAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA77D3C1289FAC9900F323EB /* YUIAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUIAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,8 +166,6 @@
 		BA77D3FA289FADC100F323EB /* HomeModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModelManager.m; sourceTree = "<group>"; };
 		BA77D3FB289FADC100F323EB /* HomeModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModelManager.h; sourceTree = "<group>"; };
 		BA77D400289FADC100F323EB /* Target_ExampleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ExampleList.h; sourceTree = "<group>"; };
-		BA77D402289FADC100F323EB /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
-		BA77D404289FADC100F323EB /* Target_Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_Example.swift; sourceTree = "<group>"; };
 		BA77D407289FADC100F323EB /* ExampleMVVMViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMViewManager.m; sourceTree = "<group>"; };
 		BA77D408289FADC100F323EB /* ExampleMVVMViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMVVMViewManager.h; sourceTree = "<group>"; };
 		BA77D40A289FADC100F323EB /* ExampleMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMVVMViewController.m; sourceTree = "<group>"; };
@@ -311,6 +352,119 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B41E71C72938AAB5009D3FC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D40D289FADC100F323EB /* ExampleMVVMViewModel.h */,
+				BA77D410289FADC100F323EB /* ExampleMVVMViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B45CF00F29399FE600C07A30 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B45CF0142939A00300C07A30 /* QMUIConfigurationTemplate.h */,
+				B45CF0162939A00300C07A30 /* QMUIConfigurationTemplate.m */,
+				B45CF0152939A00300C07A30 /* QMUIConfigurationTemplateDark.h */,
+				B45CF0102939A00300C07A30 /* QMUIConfigurationTemplateDark.m */,
+				B45CF0122939A00300C07A30 /* QMUIConfigurationTemplateGrapefruit.h */,
+				B45CF01C2939A00400C07A30 /* QMUIConfigurationTemplateGrapefruit.m */,
+				B45CF0182939A00400C07A30 /* QMUIConfigurationTemplateGrass.h */,
+				B45CF0172939A00300C07A30 /* QMUIConfigurationTemplateGrass.m */,
+				B45CF0112939A00300C07A30 /* QMUIConfigurationTemplatePinkRose.h */,
+				B45CF0132939A00300C07A30 /* QMUIConfigurationTemplatePinkRose.m */,
+				B45CF0192939A00400C07A30 /* YUIThemeManager.h */,
+				B45CF01A2939A00400C07A30 /* YUIThemeManager.m */,
+				B45CF01B2939A00400C07A30 /* YUIThemeProtocol.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		B45CF0232939A4F800C07A30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D48C289FADC200F323EB /* AlterController */,
+				BA77D490289FADC200F323EB /* ViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4EC82AC2939DB3C00EE158E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC82AE2939DB3C00EE158E /* YUICommonUI.h */,
+				B4EC82B12939DB3C00EE158E /* YUICommonUI.m */,
+				B4EC82B22939DB3C00EE158E /* YUIUIHelper.h */,
+				B4EC82AF2939DB3C00EE158E /* YUIUIHelper.m */,
+				B4EC82AD2939DB3C00EE158E /* UIImageEffects.h */,
+				B4EC82B02939DB3C00EE158E /* UIImageEffects.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B4FA762628C9CC7100BAFDD7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA762728C9CC7100BAFDD7 /* ViewManager */,
+				B4FA762928C9CC7100BAFDD7 /* ViewModel */,
+				B4FA762B28C9CC7100BAFDD7 /* Controller */,
+				B4FA762E28C9CC7100BAFDD7 /* Action */,
+				B4FA763028C9CC7100BAFDD7 /* Model */,
+				B4FA763228C9CC7100BAFDD7 /* View */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B4FA762728C9CC7100BAFDD7 /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		B4FA762928C9CC7100BAFDD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4FA762B28C9CC7100BAFDD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */,
+				B4FA762D28C9CC7100BAFDD7 /* ExampleDataSourceObject.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4FA762E28C9CC7100BAFDD7 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		B4FA763028C9CC7100BAFDD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA763128C9CC7100BAFDD7 /* ExampleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4FA763228C9CC7100BAFDD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA763328C9CC7100BAFDD7 /* ExampleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BA77D39F289FAC9600F323EB = {
 			isa = PBXGroup;
 			children = (
@@ -402,8 +556,8 @@
 		BA77D3FC289FADC100F323EB /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B4FA762628C9CC7100BAFDD7 /* Example */,
 				BA77D3FD289FADC100F323EB /* ExampleList */,
-				BA77D401289FADC100F323EB /* Example */,
 				BA77D405289FADC100F323EB /* ExampleMVVM */,
 				BA77D419289FADC100F323EB /* ExampleMVC */,
 				BA77D42A289FADC200F323EB /* ExampleObj */,
@@ -435,26 +589,10 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
-		BA77D401289FADC100F323EB /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				BA77D402289FADC100F323EB /* ExampleViewController.swift */,
-				BA77D403289FADC100F323EB /* Action */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		BA77D403289FADC100F323EB /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				BA77D404289FADC100F323EB /* Target_Example.swift */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
 		BA77D405289FADC100F323EB /* ExampleMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				B41E71C72938AAB5009D3FC6 /* ViewModel */,
 				BA77D406289FADC100F323EB /* ViewManager */,
 				BA77D409289FADC100F323EB /* Controller */,
 				BA77D40C289FADC100F323EB /* Model */,
@@ -484,10 +622,8 @@
 		BA77D40C289FADC100F323EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D40D289FADC100F323EB /* ExampleMVVMViewModel.h */,
 				BA77D40E289FADC100F323EB /* ExampleMVVMDataSourceObject.h */,
 				BA77D40F289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.m */,
-				BA77D410289FADC100F323EB /* ExampleMVVMViewModel.m */,
 				BA77D411289FADC100F323EB /* ExampleMVVMEmptyDataSetDelegateObject.h */,
 				BA77D412289FADC100F323EB /* ExampleMVVMDataSourceObject.m */,
 			);
@@ -774,10 +910,10 @@
 				BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */,
 				BA77D471289FADC200F323EB /* Main.storyboard */,
 				BA77D473289FADC200F323EB /* Application */,
-				BA77D47A289FADC200F323EB /* AppDelegate.swift */,
 				BA77D47B289FADC200F323EB /* Resource */,
 				BA77D482289FADC200F323EB /* YUIAll.xcdatamodeld */,
 				BA77D484289FADC200F323EB /* Info.plist */,
+				BA77D47A289FADC200F323EB /* AppDelegate.swift */,
 				BA77D485289FADC200F323EB /* SceneDelegate.swift */,
 			);
 			path = Other;
@@ -800,6 +936,8 @@
 				BA77D479289FADC200F323EB /* ModulesRegister.plist */,
 				BA77D478289FADC200F323EB /* YUIAppLifeModule.h */,
 				BA77D476289FADC200F323EB /* YUIAppLifeModule.m */,
+				B41E71C82938AD5F009D3FC6 /* QMUIModule.h */,
+				B41E71C92938AD5F009D3FC6 /* QMUIModule.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -844,9 +982,9 @@
 			isa = PBXGroup;
 			children = (
 				BA77D4C0289FADC200F323EB /* CommonLib.h */,
-				BA77D48B289FADC200F323EB /* UI */,
-				BA77D4C1289FADC200F323EB /* ModuleDependent */,
 				BA77D4CE289FADC200F323EB /* Model */,
+				BA77D4C1289FADC200F323EB /* ModuleDependent */,
+				BA77D48B289FADC200F323EB /* UI */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -854,9 +992,10 @@
 		BA77D48B289FADC200F323EB /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D48C289FADC200F323EB /* AlterController */,
+				B4EC82AC2939DB3C00EE158E /* Utils */,
+				B45CF00F29399FE600C07A30 /* Configuration */,
+				B45CF0232939A4F800C07A30 /* Controller */,
 				BA77D48F289FADC200F323EB /* CommonUI.h */,
-				BA77D490289FADC200F323EB /* ViewController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -1415,31 +1554,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA77D542289FADC300F323EB /* UIView+Common.m in Sources */,
+				B45CF01F2939A00400C07A30 /* QMUIConfigurationTemplate.m in Sources */,
 				BA77D53D289FADC300F323EB /* CommonViewController+EmptyView.m in Sources */,
+				B4FA763928C9CC7100BAFDD7 /* ExampleModel.swift in Sources */,
 				BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */,
 				BA77D519289FADC300F323EB /* ExampleObjViewManager.m in Sources */,
 				BA77D508289FADC300F323EB /* ExampleMVVMDataSourceObject.m in Sources */,
+				B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */,
+				B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */,
 				BA77D549289FADC300F323EB /* LayoutKit.m in Sources */,
 				BA77D529289FADC300F323EB /* AppLifeCycleMediator.m in Sources */,
 				BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */,
 				BA77D539289FADC300F323EB /* CommonAmountTextFieldViewDelegateObject.m in Sources */,
 				BA77D50A289FADC300F323EB /* ExampleMVVMView.m in Sources */,
 				BA77D515289FADC300F323EB /* ExampleObjDataSource.m in Sources */,
+				B45CF0212939A00400C07A30 /* YUIThemeManager.m in Sources */,
+				B41E71CA2938AD5F009D3FC6 /* QMUIModule.m in Sources */,
 				BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */,
 				BA77D53F289FADC300F323EB /* CommonLayoutModel.m in Sources */,
+				B4EC82B52939DB3C00EE158E /* YUICommonUI.m in Sources */,
 				BA77D53C289FADC300F323EB /* CommonViewController+PopupView.m in Sources */,
 				BA77D510289FADC300F323EB /* ExampleMVCView.m in Sources */,
 				BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */,
 				BA77D535289FADC300F323EB /* CommonViewManager.m in Sources */,
 				BA77D500289FADC300F323EB /* HomeViewController.m in Sources */,
 				BA77D511289FADC300F323EB /* ExampleObjViewModel.m in Sources */,
+				B45CF01E2939A00400C07A30 /* QMUIConfigurationTemplatePinkRose.m in Sources */,
 				BA77D522289FADC300F323EB /* GlobalState.m in Sources */,
 				BA77D548289FADC300F323EB /* CommonRequest.m in Sources */,
 				BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */,
+				B4FA763728C9CC7100BAFDD7 /* ExampleDataSourceObject.swift in Sources */,
 				BA77D516289FADC300F323EB /* ExampleObjModelManager.m in Sources */,
 				BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */,
 				BA77D53E289FADC300F323EB /* CommonViewController.m in Sources */,
-				BA77D502289FADC300F323EB /* ExampleViewController.swift in Sources */,
+				B4FA763828C9CC7100BAFDD7 /* Target_Example.swift in Sources */,
 				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
 				BA77D50F289FADC300F323EB /* ExampleMVCTableViewCell.m in Sources */,
 				BA77D507289FADC300F323EB /* ExampleMVVMViewModel.m in Sources */,
@@ -1454,26 +1602,31 @@
 				BA77D504289FADC300F323EB /* ExampleMVVMViewManager.m in Sources */,
 				BA77D540289FADC300F323EB /* CommonTransferModel.m in Sources */,
 				BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */,
+				B4FA763A28C9CC7100BAFDD7 /* ExampleView.swift in Sources */,
 				BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */,
-				BA77D503289FADC300F323EB /* Target_Example.swift in Sources */,
 				BA77D543289FADC300F323EB /* CommonView.m in Sources */,
 				BA77D505289FADC300F323EB /* ExampleMVVMViewController.m in Sources */,
 				BA77D546289FADC300F323EB /* MediationKit+ExampleObjAction.m in Sources */,
 				BA77D54F289FADC300F323EB /* MediationKit.m in Sources */,
 				BA77D50B289FADC300F323EB /* ExampleMVCViewController.m in Sources */,
+				B45CF0202939A00400C07A30 /* QMUIConfigurationTemplateGrass.m in Sources */,
 				BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */,
+				B45CF0222939A00400C07A30 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
+				B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */,
 				BA77D53A289FADC300F323EB /* ComnonArchitectureDelegateObject.m in Sources */,
 				BA77D50C289FADC300F323EB /* ExampleMVCDataSourceObject.m in Sources */,
 				BA77D534289FADC300F323EB /* YUIViewManager+Common.m in Sources */,
 				BA77D541289FADC300F323EB /* CommonModelManager.m in Sources */,
 				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
+				B4EC82B32939DB3C00EE158E /* YUIUIHelper.m in Sources */,
 				BA77D50D289FADC300F323EB /* ExampleMVCEmptyDataSetDelegateObject.m in Sources */,
 				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
 				BA77D518289FADC300F323EB /* ExampleObjRequest.m in Sources */,
 				BA77D53B289FADC300F323EB /* CommonViewController+SubclassingHooks.m in Sources */,
 				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
 				BA77D51A289FADC300F323EB /* ExampleObjView.m in Sources */,
+				B45CF01D2939A00400C07A30 /* QMUIConfigurationTemplateDark.m in Sources */,
 				BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */,
 				BA77D550289FADC300F323EB /* NetworkKit.m in Sources */,
 				BA77D513289FADC300F323EB /* Target_ExampleObj.m in Sources */,
@@ -1481,6 +1634,7 @@
 				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
 				BA77D538289FADC300F323EB /* CommonEmptyDataSetSourceAndDelegateObject.m in Sources */,
 				BA77D536289FADC300F323EB /* YUIViewModel+Common.m in Sources */,
+				B4EC82B42939DB3C00EE158E /* UIImageEffects.m in Sources */,
 				BA77D512289FADC300F323EB /* ExampleObjViewController.m in Sources */,
 				BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */,
 				BA77D533289FADC300F323EB /* CommonAlterController.m in Sources */,

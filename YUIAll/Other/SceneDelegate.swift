@@ -21,7 +21,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         self.window = UIWindow(windowScene: scene as! UIWindowScene)
-        self.window?.frame = UIScreen.main.bounds
         let mediator = AppLifeCycleMediator.sharedInstance()
         mediator.loadModules()
         AppLifeCycleMediator.sharedInstance().scene(scene, willConnectTo: session, options: connectionOptions)

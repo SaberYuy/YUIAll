@@ -72,3 +72,19 @@
 #endif
 
 #endif /* Common_h */
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <QMUIKit/QMUIKit.h>
+
+#import "YUICommonUI.h"
+#import "YUIUIHelper.h"
+#import "YUIThemeManager.h"
+//#import "YUINavigationController.h"
+//#import "YUICommonViewController.h"
+//#import "YUICommonTableViewController.h"
+
+#endif

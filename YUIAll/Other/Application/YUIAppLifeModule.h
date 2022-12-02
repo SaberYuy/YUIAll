@@ -13,7 +13,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YUIAppLifeModule : NSObject<AppLifeCycleMediatorProtocol>
+@interface YUIAppLifeModule : NSObject <AppLifeCycleMediatorProtocol>
 
 @end
 

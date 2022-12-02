@@ -18,11 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if #available(iOS 13, *) {
         } else {
             
-            //            let plistPath = Bundle.main.path(forResource: kModulesRegisterFileName, ofType: "plist")!
-            //
-            //            let mediator = AppLifeCycleMediator.sharedInstance()
-            //            mediator.loadModules(withPlistFilePath: plistPath)
-            
             let mediator = AppLifeCycleMediator.sharedInstance()
             mediator.loadModules()
             mediator.application(application, willFinishLaunchingWithOptions: launchOptions)
@@ -58,21 +53,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     // MARK: - Core Data stack
-    
-    @available(iOS 13.0, *)
-    lazy var persistentContainer: NSPersistentCloudKitContainer = {
+    lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
          creates and returns a container, having loaded the store for the
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
-         */
-        let container = NSPersistentCloudKitContainer(name: "YUIAll")
+        */
+        let container = NSPersistentContainer(name: "YUIAll")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                
+                 
                 /*
                  Typical reasons for an error here include:
                  * The parent directory does not exist, cannot be created, or disallows writing.

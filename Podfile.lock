@@ -424,20 +424,20 @@ PODS:
     - YYImage
   - YTKNetwork (3.0.6):
     - AFNetworking/NSURLSession (~> 4.0)
-  - YUIArchitectureKit (0.1.7):
-    - YUIArchitectureKit/YUIArchitecture (= 0.1.7)
-    - YUIArchitectureKit/YUICore (= 0.1.7)
-    - YUIArchitectureKit/YUILog (= 0.1.7)
-    - YUIArchitectureKit/YUIWeakObjectContainer (= 0.1.7)
-  - YUIArchitectureKit/YUIArchitecture (0.1.7):
+  - YUIArchitectureKit (0.1.8):
+    - YUIArchitectureKit/YUIArchitecture (= 0.1.8)
+    - YUIArchitectureKit/YUICore (= 0.1.8)
+    - YUIArchitectureKit/YUILog (= 0.1.8)
+    - YUIArchitectureKit/YUIWeakObjectContainer (= 0.1.8)
+  - YUIArchitectureKit/YUIArchitecture (0.1.8):
     - YUIArchitectureKit/YUICore
     - YUIArchitectureKit/YUILog
     - YUIArchitectureKit/YUIWeakObjectContainer
-  - YUIArchitectureKit/YUICore (0.1.7):
+  - YUIArchitectureKit/YUICore (0.1.8):
     - YUIArchitectureKit/YUILog
     - YUIArchitectureKit/YUIWeakObjectContainer
-  - YUIArchitectureKit/YUILog (0.1.7)
-  - YUIArchitectureKit/YUIWeakObjectContainer (0.1.7)
+  - YUIArchitectureKit/YUILog (0.1.8)
+  - YUIArchitectureKit/YUIWeakObjectContainer (0.1.8)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -574,11 +574,11 @@ SPEC CHECKSUMS:
   WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
   YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
-  YUIArchitectureKit: 25a24e138f60cbfc36df6fe0e13b57ab473942c7
+  YUIArchitectureKit: 34623187e751997b3e24c9c30639c1d4d66f3b8a
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
 
-PODFILE CHECKSUM: 13478c056378141e486ed03309a13c3ee41af88b
+PODFILE CHECKSUM: 83d07c98b84e9be95b2e111fcf03d9a32a2a5908
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

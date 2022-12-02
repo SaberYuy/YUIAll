@@ -23,13 +23,14 @@
     
     [self setup];
     
-    [self didInitWindow];
-    [[self getCurrentWindow] makeKeyAndVisible];
-    [self startLaunchingAnimation];
-    
-    //    [[LocalStorageService sharedService]setup];
-    //
-    //    [NetworkService sharedService];
+#ifdef UIWindowScene_Enabled
+    if (@available(iOS 13.0, *)) {
+    } else {
+#endif
+        [self didInitWindow];
+#ifdef UIWindowScene_Enabled
+    }
+#endif
     
     return YES;
 }
@@ -59,10 +60,12 @@
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions API_AVAILABLE(ios(13.0)){
     
     [self setup];
-
-    [self didInitWindow];
-    [[self getCurrentWindow] makeKeyAndVisible];
-    [self startLaunchingAnimation];
+    
+    if (@available(iOS 13.0, *)) {
+        if ([scene isKindOfClass:UIWindowScene.class]) {
+            [self didInitWindow];
+        }
+    }
 }
 
 - (void)setup{
@@ -76,6 +79,8 @@
     UIWindow *window = [self getCurrentWindow];
     window.backgroundColor = [UIColor whiteColor];
     window.rootViewController = [self generateWindowRootViewController];
+    [[self getCurrentWindow] makeKeyAndVisible];
+    [self startLaunchingAnimation];
 }
 
 - (UIWindow *)getCurrentWindow{
@@ -113,8 +118,8 @@
 
 - (UIViewController *)generateWindowRootViewController{
     
-//    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForMain];
-//    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleObj];
+    //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForMain];
+    //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleObj];
     UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForHome];
     return viewController;
 }
