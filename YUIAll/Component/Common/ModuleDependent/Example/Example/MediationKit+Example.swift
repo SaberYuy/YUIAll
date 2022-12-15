@@ -9,7 +9,7 @@ import UIKit
 
 public extension MediationKit {
     
-    @objc public func viewControllerForExample(callback:@escaping (String) -> Void) -> UIViewController? {
+    @objc func viewControllerForExample(callback:@escaping (String) -> Void) -> UIViewController? {
         
         let params = [
             "callback" : callback,

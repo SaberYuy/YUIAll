@@ -33,7 +33,7 @@
 
 - (void)configureArchitecture{
     
-    [super configureArchitecture:ArchitectureTypeMVVM];
+    [super configureArchitecture:YUIArchitectureTypeMVVM];
 }
 
 #pragma mark - Lifecycle

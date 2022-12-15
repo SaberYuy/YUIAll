@@ -17,10 +17,10 @@
 
 @interface ExampleObjViewController ()
 
-//@property (nonatomic, strong) ExampleObjView *mainView;
-//@property (nonatomic, strong) ExampleObjViewModel *viewModel;
-//@property (nonatomic, strong) ExampleObjDataSource *dataSourceObject;
-//@property (nonatomic, strong) ExampleObjViewManager *viewManager;
+@property (nonatomic, strong) ExampleObjView *mainView;
+@property (nonatomic, strong) ExampleObjViewModel *viewModel;
+@property (nonatomic, strong) ExampleObjDataSource *dataSourceObject;
+@property (nonatomic, strong) ExampleObjViewManager *viewManager;
 //@property ()
 
 @end
@@ -35,7 +35,7 @@
 
 //- (void)configureArchitecture{
 //    
-//    [super configureArchitecture:ArchitectureTypeMVVM];
+//    [super configureArchitecture:YUIArchitectureTypeMVVM];
 //}
 //
 //- (void)didInitialize{

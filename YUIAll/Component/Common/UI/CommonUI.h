@@ -8,22 +8,6 @@
 #ifndef CommonUI_h
 #define CommonUI_h
 
-#if __has_include("CommonViewController.h")
-#import "CommonViewController.h"
-#endif
-
-#if __has_include("CommonViewController+PopupView.h")
-#import "CommonViewController+PopupView.h"
-#endif
-
-#if __has_include("CommonViewController+EmptyView.h")
-#import "CommonViewController+EmptyView.h"
-#endif
-
-#if __has_include("CommonViewController+SubclassingHooks.h")
-#import "CommonViewController+SubclassingHooks.h"
-#endif
-
 #if __has_include("CommonViewModel.h")
 #import "CommonViewModel.h"
 #endif
@@ -80,11 +64,24 @@
 
 #import <QMUIKit/QMUIKit.h>
 
-#import "YUICommonUI.h"
-#import "YUIUIHelper.h"
-#import "YUIThemeManager.h"
-//#import "YUINavigationController.h"
-//#import "YUICommonViewController.h"
-//#import "YUICommonTableViewController.h"
+#import "YACommonUI.h"
+#import "YAUIHelper.h"
+#import "YAThemeManager.h"
+#import "YANavigationController.h"
+#import "YACommonViewController.h"
+#import "YACommonTableViewController.h"
+#import "YACommonArchitectureViewController.h"
+
+#if __has_include("YACommonViewController+PopupView.h")
+#import "YACommonViewController+PopupView.h"
+#endif
+
+#if __has_include("YACommonViewController+EmptyView.h")
+#import "YACommonViewController+EmptyView.h"
+#endif
+
+#if __has_include("YACommonViewController+SubclassingHooks.h")
+#import "YACommonViewController+SubclassingHooks.h"
+#endif
 
 #endif

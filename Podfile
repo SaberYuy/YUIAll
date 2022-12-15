@@ -7,6 +7,7 @@ platform :ios, '11.0'
 target :"YUIAll" do
   
   use_frameworks!
+  inhibit_all_warnings!
   #  use_modular_headers!
   
   
@@ -17,7 +18,7 @@ target :"YUIAll" do
   pod 'YUIArchitectureKit'
   
   #   致力于提高项目 UI 开发效率的解决方案
-  pod 'QMUIKit' 
+  pod 'QMUIKit'
   
   #   The mediator with no regist process to split your iOS Project into multiple project.
   pod 'CTMediator'

@@ -33,7 +33,7 @@ extern const NSTimeInterval QMUIDropdownNotificationDurationInfinite;
  用来在 App 顶部显示一个 App 内的通知 tips，支持使用自定义的 View 来展示（通常也建议业务自定义自己的 View，QMUI 自带的只能满足最简单的场景）。示例代码：
  @code
  QMUIDropdownNotification *notification = [QMUIDropdownNotification notificationWithViewClass:QMUIDropdownNotificationView.class configuration:^(QMUIDropdownNotificationView * _Nonnull view) {
-     view.imageView.image = [UIImage qmui_imageWithColor:UIColor.qd_tintColor size:CGSizeMake(16, 16) cornerRadius:1.5];
+     view.imageView.image = [UIImage qmui_imageWithColor:UIColor.yui_tintColor size:CGSizeMake(16, 16) cornerRadius:1.5];
      view.titleLabel.text = @"标题";
      view.descriptionLabel.text = @"详细文本";
  }];

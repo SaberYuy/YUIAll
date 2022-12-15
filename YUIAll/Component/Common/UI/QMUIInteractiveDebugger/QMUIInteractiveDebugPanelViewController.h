@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface QMUIInteractiveDebugPanelViewController : UIViewController <QMUIModalPresentationContentViewControllerProtocol>
 
 @property(nullable, nonatomic, strong, readonly) UILabel *titleLabel;
-@property(nullable, nonatomic, strong, readonly) NSArray<QMUIInteractiveDebugPanelItem *> *debugItems;
+@property(nullable, nonatomic, strong, readonly) NSArray<QMUIInteractiveDebugPanelItem *> *ya_Items;
 @property(nullable, nonatomic, copy) void (^styleConfiguration)(QMUIInteractiveDebugPanelViewController *viewController);
 
 - (void)addDebugItem:(QMUIInteractiveDebugPanelItem *)item;

@@ -80,7 +80,7 @@
     }
 }
 
-- (NSArray<QMUIInteractiveDebugPanelItem *> *)debugItems {
+- (NSArray<QMUIInteractiveDebugPanelItem *> *)ya_Items {
     return self.items.copy;
 }
 

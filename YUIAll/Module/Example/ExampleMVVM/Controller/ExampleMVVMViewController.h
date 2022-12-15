@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExampleMVVMViewController : CommonViewController
+@interface ExampleMVVMViewController : YACommonArchitectureViewController
 
 @end
 

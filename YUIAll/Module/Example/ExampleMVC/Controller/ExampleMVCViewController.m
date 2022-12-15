@@ -30,7 +30,7 @@
 
 - (void)configureArchitecture{
     
-    [super configureArchitecture:ArchitectureTypeMVC];
+    [super configureArchitecture:YUIArchitectureTypeMVC];
 }
 
 #pragma mark - Lifecycle

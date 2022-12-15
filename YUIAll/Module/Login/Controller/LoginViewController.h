@@ -5,17 +5,17 @@
 //  Created by YUI on 2020/11/17.
 //
 
-#import "CommonViewController.h"
+#import "YACommonViewController.h"
 
 #import "LoginModelManager.h"
 #import "LoginViewManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginViewController : CommonViewController
+@interface LoginViewController : YACommonViewController
 
-//@property (nonatomic, strong) LoginModelManager *modelManager;
-//@property (nonatomic, strong) LoginViewManager *viewManager;
+@property (nonatomic, strong) LoginModelManager *modelManager;
+@property (nonatomic, strong) LoginViewManager *viewManager;
 
 @end
 

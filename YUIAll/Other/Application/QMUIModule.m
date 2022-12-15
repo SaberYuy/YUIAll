@@ -7,17 +7,17 @@
 
 #import "QMUIModule.h"
 
-#import "YUIUIHelper.h"
-#import "YUICommonUI.h"
+#import "YAUIHelper.h"
+#import "YACommonUI.h"
 //#import "YUITabBarViewController.h"
 //#import "YUINavigationController.h"
 //#import "YUIUIKitViewController.h"
 //#import "YUIComponentsViewController.h"
 //#import "YUILabViewController.h"
-#import "QMUIConfigurationTemplateGrapefruit.h"
-#import "QMUIConfigurationTemplateGrass.h"
-#import "QMUIConfigurationTemplatePinkRose.h"
-#import "QMUIConfigurationTemplateDark.h"
+#import "YUIConfigurationTemplateGrapefruit.h"
+#import "YUIConfigurationTemplateGrass.h"
+#import "YUIConfigurationTemplatePinkRose.h"
+#import "YUIConfigurationTemplateDark.h"
 
 @implementation QMUIModule
 
@@ -28,11 +28,11 @@
     
     // 2. 然后设置主题的生成器
     QMUIThemeManagerCenter.defaultThemeManager.themeGenerator = ^__kindof NSObject * _Nonnull(NSString * _Nonnull identifier) {
-        if ([identifier isEqualToString:YUIThemeIdentifierDefault]) return QMUIConfigurationTemplate.new;
-        if ([identifier isEqualToString:YUIThemeIdentifierGrapefruit]) return QMUIConfigurationTemplateGrapefruit.new;
-        if ([identifier isEqualToString:YUIThemeIdentifierGrass]) return QMUIConfigurationTemplateGrass.new;
-        if ([identifier isEqualToString:YUIThemeIdentifierPinkRose]) return QMUIConfigurationTemplatePinkRose.new;
-        if ([identifier isEqualToString:YUIThemeIdentifierDark]) return QMUIConfigurationTemplateDark.new;
+        if ([identifier isEqualToString:YAThemeIdentifierDefault]) return YUIConfigurationTemplate.new;
+        if ([identifier isEqualToString:YAThemeIdentifierGrapefruit]) return YUIConfigurationTemplateGrapefruit.new;
+        if ([identifier isEqualToString:YAThemeIdentifierGrass]) return YUIConfigurationTemplateGrass.new;
+        if ([identifier isEqualToString:YAThemeIdentifierPinkRose]) return YUIConfigurationTemplatePinkRose.new;
+        if ([identifier isEqualToString:YAThemeIdentifierDark]) return YUIConfigurationTemplateDark.new;
         return nil;
     };
     
@@ -44,16 +44,16 @@
             QMUIThemeManagerCenter.defaultThemeManager.identifierForTrait = ^__kindof NSObject<NSCopying> * _Nonnull(UITraitCollection * _Nonnull trait) {
                 // 1. 如果当前系统切换到 Dark Mode，则返回 App 在 Dark Mode 下的主题
                 if (trait.userInterfaceStyle == UIUserInterfaceStyleDark) {
-                    return YUIThemeIdentifierDark;
+                    return YAThemeIdentifierDark;
                 }
                 
                 // 2. 如果没有命中1，说明此时系统是 Light，则返回 App 在 Light 下的主题即可，这里不直接返回 Default，而是先做一些复杂判断，是因为 QMUI Demo 非深色模式的主题有好几个，而我们希望不管之前选择的是 Default、Grapefruit 还是 PinkRose，只要从 Dark 切换为非 Dark，都强制改为 Default。
                 
                 // 换句话说，如果业务项目只有 Light/Dark 两套主题，则按下方被注释掉的代码一样直接返回 Light 下的主题即可。
-//                return YUIThemeIdentifierDefault;
+//                return YAThemeIdentifierDefault;
                 
-                if ([QMUIThemeManagerCenter.defaultThemeManager.currentThemeIdentifier isEqual:YUIThemeIdentifierDark]) {
-                    return YUIThemeIdentifierDefault;
+                if ([QMUIThemeManagerCenter.defaultThemeManager.currentThemeIdentifier isEqual:YAThemeIdentifierDark]) {
+                    return YAThemeIdentifierDefault;
                 }
                 return QMUIThemeManagerCenter.defaultThemeManager.currentThemeIdentifier;
             };
@@ -65,14 +65,32 @@
     [QMUIConsole sharedInstance].canShow = YES;
     
     // YUI自定义的全局样式渲染
-    [YUICommonUI renderGlobalAppearances];
+    [YACommonUI renderGlobalAppearances];
     
     // 预加载 QQ 表情，避免第一次使用时卡顿
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        [YUIUIHelper qmuiEmotions];
+        [YAUIHelper qmuiEmotions];
     });
     
     return YES;
+}
+
+- (void)handleThemeDidChangeNotification:(NSNotification *)notification {
+    
+    QMUIThemeManager *manager = notification.object;
+    if (![manager.name isEqual:QMUIThemeManagerNameDefault]) return;
+    
+    [[NSUserDefaults standardUserDefaults] setObject:manager.currentThemeIdentifier forKey:YASelectedThemeIdentifier];
+    
+    [YAThemeManager.currentTheme applyConfigurationTemplate];
+    
+    if (QMUIHelper.canUpdateAppearance) {
+        // 主题发生变化，在这里更新全局 UI 控件的 appearance
+        [YACommonUI renderGlobalAppearances];
+        
+        // 更新表情 icon 的颜色
+        [YAUIHelper updateEmotionImages];
+    }
 }
 
 @end

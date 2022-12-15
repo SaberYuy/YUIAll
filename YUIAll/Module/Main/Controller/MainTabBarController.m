@@ -41,7 +41,7 @@
 //    UINavigationController *example1NC = [[UINavigationController alloc]initWithRootViewController:example1VC];
 //    [example1NC setTitle:@"测试"];
 //
-////    CommonViewController *PersonalVC = [[CommonViewController alloc]init];
+////    YACommonViewController *PersonalVC = [[YACommonViewController alloc]init];
 //    UIViewController *example2VC = [[MediationKit sharedInstance]viewControllerForExampleObj];
 //    [example2NC setTitle:@"我的"];
 //

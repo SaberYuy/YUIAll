@@ -5,11 +5,11 @@
 //  Created by YUI on 2020/11/9.
 //
 
-#import "CommonViewController.h"
+#import "YACommonViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExampleObjViewController : CommonViewController
+@interface ExampleObjViewController : YACommonViewController
 
 @end
 
