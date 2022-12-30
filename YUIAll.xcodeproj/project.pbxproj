@@ -14,6 +14,7 @@
 		B449E75E294AC6A100FD84E3 /* YACommonArchitectureViewController+MVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */; };
 		B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */; };
 		B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */; };
+		B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */; };
 		B48E5AAC294071A200B3741F /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A4A294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.m */; };
 		B48E5AAE294071A200B3741F /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A4F294071A100B3741F /* UIImageEffects.m */; };
 		B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A54294071A100B3741F /* LookinConfig.m */; };
@@ -30,7 +31,7 @@
 		B48E5AC1294071A200B3741F /* CommonEmptyDataSetSourceAndDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A84294071A200B3741F /* CommonEmptyDataSetSourceAndDelegateObject.m */; };
 		B48E5AC2294071A200B3741F /* CommonAmountTextFieldViewDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A86294071A200B3741F /* CommonAmountTextFieldViewDelegateObject.m */; };
 		B48E5AC3294071A200B3741F /* ComnonArchitectureDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A8A294071A200B3741F /* ComnonArchitectureDelegateObject.m */; };
-		B48E5AC4294071A200B3741F /* YACommonViewController+SubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A8D294071A200B3741F /* YACommonViewController+SubclassingHooks.m */; };
+		B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A8D294071A200B3741F /* YACommonViewController+YASubclassingHooks.m */; };
 		B48E5AC5294071A200B3741F /* YACommonViewController+PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A8E294071A200B3741F /* YACommonViewController+PopupView.m */; };
 		B48E5AC6294071A200B3741F /* YACommonViewController+EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A92294071A200B3741F /* YACommonViewController+EmptyView.m */; };
 		B48E5AC8294071A200B3741F /* CommonLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A97294071A200B3741F /* CommonLayoutModel.m */; };
@@ -153,12 +154,14 @@
 		B449E74C29486EA500FD84E3 /* YACommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonViewController.h; sourceTree = "<group>"; };
 		B449E7532949771A00FD84E3 /* YACommonArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YACommonArchitectureViewController.h; sourceTree = "<group>"; };
 		B449E7542949771A00FD84E3 /* YACommonArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YACommonArchitectureViewController.m; sourceTree = "<group>"; };
-		B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YACommonArchitectureViewController+MVC.m"; path = "Catrtory/YACommonArchitectureViewController+MVC.m"; sourceTree = "<group>"; };
-		B449E759294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YACommonArchitectureViewController+MVP.h"; path = "Catrtory/YACommonArchitectureViewController+MVP.h"; sourceTree = "<group>"; };
-		B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YACommonArchitectureViewController+MVVM.m"; path = "Catrtory/YACommonArchitectureViewController+MVVM.m"; sourceTree = "<group>"; };
-		B449E75B294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YACommonArchitectureViewController+MVC.h"; path = "Catrtory/YACommonArchitectureViewController+MVC.h"; sourceTree = "<group>"; };
-		B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YACommonArchitectureViewController+MVP.m"; path = "Catrtory/YACommonArchitectureViewController+MVP.m"; sourceTree = "<group>"; };
-		B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YACommonArchitectureViewController+MVVM.h"; path = "Catrtory/YACommonArchitectureViewController+MVVM.h"; sourceTree = "<group>"; };
+		B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+MVC.m"; sourceTree = "<group>"; };
+		B449E759294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+MVP.h"; sourceTree = "<group>"; };
+		B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+MVVM.m"; sourceTree = "<group>"; };
+		B449E75B294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+MVC.h"; sourceTree = "<group>"; };
+		B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+MVP.m"; sourceTree = "<group>"; };
+		B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+MVVM.h"; sourceTree = "<group>"; };
+		B4647F16295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+YASubclassingHooks.h"; sourceTree = "<group>"; };
+		B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+YASubclassingHooks.m"; sourceTree = "<group>"; };
 		B48E5A49294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+QMUIBottomAccessoryView.h"; sourceTree = "<group>"; };
 		B48E5A4A294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+QMUIBottomAccessoryView.m"; sourceTree = "<group>"; };
 		B48E5A4C294071A100B3741F /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
@@ -192,10 +195,10 @@
 		B48E5A88294071A200B3741F /* ComnonArchitectureDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComnonArchitectureDelegateObject.h; sourceTree = "<group>"; };
 		B48E5A89294071A200B3741F /* CommonEmptyDataSetSourceAndDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonEmptyDataSetSourceAndDelegateObject.h; sourceTree = "<group>"; };
 		B48E5A8A294071A200B3741F /* ComnonArchitectureDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComnonArchitectureDelegateObject.m; sourceTree = "<group>"; };
-		B48E5A8D294071A200B3741F /* YACommonViewController+SubclassingHooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonViewController+SubclassingHooks.m"; sourceTree = "<group>"; };
+		B48E5A8D294071A200B3741F /* YACommonViewController+YASubclassingHooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonViewController+YASubclassingHooks.m"; sourceTree = "<group>"; };
 		B48E5A8E294071A200B3741F /* YACommonViewController+PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonViewController+PopupView.m"; sourceTree = "<group>"; };
 		B48E5A8F294071A200B3741F /* YACommonViewController+EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonViewController+EmptyView.h"; sourceTree = "<group>"; };
-		B48E5A90294071A200B3741F /* YACommonViewController+SubclassingHooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonViewController+SubclassingHooks.h"; sourceTree = "<group>"; };
+		B48E5A90294071A200B3741F /* YACommonViewController+YASubclassingHooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonViewController+YASubclassingHooks.h"; sourceTree = "<group>"; };
 		B48E5A91294071A200B3741F /* YACommonViewController+PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonViewController+PopupView.h"; sourceTree = "<group>"; };
 		B48E5A92294071A200B3741F /* YACommonViewController+EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonViewController+EmptyView.m"; sourceTree = "<group>"; };
 		B48E5A96294071A200B3741F /* CommonModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonModelManager.h; sourceTree = "<group>"; };
@@ -432,12 +435,6 @@
 		B449E74F294888A300FD84E3 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				B449E75B294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.h */,
-				B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */,
-				B449E759294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.h */,
-				B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */,
-				B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */,
-				B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */,
 				B449E757294AC50800FD84E3 /* Catrtory */,
 				B449E7532949771A00FD84E3 /* YACommonArchitectureViewController.h */,
 				B449E7542949771A00FD84E3 /* YACommonArchitectureViewController.m */,
@@ -448,6 +445,14 @@
 		B449E757294AC50800FD84E3 /* Catrtory */ = {
 			isa = PBXGroup;
 			children = (
+				B4647F16295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.h */,
+				B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */,
+				B449E75B294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.h */,
+				B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */,
+				B449E759294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.h */,
+				B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */,
+				B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */,
+				B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */,
 			);
 			path = Catrtory;
 			sourceTree = "<group>";
@@ -564,10 +569,10 @@
 		B48E5A83294071A200B3741F /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				B48E5A84294071A200B3741F /* CommonEmptyDataSetSourceAndDelegateObject.m */,
 				B48E5A85294071A200B3741F /* Extension */,
-				B48E5A88294071A200B3741F /* ComnonArchitectureDelegateObject.h */,
 				B48E5A89294071A200B3741F /* CommonEmptyDataSetSourceAndDelegateObject.h */,
+				B48E5A84294071A200B3741F /* CommonEmptyDataSetSourceAndDelegateObject.m */,
+				B48E5A88294071A200B3741F /* ComnonArchitectureDelegateObject.h */,
 				B48E5A8A294071A200B3741F /* ComnonArchitectureDelegateObject.m */,
 			);
 			path = Delegate;
@@ -589,8 +594,8 @@
 				B48E5A92294071A200B3741F /* YACommonViewController+EmptyView.m */,
 				B48E5A91294071A200B3741F /* YACommonViewController+PopupView.h */,
 				B48E5A8E294071A200B3741F /* YACommonViewController+PopupView.m */,
-				B48E5A90294071A200B3741F /* YACommonViewController+SubclassingHooks.h */,
-				B48E5A8D294071A200B3741F /* YACommonViewController+SubclassingHooks.m */,
+				B48E5A90294071A200B3741F /* YACommonViewController+YASubclassingHooks.h */,
+				B48E5A8D294071A200B3741F /* YACommonViewController+YASubclassingHooks.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1035,9 +1040,9 @@
 			isa = PBXGroup;
 			children = (
 				BA77D440289FADC200F323EB /* ViewManager */,
-				BA77D443289FADC200F323EB /* ExampleObjView.m */,
 				BA77D444289FADC200F323EB /* Cell */,
 				BA77D447289FADC200F323EB /* ExampleObjView.h */,
+				BA77D443289FADC200F323EB /* ExampleObjView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1703,7 +1708,7 @@
 				BA77D511289FADC300F323EB /* ExampleObjViewModel.m in Sources */,
 				B48E5AC0294071A200B3741F /* CommonViewModel.m in Sources */,
 				B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */,
-				B48E5AC4294071A200B3741F /* YACommonViewController+SubclassingHooks.m in Sources */,
+				B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */,
 				B48E5ACD294071A200B3741F /* QMUIBackBarButton.m in Sources */,
 				B48E5B89294090A900B3741F /* YUIConfigurationTemplateDark.m in Sources */,
 				B48E5B86294090A900B3741F /* YUIConfigurationTemplatePinkRose.m in Sources */,
@@ -1773,6 +1778,7 @@
 				B48E5AC5294071A200B3741F /* YACommonViewController+PopupView.m in Sources */,
 				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
 				B48E5B71294090A000B3741F /* YANavigationController.m in Sources */,
+				B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */,
 				BA77D512289FADC300F323EB /* ExampleObjViewController.m in Sources */,
 				BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */,
 				B48E5ACC294071A200B3741F /* CommonView.m in Sources */,

@@ -7,6 +7,10 @@
 
 #import "YACommonArchitectureViewController.h"
 
+#import "YACommonArchitectureViewController+MVC.h"
+#import "YACommonArchitectureViewController+MVP.h"
+#import "YACommonArchitectureViewController+MVVM.h"
+
 @interface YACommonArchitectureViewController ()
 
 @property (nonatomic, assign) YUIArchitectureType architectureType;

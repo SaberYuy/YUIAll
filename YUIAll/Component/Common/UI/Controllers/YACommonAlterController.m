@@ -38,7 +38,7 @@
     
     if (self = [super initWithTitle:title message:message preferredStyle:preferredStyle]) {
         
-        if(title){
+        if(title) {
             
             self.alertTitleAttributes = @{NSForegroundColorAttributeName:[UIColor qmui_colorWithHexString:@"#323233"], NSFontAttributeName:UIFontMake(16),NSParagraphStyleAttributeName:[NSMutableParagraphStyle qmui_paragraphStyleWithLineHeight:22 lineBreakMode:NSLineBreakByTruncatingTail textAlignment:NSTextAlignmentCenter]};
             self.alertMessageAttributes = @{NSForegroundColorAttributeName:[UIColor qmui_colorWithHexString:@"#969799"], NSFontAttributeName:UIFontMake(14),NSParagraphStyleAttributeName:[NSMutableParagraphStyle qmui_paragraphStyleWithLineHeight:20 lineBreakMode:NSLineBreakByTruncatingTail textAlignment:NSTextAlignmentCenter]};

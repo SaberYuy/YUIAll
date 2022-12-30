@@ -33,10 +33,10 @@
 
 #pragma mark - init
 
-//- (void)configureArchitecture{
-//    
-//    [super configureArchitecture:YUIArchitectureTypeMVVM];
-//}
+- (void)configureArchitecture{
+    
+    [super configureArchitecture:YUIArchitectureTypeMVVM];
+}
 //
 //- (void)didInitialize{
 //
@@ -104,7 +104,7 @@
 
 //- (ExampleObjDataSource *)dataSourceObject{
 //
-//    if(!_dataSourceObject){
+//    if(!_dataSourceObject) {
 //
 //        _dataSourceObject = [ExampleObjDataSource new];
 //    }

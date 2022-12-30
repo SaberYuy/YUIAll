@@ -82,7 +82,7 @@
 
 - (ExampleMVVMDataSourceObject *)dataSourceObject{
     
-    if(!_dataSourceObject){
+    if(!_dataSourceObject) {
         
         _dataSourceObject = [ExampleMVVMDataSourceObject new];
     }
@@ -91,7 +91,7 @@
 
 - (ExampleMVVMEmptyDataSetDelegateObject *)emptyDataSetObject{
     
-    if(!_emptyDataSetObject){
+    if(!_emptyDataSetObject) {
         
         _emptyDataSetObject = [ExampleMVVMEmptyDataSetDelegateObject new];
     }

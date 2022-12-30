@@ -57,7 +57,7 @@
 
 #pragma mark - <UISceneDelegate>
 
-- (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions API_AVAILABLE(ios(13.0)){
+- (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions API_AVAILABLE(ios(13.0)) {
     
     [self setup];
     
@@ -89,17 +89,17 @@
         
         UIWindow *rootWindow;
         
-        if([UIApplication sharedApplication].connectedScenes){
+        if([UIApplication sharedApplication].connectedScenes) {
             
-            for (UIScene *scene in [UIApplication sharedApplication].connectedScenes){
+            for (UIScene *scene in [UIApplication sharedApplication].connectedScenes) {
                 
                 if ([scene isKindOfClass:UIWindowScene.class] &&
-                    [scene.delegate respondsToSelector:@selector(window)]){
+                    [scene.delegate respondsToSelector:@selector(window)]) {
                     
                     id<UIWindowSceneDelegate> delegate = (id<UIWindowSceneDelegate>)scene.delegate;
                     rootWindow = delegate.window;
                     
-                    if(rootWindow){
+                    if(rootWindow) {
                         
                         return rootWindow;
                     }
@@ -119,8 +119,8 @@
 - (UIViewController *)generateWindowRootViewController{
     
     //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForMain];
-    //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleObj];
-    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForHome];
+    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleObj];
+    //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForHome];
     return viewController;
 }
 

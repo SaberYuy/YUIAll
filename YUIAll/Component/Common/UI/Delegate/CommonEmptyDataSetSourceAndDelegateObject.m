@@ -11,7 +11,7 @@
 
 - (instancetype)init{
     
-    if([super init]){
+    if([super init]) {
         
         [self didInitialize];
     }
@@ -26,7 +26,7 @@
 
 - (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView{
 
-    if(self.modelManager){
+    if(self.modelManager) {
         
         return self.modelManager.dataDidLoad;
     }
@@ -50,7 +50,7 @@
     
     NSString *tempTextStr;
     
-    if(self.titleStr && ![self.titleStr isEqualToString:@""]){
+    if(self.titleStr && ![self.titleStr isEqualToString:@""]) {
 
         tempTextStr = self.titleStr;
     }
@@ -68,7 +68,7 @@
     
     NSString *tempImageURLStr;
     
-    if(self.imageURLStr && ![self.imageURLStr isEqualToString:@""]){
+    if(self.imageURLStr && ![self.imageURLStr isEqualToString:@""]) {
 
         tempImageURLStr = self.imageURLStr;
     }

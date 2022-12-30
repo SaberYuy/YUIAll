@@ -80,19 +80,19 @@ typedef void(^NetworkKitRequestCompletionBlock)(__kindof YTKBaseRequest *request
         
         CommonRequest *request = (CommonRequest *)result;
         
-        //        if([[request.responseJSONObject allKeys]containsObject:@"code"]){
+        //        if([[request.responseJSONObject allKeys]containsObject:@"code"]) {
         //
         //            request.businessStatusCode = [request.responseJSONObject objectForKey:@"code"];
         //        }
         //
-        //        if([[request.responseJSONObject allKeys]containsObject:@"data"]){
+        //        if([[request.responseJSONObject allKeys]containsObject:@"data"]) {
         //
         //            request.responseDateContent = [request.responseJSONObject objectForKey:@"data"];
         //        }
         
         if (success) {
             
-            successCompletionBlock = ^(CommonRequest *result, id reponseObject){
+            successCompletionBlock = ^(CommonRequest *result, id reponseObject) {
                 
                 success(result, reponseObject);
             };
@@ -101,7 +101,7 @@ typedef void(^NetworkKitRequestCompletionBlock)(__kindof YTKBaseRequest *request
             return;
         }
         
-        if(_delegate && [_delegate respondsToSelector:@selector(requestSuccessHandlerResult:)]){
+        if(_delegate && [_delegate respondsToSelector:@selector(requestSuccessHandlerResult:)]) {
             
             [_delegate requestSuccessHandlerResult:result];
             
@@ -109,7 +109,7 @@ typedef void(^NetworkKitRequestCompletionBlock)(__kindof YTKBaseRequest *request
         }
     }
     
-    if(_delegate && [_delegate respondsToSelector:@selector(requestFinishedHandlerResult:)]){
+    if(_delegate && [_delegate respondsToSelector:@selector(requestFinishedHandlerResult:)]) {
         
         [_delegate requestFinishedHandlerResult:result];
         
@@ -131,7 +131,7 @@ typedef void(^NetworkKitRequestCompletionBlock)(__kindof YTKBaseRequest *request
     
     if (failure) {
         
-        failureCompletionBlock = ^(NSError *error){
+        failureCompletionBlock = ^(NSError *error) {
             
             failure(error);
         };
@@ -141,14 +141,14 @@ typedef void(^NetworkKitRequestCompletionBlock)(__kindof YTKBaseRequest *request
         return;
     }
     
-    if(_delegate && [_delegate respondsToSelector:@selector(requestFailedHandlerResult:)]){
+    if(_delegate && [_delegate respondsToSelector:@selector(requestFailedHandlerResult:)]) {
         
         [_delegate requestFailedHandlerResult:result];
         
         return;
     }
     
-    if(_delegate && [_delegate respondsToSelector:@selector(requestFinishedHandlerResult:)]){
+    if(_delegate && [_delegate respondsToSelector:@selector(requestFinishedHandlerResult:)]) {
         
         [_delegate requestFinishedHandlerResult:result];
         
@@ -160,7 +160,7 @@ typedef void(^NetworkKitRequestCompletionBlock)(__kindof YTKBaseRequest *request
 
 - (void)requestFinished:(__kindof CommonRequest *)request{
     
-    //    [self requestFinishedHandlerResult:request success:^(NSDictionary * _Nonnull resultDict){
+    //    [self requestFinishedHandlerResult:request success:^(NSDictionary * _Nonnull resultDict) {
     //
     //        request.successCompletionBlock(request);
     //    }];

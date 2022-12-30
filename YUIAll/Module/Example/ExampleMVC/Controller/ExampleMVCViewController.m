@@ -75,7 +75,7 @@
 
 - (ExampleMVCDataSourceObject *)dataSourceObject{
     
-    if(!_dataSourceObject){
+    if(!_dataSourceObject) {
         
         _dataSourceObject = [ExampleMVCDataSourceObject new];
     }
@@ -84,7 +84,7 @@
 
 - (ExampleMVCEmptyDataSetDelegateObject *)emptyDataSetObject{
     
-    if(!_emptyDataSetObject){
+    if(!_emptyDataSetObject) {
         
         _emptyDataSetObject = [ExampleMVCEmptyDataSetDelegateObject new];
     }

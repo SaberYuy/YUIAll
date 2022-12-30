@@ -24,7 +24,7 @@
 
 - (void)setData:(id)parameter{
     
-    if(parameter && [parameter isKindOfClass:[NSDictionary class]]){
+    if(parameter && [parameter isKindOfClass:[NSDictionary class]]) {
         
         [self yy_modelSetWithDictionary:parameter];
     }
@@ -34,7 +34,7 @@
 
 - (void)viewController:(__kindof UIViewController *)viewController withInfo:(NSDictionary *)info{
     
-    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewController:withInfo:)]){
+    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewController:withInfo:)]) {
         
         [self.architectureDelegateObject viewController:viewController withInfo:info];
     }
@@ -44,7 +44,7 @@
 
 - (void)viewManager:(id)viewManager withInfo:(NSDictionary *)info{
     
-    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewManager:withInfo:)]){
+    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewManager:withInfo:)]) {
         
         [self.architectureDelegateObject viewManager:viewManager withInfo:info];
     }
@@ -52,7 +52,7 @@
 
 - (ComnonArchitectureDelegateObject *)architectureDelegateObject{
     
-    if(!_architectureDelegateObject){
+    if(!_architectureDelegateObject) {
         
         _architectureDelegateObject = [ComnonArchitectureDelegateObject new];
         _architectureDelegateObject.delegate = self;

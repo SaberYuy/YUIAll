@@ -16,7 +16,7 @@ import UIKit
 
 internal extension NSObject {
 
-    func getPropertyNames(){
+    func getPropertyNames() {
 
         var outCount:UInt32
 
@@ -35,7 +35,7 @@ internal extension NSObject {
         }
     }
 
-    func getMethodNames(){
+    func getMethodNames() {
 
         var outCount:UInt32
 

@@ -81,7 +81,7 @@
 
 -(void)removeSubView{
     
-    for (UIView *view in [self.view subviews]){
+    for (UIView *view in [self.view subviews]) {
         
         [view removeFromSuperview];
     }
@@ -90,7 +90,7 @@
     //
     //        NSInteger temp = [self.subviews count];
     //
-    //        for(int i = 0;i < temp; i++){
+    //        for(int i = 0;i < temp; i++) {
     //
     //            [[self.subviews objectAtIndex:0] removeFromSuperview];
     //        }

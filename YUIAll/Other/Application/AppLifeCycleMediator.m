@@ -148,7 +148,7 @@ fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandl
 
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center
        willPresentNotification:(UNNotification *)notification
-         withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0)){
+         withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0)) {
     for (id<AppLifeCycleMediatorProtocol> module in self.modules) {
         if ([module respondsToSelector:_cmd]) {
             if (@available(iOS 10.0, *)) {
@@ -164,7 +164,7 @@ fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandl
 
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center
 didReceiveNotificationResponse:(UNNotificationResponse *)response
-         withCompletionHandler:(void (^)(void))completionHandler API_AVAILABLE(ios(10.0)){
+         withCompletionHandler:(void (^)(void))completionHandler API_AVAILABLE(ios(10.0)) {
     for (id<AppLifeCycleMediatorProtocol> module in self.modules) {
         if ([module respondsToSelector:_cmd]) {
             [module userNotificationCenter:center
@@ -232,32 +232,32 @@ performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem
 
 #pragma mark - <UISceneDelegate>
 
-- (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions API_AVAILABLE(ios(13.0)){
+- (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions API_AVAILABLE(ios(13.0)) {
     
     [self performSelectorForModules:_cmd withPrimitiveReturnValue:nil arguments: &scene, &session, &connectionOptions, nil];
 }
 
-- (void)sceneDidDisconnect:(UIScene *)scene API_AVAILABLE(ios(13.0)){
+- (void)sceneDidDisconnect:(UIScene *)scene API_AVAILABLE(ios(13.0)) {
     
     [self performSelectorForModules:_cmd withPrimitiveReturnValue:nil arguments: &scene, nil];
 }
 
-- (void)sceneDidBecomeActive:(UIScene *)scene API_AVAILABLE(ios(13.0)){
+- (void)sceneDidBecomeActive:(UIScene *)scene API_AVAILABLE(ios(13.0)) {
     
     [self performSelectorForModules:_cmd withPrimitiveReturnValue:nil arguments: &scene, nil];
 }
 
-- (void)sceneWillResignActive:(UIScene *)scene API_AVAILABLE(ios(13.0)){
+- (void)sceneWillResignActive:(UIScene *)scene API_AVAILABLE(ios(13.0)) {
     
     [self performSelectorForModules:_cmd withPrimitiveReturnValue:nil arguments: &scene, nil];
 }
 
-- (void)sceneWillEnterForeground:(UIScene *)scene API_AVAILABLE(ios(13.0)){
+- (void)sceneWillEnterForeground:(UIScene *)scene API_AVAILABLE(ios(13.0)) {
     
     [self performSelectorForModules:_cmd withPrimitiveReturnValue:nil arguments: &scene, nil];
 }
 
-- (void)sceneDidEnterBackground:(UIScene *)scene API_AVAILABLE(ios(13.0)){
+- (void)sceneDidEnterBackground:(UIScene *)scene API_AVAILABLE(ios(13.0)) {
     
     [self performSelectorForModules:_cmd withPrimitiveReturnValue:nil arguments: &scene, nil];
 }

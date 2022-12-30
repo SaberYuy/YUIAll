@@ -39,7 +39,7 @@
     self = [self init];
     if (self == nil) return nil;
     
-    if(object){
+    if(object) {
         
         [self setDataWithObject:object];
     }
@@ -51,7 +51,7 @@
     
     NSMutableArray *result = [NSMutableArray array];
     
-    for (__unsafe_unretained id object in objectArray){
+    for (__unsafe_unretained id object in objectArray) {
         
         id instance = [self instanceWithModel:object];
         if (instance) [result addObject:instance];
@@ -70,7 +70,7 @@
     self = [self init];
     if (self == nil) return nil;
     
-    if(dictionary){
+    if(dictionary) {
     
         [self setDataWithDictionary:dictionary];
     }
@@ -132,7 +132,7 @@
 
 + (NSArray<NSDictionary *> *)dictionaryWithModelArray:(NSArray<NSObject *> *)objectArray{
     
-    if (objectArray){
+    if (objectArray) {
         
         NSMutableArray *tempMA = [NSMutableArray array];
         
@@ -162,7 +162,7 @@
 
 + (NSArray<NSDictionary *> *)jSONDictionaryWithModelArray:(NSArray<NSObject *> *)objectArray{
     
-    if (objectArray){
+    if (objectArray) {
         
         NSMutableArray *tempMA = [NSMutableArray array];
         
@@ -189,7 +189,7 @@
 
 //-(instancetype)initWithCoder:(NSCoder *)decoder{
 //    
-//    if ((self = [[super class] initWithCoder:decoder])){
+//    if ((self = [[super class] initWithCoder:decoder])) {
 //        
 //        [self commonInit];
 //    }
@@ -205,7 +205,7 @@
     
     NSMutableArray *propertiesArray = [NSMutableArray arrayWithCapacity:count];
     
-    for (int i = 0; i<count; i++){
+    for (int i = 0; i<count; i++) {
         
         const char* propertyName =property_getName(properties[i]);
         
@@ -225,7 +225,7 @@
     
     NSMutableArray *propertiesArray = [NSMutableArray arrayWithCapacity:count];
     
-    for (int i = 0; i<count; i++){
+    for (int i = 0; i<count; i++) {
         
         const char* propertyName =property_getName(properties[i]);
         

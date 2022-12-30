@@ -9,7 +9,7 @@
 
 @implementation YACommonViewController (PopupView)
 
-- (UIView *)popupView{
+- (UIView *)popupView {
     
     if (!_popupView && self.isViewLoaded) {
         
@@ -18,27 +18,34 @@
     return _popupView;
 }
 
-- (void)showPopupView{
+- (void)setPopupView:(UIView *)popupView {
+    
+    if (popupView != _popupView) {
+        _popupView = popupView;
+    }
+}
+
+- (void)showPopupView {
     
     [self.view addSubview:self.popupView];
 }
 
-- (void)hidePopupView{
+- (void)hidePopupView {
     
     [_popupView removeFromSuperview];
 }
 
-- (void)showPopupViewWithLoading{
+- (void)showPopupViewWithLoading {
     
     [self.view addSubview:self.popupView];
 }
 
-- (void)hidePopupViewWithLoading{
+- (void)hidePopupViewWithLoading {
     
     [_popupView removeFromSuperview];
 }
 
-- (BOOL)isPopupViewShowing{
+- (BOOL)isPopupViewShowing {
     
     return _popupView && _popupView.superview;
 }

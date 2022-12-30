@@ -30,7 +30,7 @@
 
 - (void)setData:(id)parameter{
     
-    if(parameter && [parameter isKindOfClass:[NSDictionary class]]){
+    if(parameter && [parameter isKindOfClass:[NSDictionary class]]) {
         
         [self yy_modelSetWithDictionary:parameter];
     }

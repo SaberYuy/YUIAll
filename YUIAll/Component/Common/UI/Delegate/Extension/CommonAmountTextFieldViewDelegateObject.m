@@ -47,7 +47,7 @@
         unichar single = [string characterAtIndex:0];
  
             // 不能输入.0-9以外的字符
-        if (!((single >= '0' && single <= '9') || single == '.')){
+        if (!((single >= '0' && single <= '9') || single == '.')) {
  
             return NO;
         }

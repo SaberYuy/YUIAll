@@ -113,7 +113,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //        return viewController
     //    }
     //
-    //    func startLaunchingAnimation(){
+    //    func startLaunchingAnimation() {
     //
     //    }
 }

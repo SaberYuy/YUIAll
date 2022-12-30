@@ -62,7 +62,7 @@
         layoutKit = [[self alloc] init];
         layoutKit.adaptionWidthRatio = DEVICE_WIDTH / BenchmarkSize.width;
         
-        if (IS_iPhone_X_SERIES){
+        if (IS_iPhone_X_SERIES) {
             
             //            layoutKit.statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
             layoutKit.statusBarHeight = [self getRootWindow].safeAreaInsets.top;

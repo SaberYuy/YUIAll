@@ -88,7 +88,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //        return viewController
     //    }
     //
-    //    func startLaunchingAnimation(){
+    //    func startLaunchingAnimation() {
     //
     //    }
 }
