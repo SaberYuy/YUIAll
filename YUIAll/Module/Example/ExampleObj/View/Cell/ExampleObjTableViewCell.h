@@ -12,10 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ExampleObjTableViewCell : QMUITableViewCell
 
-@property (nonatomic, strong) UIImageView *aIV;
-@property (nonatomic, strong) UIImageView *bIV;
-@property (nonatomic, strong) WKWebView *aWV;
-@property (nonatomic, strong) WKWebView *bWV;
+@property (nonatomic, strong) UIButton *aBtn;
 
 @end
 

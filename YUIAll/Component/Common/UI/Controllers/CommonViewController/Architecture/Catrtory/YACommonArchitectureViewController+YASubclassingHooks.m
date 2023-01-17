@@ -39,6 +39,7 @@
 
 - (void)initSubviews {
     // Rewrite this func in SubClass !
+    [super initSubviews];
 }
 
 - (void)setupSubviewsFrame {
@@ -63,10 +64,12 @@
 
 - (void)setupNavigationItems {
     // Rewrite this func in SubClass !
+    [super setupNavigationItems];
 }
 
 - (void)setupToolbarItems {
     // Rewrite this func in SubClass !
+    [super setupToolbarItems];
 }
 
 - (void)contentSizeCategoryDidChanged:(NSNotification *)notification {
@@ -104,7 +107,7 @@
 
 #pragma mark - <YUIViewControllerDelegateProtocol>
 
-- (void)viewController:(__kindof UIViewController *)viewController withInfo:(NSDictionary *)info {
+- (void)viewController:(__kindof UIViewController *)viewController info:(NSDictionary *)info {
     
 }
 
@@ -116,7 +119,7 @@
 
 #pragma mark - <YUIViewModelDelegateProtocol>
 
-- (void)viewModel:(id)viewModel withInfo:(NSDictionary *)info {
+- (void)viewModel:(id)viewModel info:(NSDictionary *)info {
     
 }
 

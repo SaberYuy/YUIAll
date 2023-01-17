@@ -13,7 +13,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CommonEmptyDataSetSourceAndDelegateObject : NSObject <DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
+@interface YACommonEmptyDataSetSourceAndDelegateObject : NSObject <DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
 
 @property (nonatomic, copy) NSString *titleStr;
 @property (nonatomic, copy) NSString *imageURLStr;

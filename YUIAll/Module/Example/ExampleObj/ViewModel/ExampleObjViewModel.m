@@ -28,30 +28,14 @@
     
     [[NetworkKit sharedInstance]requestWithRequest:[ExampleObjRequest new]
                                            success:^(CommonRequest * _Nullable resultRequest, NSDictionary * _Nullable resultDict) {
+        [[self mutableArrayValueForKey:@"datas"] addObjectsFromArray:[NSArray yy_modelArrayWithClass:[ExampleObjImage class] json:[resultDict objectForKey:@"data"]]];
+        if(self.viewModelDelegate && [self.viewModelDelegate respondsToSelector:@selector(receiveViewModel:name:userInfo:)]) {
 
-        [[self mutableArrayValueForKey:@"datas"] addObjectsFromArray:[NSArray yy_modelArrayWithClass:[ExampleObjImage class] json:resultDict]];
+            [self.viewModelDelegate receiveViewModel:self name:@"loadComplete" userInfo:@{@"data":@"123"}];
+        }
     }
                                            failure:^(NSError * _Nullable error) {
-        
     }];
 }
-
-
-
-//- (void)loadExampleObjTest{
-//
-//    ExampleObjRequest *request = [ExampleObjRequest new];
-//
-//    [[NetworkKit sharedInstance] requestWithRequest:request success:^(CommonRequest * _Nullable result, NSDictionary * _Nullable resultDict) {
-//
-//    } failure:^(NSError * _Nullable error) {
-//
-//    }];
-//}
-//
-//- (void)tapA{
-//
-//    [self loadExampleObjTest];
-//}
 
 @end

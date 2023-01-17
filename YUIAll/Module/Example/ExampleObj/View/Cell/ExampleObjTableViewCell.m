@@ -24,7 +24,7 @@
 
 - (void)setupMainView{
     
-    self.contentView.backgroundColor = [UIColor whiteColor];
+    self.contentView.backgroundColor = [UIColor qmui_randomColor];
 }
 
 - (void)initSubviews{
@@ -35,46 +35,29 @@
 //    _bIV = [UIImageView new];
 //    [self.contentView addSubview: _bIV];
     
-    _aWV = [WKWebView new];
-    [self.contentView addSubview: _aWV];
-    
-    _bWV = [WKWebView new];
-    [self.contentView addSubview: _bWV];
+    _aBtn = [UIButton new];
+    _aBtn.backgroundColor = [UIColor qmui_randomColor];
+    [_aBtn addTarget:self action:@selector(tapA:) forControlEvents: UIControlEventTouchDown];
+    [self.contentView addSubview: _aBtn];
 }
 
 - (void)setupSubviewsConstraints{
     
-    [_aWV mas_makeConstraints:^(MASConstraintMaker *make) {
+    [_aBtn mas_makeConstraints:^(MASConstraintMaker *make) {
           
-        make.width.equalTo(self).multipliedBy(0.5);
-        make.top.equalTo(self);
-        make.bottom.equalTo(self);
-        make.left.equalTo(self);
+        make.width.mas_equalTo(50);
+        make.height.mas_equalTo(50);
+        make.centerY.equalTo(self);
+        make.left.equalTo(self).offset(50);
     }];
+}
+
+- (void)tapA:(UIControl *)sender {
     
-    [_bWV mas_makeConstraints:^(MASConstraintMaker *make) {
-            
-        make.width.equalTo(self).multipliedBy(0.5);
-        make.top.equalTo(self);
-        make.bottom.equalTo(self);
-        make.right.equalTo(self);
-    }];
-    
-//    [_aIV mas_makeConstraints:^(MASConstraintMaker *make) {
-//
-//        make.width.equalTo(self).multipliedBy(0.5);
-//        make.top.equalTo(self);
-//        make.bottom.equalTo(self);
-//        make.left.equalTo(self);
-//    }];
-//
-//    [_bIV mas_makeConstraints:^(MASConstraintMaker *make) {
-//
-//        make.width.equalTo(self).multipliedBy(0.5);
-//        make.top.equalTo(self);
-//        make.bottom.equalTo(self);
-//        make.right.equalTo(self);
-//    }];
+    if(self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(receiveView:name:event:)]) {
+
+        [self.viewDelegate receiveView:self name:@"tapA" event:@{@"data": @"123"}];
+    }
 }
 
 @end

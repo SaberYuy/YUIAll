@@ -5,11 +5,11 @@
 //  Created by YUI on 2021/10/28.
 //
 
-#import "CommonView.h"
+#import "YACommonView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExampleMVVMView : CommonView
+@interface ExampleMVVMView : YACommonView
 
 @property (nonatomic, strong) QMUITableView *tableView;
 

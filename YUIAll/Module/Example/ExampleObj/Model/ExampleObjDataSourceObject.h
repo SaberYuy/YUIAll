@@ -1,5 +1,5 @@
 //
-//  ExampleObjDataSource.h
+//  ExampleObjDataSourceObject.h
 //  YUIAll
 //
 //  Created by YUI on 2022/3/14.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExampleObjDataSource : NSObject <QMUITableViewDataSource>
+@interface ExampleObjDataSourceObject : NSObject <QMUITableViewDataSource>
 
 @property (nonatomic, weak) ExampleObjViewModel *modelManager;
 

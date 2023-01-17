@@ -5,9 +5,9 @@
 //  Created by YUI on 2020/11/19.
 //
 
-#import "CommonView.h"
+#import "YACommonView.h"
 
-@implementation CommonView
+@implementation YACommonView
 
 - (void)didInitialize{
     

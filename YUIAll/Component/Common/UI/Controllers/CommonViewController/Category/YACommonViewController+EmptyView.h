@@ -13,6 +13,11 @@
 //    QMUIEmptyView *_emptyView;
 //    BOOL _emptyViewShowing;
 //}
+//
+//@end
+//
+//@interface YACommonViewController (EmptyView)
+//
 ///**
 // *  空列表控件，支持显示提示文字、loading、操作按钮，该属性懒加载
 // */
@@ -20,10 +25,6 @@
 //
 ///// 当前self.emptyView是否显示
 //@property(nonatomic, assign, readonly, getter = isEmptyViewShowing) BOOL emptyViewShowing;
-//
-//@end
-//
-//@interface YACommonViewController (EmptyView)
 //
 ///**
 // *  显示emptyView

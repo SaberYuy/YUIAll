@@ -11,11 +11,11 @@
 //
 //#pragma mark - <YUIViewControllerDelegateProtocol>
 //
-//- (void)viewController:(__kindof UIViewController *)viewController withInfo:(NSDictionary *)info {
+//- (void)viewController:(__kindof UIViewController *)viewController info:(NSDictionary *)info {
 //
-//    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewController:withInfo:)]) {
+//    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewController:info:)]) {
 //
-//        [self.architectureDelegateObject viewController:viewController withInfo:info];
+//        [self.architectureDelegateObject viewController:viewController info:info];
 //    }
 //}
 //
@@ -32,11 +32,11 @@
 //
 //#pragma mark - <YUIViewModelDelegateProtocol>
 //
-//- (void)viewModel:(id)viewModel withInfo:(NSDictionary *)info {
+//- (void)viewModel:(id)viewModel info:(NSDictionary *)info {
 //
-//    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewModel:withInfo:)]) {
+//    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewModel:info:)]) {
 //
-//        [self.architectureDelegateObject viewModel:viewModel withInfo:info];
+//        [self.architectureDelegateObject viewModel:viewModel info:info];
 //    }
 //}
 //

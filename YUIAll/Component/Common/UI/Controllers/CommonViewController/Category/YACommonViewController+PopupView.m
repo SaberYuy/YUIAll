@@ -21,6 +21,7 @@
 - (void)setPopupView:(UIView *)popupView {
     
     if (popupView != _popupView) {
+        
         _popupView = popupView;
     }
 }

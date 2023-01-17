@@ -8,11 +8,11 @@
 #import "YUIViewManager+Common.h"
 #import <objc/runtime.h>
 
-#import "ComnonArchitectureDelegateObject.h"
+#import "YAComnonArchitectureDelegateObject.h"
 
 @interface YUIViewManager (Common)
 
-@property (nonatomic, strong) ComnonArchitectureDelegateObject *architectureDelegateObject;
+@property (nonatomic, strong) YAComnonArchitectureDelegateObject *architectureDelegateObject;
 
 @end
 
@@ -21,30 +21,30 @@
 #pragma mark - <YUIViewDelegate>
 
 //既然使用dict作为信息转递决定具体的操作，我在中层添加了一种集约型模式转换为离散型模式的一种可能，并且以此弱化硬编码，优化上层判断
-- (void)view:(__kindof UIView *)view withEvent:(NSDictionary *)event{
+- (void)receiveView:(__kindof UIView *)view name:(nonnull NSString *)name event:(nonnull NSDictionary *)event {
     
-    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(view:withEvent:)]) {
+    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(receiveView:name:event:)]) {
         
-        [self.architectureDelegateObject view:view withEvent:event];
+        [self.architectureDelegateObject receiveView:view name:name event:event];
     }
 }
 
 #pragma mark - <YUIViewModelDelegate>
 
-- (void)viewModel:(id)viewModel withInfo:(NSDictionary *)info{
+- (void)receiveViewModel:(id)viewModel name:(NSString *)name userInfo:(nonnull NSDictionary *)userInfo {
     
-    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(viewModel:withInfo:)]) {
+    if(self.architectureDelegateObject && [self.architectureDelegateObject respondsToSelector:@selector(receiveViewModel:name:userInfo:)]) {
         
-        [self.architectureDelegateObject viewModel:viewModel withInfo:info];
+        [self.architectureDelegateObject receiveViewModel:viewModel name:name userInfo:userInfo];
     }
 }
 
-- (ComnonArchitectureDelegateObject *)architectureDelegateObject{
+- (YAComnonArchitectureDelegateObject *)architectureDelegateObject{
     
-    ComnonArchitectureDelegateObject *architectureDelegateObject = objc_getAssociatedObject(self, _cmd);
+    YAComnonArchitectureDelegateObject *architectureDelegateObject = objc_getAssociatedObject(self, _cmd);
     
     if(!architectureDelegateObject) {
-        architectureDelegateObject = [ComnonArchitectureDelegateObject new];
+        architectureDelegateObject = [YAComnonArchitectureDelegateObject new];
         architectureDelegateObject.delegate = self;
         [self setArchitectureDelegateObject:architectureDelegateObject];
     }
@@ -52,7 +52,7 @@
     return architectureDelegateObject;
 }
 
-- (void)setArchitectureDelegateObject:(ComnonArchitectureDelegateObject *)architectureDelegateObject{
+- (void)setArchitectureDelegateObject:(YAComnonArchitectureDelegateObject *)architectureDelegateObject{
     
     objc_setAssociatedObject(self, @selector(architectureDelegateObject), architectureDelegateObject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }

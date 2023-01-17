@@ -8,12 +8,12 @@
 #ifndef CommonUI_h
 #define CommonUI_h
 
-#if __has_include("CommonViewModel.h")
-#import "CommonViewModel.h"
+#if __has_include("YACommonViewModel.h")
+#import "YACommonViewModel.h"
 #endif
 
-#if __has_include("CommonViewManager.h")
-#import "CommonViewManager.h"
+#if __has_include("YACommonViewManager.h")
+#import "YACommonViewManager.h"
 #endif
 
 #if __has_include("YUIViewManager+Common.h")
@@ -22,7 +22,7 @@
 
 
 #if __has_include("CommonView.h")
-#import "CommonView.h"
+#import "YACommonView.h"
 #endif
 
 #if __has_include("UIView+Common.h")
@@ -48,7 +48,7 @@
 
 
 #if __has_include("ComnonArchitectureDelegateObject.h")
-#import "ComnonArchitectureDelegateObject.h"
+#import "YAComnonArchitectureDelegateObject.h"
 #endif
 
 #if __has_include("CommonEmptyDataTableSetViewDelegateObject.h")

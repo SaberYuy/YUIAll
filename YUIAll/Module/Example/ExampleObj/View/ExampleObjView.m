@@ -11,11 +11,6 @@
 
 @interface ExampleObjView ()
 
-//@property (nonatomic, strong) QMUILabel *label;
-//@property (nonatomic, strong) UIButton *btn;
-//@property (nonatomic, strong) UIImageView *imageView;
-//@property (nonatomic, strong) QMUITableView *tableView;
-
 @end
 
 
@@ -23,12 +18,12 @@
 
 static NSString * const kExampleObjTableViewCell = @"ExampleObjTableViewCellID";
 
-- (void)setupMainView{
+- (void)setupMainView {
     
     self.backgroundColor = [UIColor qmui_randomColor];
 }
 
-- (void)initSubviews{
+- (void)initSubviews {
     
     [super initSubviews];
     
@@ -36,30 +31,46 @@ static NSString * const kExampleObjTableViewCell = @"ExampleObjTableViewCellID";
     [_tableView setBackgroundColor:[UIColor whiteColor]];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 //    [_tableView setContentInset:UIEdgeInsetsMake( 0, 0, SafeAreaInsetsConstantForDeviceWithNotch.bottom, 0)];
-    _tableView.rowHeight = (NSInteger)(SCREEN_HEIGHT / 3);
+    _tableView.rowHeight = 100;
 //    _tableView.tableHeaderView = self.headerView;
 //    _tableView.sectionHeaderHeight = kWidth(98);
 //    _tableView.sectionHeaderHeight = kWidth(5);
 //    _tableView.sectionFooterHeight = kWidth(0);
     [self addSubview:_tableView];
+    
+    _aBtn = [UIButton new];
+    _aBtn.backgroundColor = [UIColor qmui_randomColor];
+    [self addSubview: _aBtn];
 }
 
-- (void)setupSubviewsConstraints{
+- (void)setupSubviewsConstraints {
 
     [super setupSubviewsConstraints];
-
+    
     [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-
-        make.top.bottom.left.right.equalTo(self);
+        make.top.left.right.bottom.equalTo(self);
+    }];
+    
+    [_aBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.equalTo(self).offset(100);
+        make.width.height.mas_equalTo(100);
     }];
 }
 
-- (void)tapA{
+- (void)tapA {
     
 //    if(self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(view:withEvent:)]) {
 //        
 //        [self.viewDelegate view:self withEvent:@{@"name":@"tapA",@"data":@"123"}];
 //    }
+}
+
+- (void)tapB {
+    
+    if(self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(receiveView:name:event:)]) {
+
+        [self.viewDelegate receiveView:self name:@"tapB" event:@{@"data": @"123"}];
+    }
 }
 
 @end

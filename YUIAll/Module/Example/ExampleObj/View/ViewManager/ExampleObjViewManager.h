@@ -5,11 +5,22 @@
 //  Created by YUI on 2020/11/24.
 //
 
-#import "CommonViewManager.h"
+#import "YACommonViewManager.h"
+
+#import "ExampleObjView.h"
+#import "ExampleObjViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExampleObjViewManager : CommonViewManager <QMUITableViewDelegate>
+@interface ExampleObjViewManager : YACommonViewManager <QMUITableViewDelegate>
+
+@property (nonatomic, weak) ExampleObjView *managerView;
+
+@property (nonatomic, weak) ExampleObjViewController *viewController;
+
+- (void)tapA:(NSDictionary *)event;
+
+- (void)tapB:(NSDictionary *)event;
 
 @end
 

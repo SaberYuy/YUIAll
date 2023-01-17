@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CommonView : YUIView
+@interface YACommonView : YUIView
 
 @end
 

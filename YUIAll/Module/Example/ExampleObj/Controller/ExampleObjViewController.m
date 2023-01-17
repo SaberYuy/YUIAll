@@ -8,7 +8,7 @@
 #import "ExampleObjViewController.h"
 
 #import "ExampleObjViewModel.h"
-#import "ExampleObjDataSource.h"
+#import "ExampleObjDataSourceObject.h"
 #import "ExampleObjView.h"
 #import "ExampleObjViewManager.h"
 //
@@ -19,8 +19,8 @@
 
 @property (nonatomic, strong) ExampleObjView *mainView;
 @property (nonatomic, strong) ExampleObjViewModel *viewModel;
-@property (nonatomic, strong) ExampleObjDataSource *dataSourceObject;
 @property (nonatomic, strong) ExampleObjViewManager *viewManager;
+@property (nonatomic, strong) ExampleObjDataSourceObject *dataSourceObject;
 //@property ()
 
 @end
@@ -35,7 +35,7 @@
 
 - (void)configureArchitecture{
     
-    [super configureArchitecture:YUIArchitectureTypeMVVM];
+    [super configureArchitecture: YUIArchitectureTypeMVVM];
 }
 //
 //- (void)didInitialize{
@@ -63,22 +63,19 @@
     
     [super viewDidLoad];
     
-    
+    [self.viewModel loadData:nil];
 }
-//printf("该日期%d天后为:%d年%d月%d日\n:", copyN,year, month, day);
-//}
 
-//return @"";
-//}
+- (void)configureBingding{
 
-//- (void)configureBingding{
-//
-//    [super configureBingding];
-//
-//    self.dataSourceObject.modelManager = self.viewModel;
-//    self.mainView.tableView.delegate = self.viewManager;
-//    self.mainView.tableView.dataSource = self.dataSourceObject;
-//}
+    [super configureBingding];
+    
+    [self.mainView.aBtn addTarget:self.viewManager action:@selector(tapA:) forControlEvents:UIControlEventTouchDown];
+
+    self.dataSourceObject.modelManager = self.viewModel;
+    self.mainView.tableView.delegate = self.viewManager;
+    self.mainView.tableView.dataSource = self.dataSourceObject;
+}
 
 //#pragma mark - UITableViewDelegate
 #pragma mark - ViewDelegate
@@ -102,13 +99,13 @@
 #pragma mark - private methods
 #pragma mark - getters and setters
 
-//- (ExampleObjDataSource *)dataSourceObject{
-//
-//    if(!_dataSourceObject) {
-//
-//        _dataSourceObject = [ExampleObjDataSource new];
-//    }
-//    return _dataSourceObject;
-//}
+- (ExampleObjDataSourceObject *)dataSourceObject {
+
+    if(!_dataSourceObject) {
+
+        _dataSourceObject = [ExampleObjDataSourceObject new];
+    }
+    return _dataSourceObject;
+}
 
 @end

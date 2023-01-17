@@ -1,5 +1,5 @@
 //
-//  CommonViewModel.h
+//  YACommonViewModel.h
 //  YUIAll
 //
 //  Created by YUI on 2021/5/17.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CommonViewModel : YUIViewModel
+@interface YACommonViewModel : YUIViewModel
 
 @end
 

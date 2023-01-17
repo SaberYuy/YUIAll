@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nullable, nonatomic, strong) UIView *popupView;
 
+@property(nonatomic, assign, readonly, getter = isPopupViewShowing) BOOL popupViewShowing;
+
 /**
  *  显示popupView
  *  popupView 的以下系列接口可以按需进行重写

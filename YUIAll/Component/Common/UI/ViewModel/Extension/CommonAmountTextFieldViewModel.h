@@ -5,7 +5,7 @@
 //  Created by YUI on 2021/5/12.
 //
 
-#import "CommonViewModel.h"
+#import "YACommonViewModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

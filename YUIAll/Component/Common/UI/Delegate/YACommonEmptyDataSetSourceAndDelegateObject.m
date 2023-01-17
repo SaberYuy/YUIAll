@@ -5,9 +5,9 @@
 //  Created by YUI on 2021/6/10.
 //
 
-#import "CommonEmptyDataSetSourceAndDelegateObject.h"
+#import "YACommonEmptyDataSetSourceAndDelegateObject.h"
 
-@implementation CommonEmptyDataSetSourceAndDelegateObject
+@implementation YACommonEmptyDataSetSourceAndDelegateObject
 
 - (instancetype)init{
     
