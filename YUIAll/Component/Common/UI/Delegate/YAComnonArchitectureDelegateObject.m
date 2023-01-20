@@ -38,8 +38,7 @@
     NSMutableDictionary *infoDict = [NSMutableDictionary dictionaryWithDictionary:userInfo];
     [infoDict addEntriesFromDictionary:@{@"viewController":viewController}];
     
-    NSString *methodName = [infoDict objectForKey:@"name"];
-    [self performDynamicMethodWithName:methodName info:infoDict];
+    [self performDynamicMethodWithName:name info:infoDict];
 }
 
 - (void)performDynamicMethodWithName:(NSString *)name info:(NSDictionary *)info{
