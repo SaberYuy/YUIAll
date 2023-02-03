@@ -2,7 +2,7 @@
 //  YACommonArchitectureViewController.m
 //  YUIAll
 //
-//  Created by SPDBVIP453 on 2022/12/14.
+//  Created by YUI on 2022/12/14.
 //
 
 #import "YACommonArchitectureViewController.h"

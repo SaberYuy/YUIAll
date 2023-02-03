@@ -2,7 +2,7 @@
 //  YACommonArchitectureViewController+YASubclassingHooks.m
 //  YUIAll
 //
-//  Created by SPDBVIP453 on 2022/12/30.
+//  Created by YUI on 2022/12/30.
 //
 
 #import "YACommonArchitectureViewController+YASubclassingHooks.h"
