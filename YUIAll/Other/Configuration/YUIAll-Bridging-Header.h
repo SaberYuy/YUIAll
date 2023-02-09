@@ -2,20 +2,24 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#if __has_include("AppLifeCycleMediator.h")
-#import "AppLifeCycleMediator.h"
+#if __has_include("AppLifecycleMediator.h")
+#import "AppLifecycleMediator.h"
 #endif
 
-#if __has_include("MediationKit+ExampleObjAction.h")
-#import "MediationKit+ExampleObjAction.h"
+#if __has_include("AppLifecycleMediatorProtocol.h")
+#import "AppLifecycleMediatorProtocol.h"
+#endif
+
+#if __has_include("MediationKit+ExampleObjcAction.h")
+#import "MediationKit+ExampleObjcAction.h"
 #endif
 
 #if __has_include("MediationKit+MainAction.h")
 #import "MediationKit+MainAction.h"
 #endif
 
-#if __has_include("CommonLib.h")
-#import "CommonLib.h"
+#if __has_include("YACommonLib.h")
+#import "YACommonLib.h"
 #endif
 
 #if __has_include("BaseLib.h")

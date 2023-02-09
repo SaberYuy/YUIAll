@@ -8,7 +8,7 @@
 
 #import "MainTabBarController.h"
 
-#import "MediationKit+ExampleObjAction.h"
+#import "MediationKit+ExampleObjcAction.h"
 
 @interface MainTabBarController ()
 
@@ -37,12 +37,12 @@
     example2TBI.selectedImage = [[UIImage imageNamed:@"Main_Btn_Personal_Selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [example2TBI setImage:[UIImage imageNamed:@"Main_Btn_Personal_Unselected"]];
     
-//    UIViewController *example1VC = [[MediationKit sharedInstance]viewControllerForExampleObj];
+//    UIViewController *example1VC = [[MediationKit sharedInstance]viewControllerForExampleObjc];
 //    UINavigationController *example1NC = [[UINavigationController alloc]initWithRootViewController:example1VC];
 //    [example1NC setTitle:@"测试"];
 //
 ////    YACommonViewController *PersonalVC = [[YACommonViewController alloc]init];
-//    UIViewController *example2VC = [[MediationKit sharedInstance]viewControllerForExampleObj];
+//    UIViewController *example2VC = [[MediationKit sharedInstance]viewControllerForExampleObjc];
 //    [example2NC setTitle:@"我的"];
 //
 //    example1NC.tabBarItem = example1TBI;
@@ -50,8 +50,8 @@
     
 //    [self setViewControllers:@[example1NC,example2NC] animated:YES];
     
-    UIViewController *example1VC = [[MediationKit sharedInstance]viewControllerForExampleObj];
-    UIViewController *example2VC = [[MediationKit sharedInstance]viewControllerForExampleObj];
+    UIViewController *example1VC = [[MediationKit sharedInstance]viewControllerForExampleObjc];
+    UIViewController *example2VC = [[MediationKit sharedInstance]viewControllerForExampleObjc];
     
     [self addChildVC:example1VC title:@"测试" image:nil selectedImage:nil];
     [self addChildVC:example2VC title:@"我的" image:nil selectedImage:nil];

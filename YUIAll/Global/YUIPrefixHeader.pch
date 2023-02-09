@@ -15,9 +15,9 @@
 
 #import "GlobalState.h"
 
-#import "CommonLib.h"
-
 #import "BaseLib.h"
+
+#import "CommonLib.h"
 
 #import <QMUIKit/QMUIKit.h>
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B41E71CA2938AD5F009D3FC6 /* QMUIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E71C92938AD5F009D3FC6 /* QMUIModule.m */; };
+		B41E71CA2938AD5F009D3FC6 /* QMUIAppLifecycleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E71C92938AD5F009D3FC6 /* QMUIAppLifecycleModule.m */; };
 		B449E74A2948531500FD84E3 /* YATabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E7482948531500FD84E3 /* YATabBarViewController.m */; };
 		B449E74D29486EA500FD84E3 /* YACommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E74B29486EA500FD84E3 /* YACommonViewController.m */; };
 		B449E7552949771A00FD84E3 /* YACommonArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E7542949771A00FD84E3 /* YACommonArchitectureViewController.m */; };
@@ -54,6 +54,11 @@
 		B48E5B88294090A900B3741F /* YUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B7F294090A900B3741F /* YUIConfigurationTemplateGrass.m */; };
 		B48E5B89294090A900B3741F /* YUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B81294090A900B3741F /* YUIConfigurationTemplateDark.m */; };
 		B48E5B8A294090A900B3741F /* YAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B82294090A900B3741F /* YAThemeManager.m */; };
+		B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2043C2990D6240042AFD2 /* HUDService.swift */; };
+		B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */; };
+		B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */; };
+		B4A20453299374AC0042AFD2 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A20452299374AC0042AFD2 /* AppDIContainer.swift */; };
+		B4A2045529939A0B0042AFD2 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2045429939A0B0042AFD2 /* AppAppearance.swift */; };
 		B4AE9F01298CDB0B005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9EFB298CDB0A005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift */; };
 		B4AE9F02298CDB0B005F9C7A /* UIViewController+AddChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9EFC298CDB0A005F9C7A /* UIViewController+AddChild.swift */; };
 		B4AE9F03298CDB0B005F9C7A /* DataTransferError+ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9EFD298CDB0A005F9C7A /* DataTransferError+ConnectionError.swift */; };
@@ -64,9 +69,15 @@
 		B4AE9F0B298CE00C005F9C7A /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F08298CE00C005F9C7A /* DataTransferService.swift */; };
 		B4AE9F0C298CE00C005F9C7A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F09298CE00C005F9C7A /* Endpoint.swift */; };
 		B4AE9F0E298CE012005F9C7A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F0D298CE012005F9C7A /* NetworkService.swift */; };
-		B4AE9F11298CE105005F9C7A /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F10298CE105005F9C7A /* Cancellable.swift */; };
-		B4AE9F13298CE195005F9C7A /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F12298CE195005F9C7A /* ConnectionError.swift */; };
-		B4AE9F1A298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F19298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.m */; };
+		B4AE9F1A298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F19298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m */; };
+		B4AE9F1D299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F1C299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift */; };
+		B4AE9F1F2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F1E2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift */; };
+		B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */; };
+		B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F24299094F4005F9C7A /* Controller.swift */; };
+		B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */; };
+		B4ECC0DF2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */; };
+		B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E12994D01200E8740F /* ConnectionError.swift */; };
+		B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E22994D01200E8740F /* Cancellable.swift */; };
 		B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */; };
 		B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */; };
 		B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */; };
@@ -79,21 +90,21 @@
 		BA77D3D2289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3D1289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift */; };
 		BA77D500289FADC300F323EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3F7289FADC100F323EB /* HomeViewController.m */; };
 		BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3FA289FADC100F323EB /* HomeModelManager.m */; };
-		BA77D50B289FADC300F323EB /* ExampleObjMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D41B289FADC100F323EB /* ExampleObjMVCViewController.m */; };
-		BA77D50C289FADC300F323EB /* ExampleObjMVCDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D41E289FADC100F323EB /* ExampleObjMVCDataSourceObject.m */; };
-		BA77D50D289FADC300F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D422289FADC100F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.m */; };
-		BA77D50E289FADC300F323EB /* ExampleObjMVCModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D423289FADC100F323EB /* ExampleObjMVCModelManager.m */; };
-		BA77D510289FADC300F323EB /* ExampleObjMVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D429289FADC200F323EB /* ExampleObjMVCView.m */; };
-		BA77D511289FADC300F323EB /* ExampleObjMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42D289FADC200F323EB /* ExampleObjMVVMViewModel.m */; };
-		BA77D512289FADC300F323EB /* ExampleObjMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42F289FADC200F323EB /* ExampleObjMVVMViewController.m */; };
-		BA77D513289FADC300F323EB /* Target_ExampleObj.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D432289FADC200F323EB /* Target_ExampleObj.m */; };
-		BA77D515289FADC300F323EB /* ExampleObjMVVMDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D436289FADC200F323EB /* ExampleObjMVVMDataSourceObject.m */; };
-		BA77D516289FADC300F323EB /* ExampleObjModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D439289FADC200F323EB /* ExampleObjModelManager.m */; };
-		BA77D517289FADC300F323EB /* ExampleObjImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43B289FADC200F323EB /* ExampleObjImage.m */; };
-		BA77D518289FADC300F323EB /* ExampleObjRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43E289FADC200F323EB /* ExampleObjRequest.m */; };
-		BA77D519289FADC300F323EB /* ExampleObjMVVMViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D441289FADC200F323EB /* ExampleObjMVVMViewManager.m */; };
-		BA77D51A289FADC300F323EB /* ExampleObjMVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D443289FADC200F323EB /* ExampleObjMVVMView.m */; };
-		BA77D51B289FADC300F323EB /* ExampleObjTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D445289FADC200F323EB /* ExampleObjTableViewCell.m */; };
+		BA77D50B289FADC300F323EB /* ExampleObjcMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D41B289FADC100F323EB /* ExampleObjcMVCViewController.m */; };
+		BA77D50C289FADC300F323EB /* ExampleObjcMVCDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D41E289FADC100F323EB /* ExampleObjcMVCDataSourceObject.m */; };
+		BA77D50D289FADC300F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D422289FADC100F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m */; };
+		BA77D50E289FADC300F323EB /* ExampleObjcMVCModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D423289FADC100F323EB /* ExampleObjcMVCModelManager.m */; };
+		BA77D510289FADC300F323EB /* ExampleObjcMVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D429289FADC200F323EB /* ExampleObjcMVCView.m */; };
+		BA77D511289FADC300F323EB /* ExampleObjcMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42D289FADC200F323EB /* ExampleObjcMVVMViewModel.m */; };
+		BA77D512289FADC300F323EB /* ExampleObjcMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42F289FADC200F323EB /* ExampleObjcMVVMViewController.m */; };
+		BA77D513289FADC300F323EB /* Target_ExampleObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D432289FADC200F323EB /* Target_ExampleObjc.m */; };
+		BA77D515289FADC300F323EB /* ExampleObjcMVVMDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D436289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.m */; };
+		BA77D516289FADC300F323EB /* ExampleObjcModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D439289FADC200F323EB /* ExampleObjcModelManager.m */; };
+		BA77D517289FADC300F323EB /* ExampleObjcImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43B289FADC200F323EB /* ExampleObjcImage.m */; };
+		BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43E289FADC200F323EB /* ExampleObjcRequest.m */; };
+		BA77D519289FADC300F323EB /* ExampleObjcMVVMViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D441289FADC200F323EB /* ExampleObjcMVVMViewManager.m */; };
+		BA77D51A289FADC300F323EB /* ExampleObjcMVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D443289FADC200F323EB /* ExampleObjcMVVMView.m */; };
+		BA77D51B289FADC300F323EB /* ExampleObjcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D445289FADC200F323EB /* ExampleObjcTableViewCell.m */; };
 		BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D44A289FADC200F323EB /* MainTabBarController.m */; };
 		BA77D51D289FADC300F323EB /* Target_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D44D289FADC200F323EB /* Target_Main.m */; };
 		BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D453289FADC200F323EB /* LoginViewController.m */; };
@@ -101,23 +112,20 @@
 		BA77D520289FADC300F323EB /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D45A289FADC200F323EB /* LoginRequest.m */; };
 		BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D45D289FADC200F323EB /* LoginViewManager.m */; };
 		BA77D522289FADC300F323EB /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D462289FADC200F323EB /* GlobalState.m */; };
-		BA77D523289FADC300F323EB /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D466289FADC200F323EB /* LaunchScreen.strings */; };
-		BA77D524289FADC300F323EB /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D468289FADC200F323EB /* Main.strings */; };
 		BA77D526289FADC300F323EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */; };
 		BA77D527289FADC300F323EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA77D471289FADC200F323EB /* Main.storyboard */; };
-		BA77D528289FADC300F323EB /* YUIAppLifeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D476289FADC200F323EB /* YUIAppLifeModule.m */; };
-		BA77D529289FADC300F323EB /* AppLifeCycleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D477289FADC200F323EB /* AppLifeCycleMediator.m */; };
+		BA77D528289FADC300F323EB /* YAAppLifecycleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D476289FADC200F323EB /* YAAppLifecycleModule.m */; };
+		BA77D529289FADC300F323EB /* AppLifecycleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D477289FADC200F323EB /* AppLifecycleMediator.m */; };
 		BA77D52A289FADC300F323EB /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA77D479289FADC200F323EB /* ModulesRegister.plist */; };
 		BA77D52B289FADC300F323EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D47A289FADC200F323EB /* AppDelegate.swift */; };
 		BA77D52C289FADC300F323EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D47C289FADC200F323EB /* Localizable.strings */; };
-		BA77D52D289FADC300F323EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA77D47F289FADC200F323EB /* InfoPlist.strings */; };
 		BA77D52E289FADC300F323EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA77D481289FADC200F323EB /* Assets.xcassets */; };
 		BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA77D482289FADC200F323EB /* YUIAll.xcdatamodeld */; };
 		BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D485289FADC200F323EB /* SceneDelegate.swift */; };
 		BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D488289FADC200F323EB /* UIKit+YUI.swift */; };
 		BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */; };
 		BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */; };
-		BA77D546289FADC300F323EB /* MediationKit+ExampleObjAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjAction.m */; };
+		BA77D546289FADC300F323EB /* MediationKit+ExampleObjcAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjcAction.m */; };
 		BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */; };
 		BA77D548289FADC300F323EB /* CommonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4CF289FADC200F323EB /* CommonRequest.m */; };
 		BA77D549289FADC300F323EB /* LayoutService.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4D3289FADC200F323EB /* LayoutService.m */; };
@@ -151,8 +159,8 @@
 /* Begin PBXFileReference section */
 		190F12E058B8EBFE9E3E28BC /* Pods-YUIAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.debug.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.debug.xcconfig"; sourceTree = "<group>"; };
 		72E9BD2221A36A7AA20E842C /* Pods-YUIAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.release.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.release.xcconfig"; sourceTree = "<group>"; };
-		B41E71C82938AD5F009D3FC6 /* QMUIModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIModule.h; sourceTree = "<group>"; };
-		B41E71C92938AD5F009D3FC6 /* QMUIModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIModule.m; sourceTree = "<group>"; };
+		B41E71C82938AD5F009D3FC6 /* QMUIAppLifecycleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIAppLifecycleModule.h; sourceTree = "<group>"; };
+		B41E71C92938AD5F009D3FC6 /* QMUIAppLifecycleModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIAppLifecycleModule.m; sourceTree = "<group>"; };
 		B449E7482948531500FD84E3 /* YATabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YATabBarViewController.m; sourceTree = "<group>"; };
 		B449E7492948531500FD84E3 /* YATabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YATabBarViewController.h; sourceTree = "<group>"; };
 		B449E74B29486EA500FD84E3 /* YACommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonViewController.m; sourceTree = "<group>"; };
@@ -247,6 +255,11 @@
 		B48E5B82294090A900B3741F /* YAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAThemeManager.m; sourceTree = "<group>"; };
 		B48E5B83294090A900B3741F /* YAThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAThemeProtocol.h; sourceTree = "<group>"; };
 		B48E5B84294090A900B3741F /* YUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		B4A2043C2990D6240042AFD2 /* HUDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDService.swift; sourceTree = "<group>"; };
+		B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
+		B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		B4A20452299374AC0042AFD2 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		B4A2045429939A0B0042AFD2 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
 		B4AE9EFB298CDB0A005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageSizeAfterAspectFit.swift"; sourceTree = "<group>"; };
 		B4AE9EFC298CDB0A005F9C7A /* UIViewController+AddChild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddChild.swift"; sourceTree = "<group>"; };
 		B4AE9EFD298CDB0A005F9C7A /* DataTransferError+ConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataTransferError+ConnectionError.swift"; sourceTree = "<group>"; };
@@ -257,10 +270,16 @@
 		B4AE9F08298CE00C005F9C7A /* DataTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
 		B4AE9F09298CE00C005F9C7A /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		B4AE9F0D298CE012005F9C7A /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		B4AE9F10298CE105005F9C7A /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
-		B4AE9F12298CE195005F9C7A /* ConnectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
-		B4AE9F18298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVVMEmptyDataSetDelegateObject.h; sourceTree = "<group>"; };
-		B4AE9F19298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVVMEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
+		B4AE9F18298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMEmptyDataSetDelegateObject.h; sourceTree = "<group>"; };
+		B4AE9F19298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
+		B4AE9F1C299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftFlowCoordinator.swift; sourceTree = "<group>"; };
+		B4AE9F1E2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListSearchFlowCoordinator.swift; sourceTree = "<group>"; };
+		B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewController.swift; sourceTree = "<group>"; };
+		B4AE9F24299094F4005F9C7A /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewModel.swift; sourceTree = "<group>"; };
+		B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAppLifeCycleSwiftModule.swift; sourceTree = "<group>"; };
+		B4ECC0E12994D01200E8740F /* ConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
+		B4ECC0E22994D01200E8740F /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewManager.swift; sourceTree = "<group>"; };
 		B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
 		B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
@@ -279,36 +298,36 @@
 		BA77D3F8289FADC100F323EB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BA77D3FA289FADC100F323EB /* HomeModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModelManager.m; sourceTree = "<group>"; };
 		BA77D3FB289FADC100F323EB /* HomeModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModelManager.h; sourceTree = "<group>"; };
-		BA77D41B289FADC100F323EB /* ExampleObjMVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVCViewController.m; sourceTree = "<group>"; };
-		BA77D41C289FADC100F323EB /* ExampleObjMVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVCViewController.h; sourceTree = "<group>"; };
-		BA77D41E289FADC100F323EB /* ExampleObjMVCDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVCDataSourceObject.m; sourceTree = "<group>"; };
-		BA77D41F289FADC100F323EB /* ExampleObjMVCModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVCModelManager.h; sourceTree = "<group>"; };
-		BA77D420289FADC100F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVCEmptyDataSetDelegateObject.h; sourceTree = "<group>"; };
-		BA77D421289FADC100F323EB /* ExampleObjMVCDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVCDataSourceObject.h; sourceTree = "<group>"; };
-		BA77D422289FADC100F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVCEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
-		BA77D423289FADC100F323EB /* ExampleObjMVCModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVCModelManager.m; sourceTree = "<group>"; };
-		BA77D425289FADC100F323EB /* ExampleObjMVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVCView.h; sourceTree = "<group>"; };
-		BA77D429289FADC200F323EB /* ExampleObjMVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVCView.m; sourceTree = "<group>"; };
-		BA77D42C289FADC200F323EB /* ExampleObjMVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVVMViewModel.h; sourceTree = "<group>"; };
-		BA77D42D289FADC200F323EB /* ExampleObjMVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVVMViewModel.m; sourceTree = "<group>"; };
-		BA77D42F289FADC200F323EB /* ExampleObjMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVVMViewController.m; sourceTree = "<group>"; };
-		BA77D430289FADC200F323EB /* ExampleObjMVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVVMViewController.h; sourceTree = "<group>"; };
-		BA77D432289FADC200F323EB /* Target_ExampleObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ExampleObj.m; sourceTree = "<group>"; };
-		BA77D433289FADC200F323EB /* Target_ExampleObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ExampleObj.h; sourceTree = "<group>"; };
-		BA77D436289FADC200F323EB /* ExampleObjMVVMDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVVMDataSourceObject.m; sourceTree = "<group>"; };
-		BA77D437289FADC200F323EB /* ExampleObjModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjModelManager.h; sourceTree = "<group>"; };
-		BA77D438289FADC200F323EB /* ExampleObjImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjImage.h; sourceTree = "<group>"; };
-		BA77D439289FADC200F323EB /* ExampleObjModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjModelManager.m; sourceTree = "<group>"; };
-		BA77D43A289FADC200F323EB /* ExampleObjMVVMDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVVMDataSourceObject.h; sourceTree = "<group>"; };
-		BA77D43B289FADC200F323EB /* ExampleObjImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjImage.m; sourceTree = "<group>"; };
-		BA77D43D289FADC200F323EB /* ExampleObjRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjRequest.h; sourceTree = "<group>"; };
-		BA77D43E289FADC200F323EB /* ExampleObjRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjRequest.m; sourceTree = "<group>"; };
-		BA77D441289FADC200F323EB /* ExampleObjMVVMViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVVMViewManager.m; sourceTree = "<group>"; };
-		BA77D442289FADC200F323EB /* ExampleObjMVVMViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVVMViewManager.h; sourceTree = "<group>"; };
-		BA77D443289FADC200F323EB /* ExampleObjMVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjMVVMView.m; sourceTree = "<group>"; };
-		BA77D445289FADC200F323EB /* ExampleObjTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjTableViewCell.m; sourceTree = "<group>"; };
-		BA77D446289FADC200F323EB /* ExampleObjTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjTableViewCell.h; sourceTree = "<group>"; };
-		BA77D447289FADC200F323EB /* ExampleObjMVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjMVVMView.h; sourceTree = "<group>"; };
+		BA77D41B289FADC100F323EB /* ExampleObjcMVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVCViewController.m; sourceTree = "<group>"; };
+		BA77D41C289FADC100F323EB /* ExampleObjcMVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVCViewController.h; sourceTree = "<group>"; };
+		BA77D41E289FADC100F323EB /* ExampleObjcMVCDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVCDataSourceObject.m; sourceTree = "<group>"; };
+		BA77D41F289FADC100F323EB /* ExampleObjcMVCModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVCModelManager.h; sourceTree = "<group>"; };
+		BA77D420289FADC100F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVCEmptyDataSetDelegateObject.h; sourceTree = "<group>"; };
+		BA77D421289FADC100F323EB /* ExampleObjcMVCDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVCDataSourceObject.h; sourceTree = "<group>"; };
+		BA77D422289FADC100F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVCEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
+		BA77D423289FADC100F323EB /* ExampleObjcMVCModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVCModelManager.m; sourceTree = "<group>"; };
+		BA77D425289FADC100F323EB /* ExampleObjcMVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVCView.h; sourceTree = "<group>"; };
+		BA77D429289FADC200F323EB /* ExampleObjcMVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVCView.m; sourceTree = "<group>"; };
+		BA77D42C289FADC200F323EB /* ExampleObjcMVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMViewModel.h; sourceTree = "<group>"; };
+		BA77D42D289FADC200F323EB /* ExampleObjcMVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMViewModel.m; sourceTree = "<group>"; };
+		BA77D42F289FADC200F323EB /* ExampleObjcMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMViewController.m; sourceTree = "<group>"; };
+		BA77D430289FADC200F323EB /* ExampleObjcMVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMViewController.h; sourceTree = "<group>"; };
+		BA77D432289FADC200F323EB /* Target_ExampleObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ExampleObjc.m; sourceTree = "<group>"; };
+		BA77D433289FADC200F323EB /* Target_ExampleObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ExampleObjc.h; sourceTree = "<group>"; };
+		BA77D436289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMDataSourceObject.m; sourceTree = "<group>"; };
+		BA77D437289FADC200F323EB /* ExampleObjcModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcModelManager.h; sourceTree = "<group>"; };
+		BA77D438289FADC200F323EB /* ExampleObjcImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcImage.h; sourceTree = "<group>"; };
+		BA77D439289FADC200F323EB /* ExampleObjcModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcModelManager.m; sourceTree = "<group>"; };
+		BA77D43A289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMDataSourceObject.h; sourceTree = "<group>"; };
+		BA77D43B289FADC200F323EB /* ExampleObjcImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcImage.m; sourceTree = "<group>"; };
+		BA77D43D289FADC200F323EB /* ExampleObjcRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcRequest.h; sourceTree = "<group>"; };
+		BA77D43E289FADC200F323EB /* ExampleObjcRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcRequest.m; sourceTree = "<group>"; };
+		BA77D441289FADC200F323EB /* ExampleObjcMVVMViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMViewManager.m; sourceTree = "<group>"; };
+		BA77D442289FADC200F323EB /* ExampleObjcMVVMViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMViewManager.h; sourceTree = "<group>"; };
+		BA77D443289FADC200F323EB /* ExampleObjcMVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMView.m; sourceTree = "<group>"; };
+		BA77D445289FADC200F323EB /* ExampleObjcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcTableViewCell.m; sourceTree = "<group>"; };
+		BA77D446289FADC200F323EB /* ExampleObjcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcTableViewCell.h; sourceTree = "<group>"; };
+		BA77D447289FADC200F323EB /* ExampleObjcMVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMView.h; sourceTree = "<group>"; };
 		BA77D44A289FADC200F323EB /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		BA77D44B289FADC200F323EB /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		BA77D44D289FADC200F323EB /* Target_Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Main.m; sourceTree = "<group>"; };
@@ -326,35 +345,30 @@
 		BA77D462289FADC200F323EB /* GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalState.m; sourceTree = "<group>"; };
 		BA77D463289FADC200F323EB /* YUIGlobalMacro.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIGlobalMacro.pch; sourceTree = "<group>"; };
 		BA77D464289FADC200F323EB /* YUIPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIPrefixHeader.pch; sourceTree = "<group>"; };
-		BA77D467289FADC200F323EB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		BA77D469289FADC200F323EB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BA77D46C289FADC200F323EB /* YUIAll-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIAll-Bridging-Header.h"; sourceTree = "<group>"; };
-		BA77D46D289FADC200F323EB /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		BA77D46E289FADC200F323EB /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
 		BA77D470289FADC200F323EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA77D472289FADC200F323EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA77D474289FADC200F323EB /* AppLifeCycleMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLifeCycleMediator.h; sourceTree = "<group>"; };
-		BA77D475289FADC200F323EB /* AppLifeCycleMediatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLifeCycleMediatorProtocol.h; sourceTree = "<group>"; };
-		BA77D476289FADC200F323EB /* YUIAppLifeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIAppLifeModule.m; sourceTree = "<group>"; };
-		BA77D477289FADC200F323EB /* AppLifeCycleMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLifeCycleMediator.m; sourceTree = "<group>"; };
-		BA77D478289FADC200F323EB /* YUIAppLifeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIAppLifeModule.h; sourceTree = "<group>"; };
+		BA77D474289FADC200F323EB /* AppLifecycleMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLifecycleMediator.h; sourceTree = "<group>"; };
+		BA77D475289FADC200F323EB /* AppLifecycleMediatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLifecycleMediatorProtocol.h; sourceTree = "<group>"; };
+		BA77D476289FADC200F323EB /* YAAppLifecycleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAAppLifecycleModule.m; sourceTree = "<group>"; };
+		BA77D477289FADC200F323EB /* AppLifecycleMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLifecycleMediator.m; sourceTree = "<group>"; };
+		BA77D478289FADC200F323EB /* YAAppLifecycleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAAppLifecycleModule.h; sourceTree = "<group>"; };
 		BA77D479289FADC200F323EB /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
 		BA77D47A289FADC200F323EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA77D47D289FADC200F323EB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BA77D47E289FADC200F323EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		BA77D480289FADC200F323EB /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		BA77D481289FADC200F323EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA77D483289FADC200F323EB /* YUIAll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YUIAll.xcdatamodel; sourceTree = "<group>"; };
 		BA77D484289FADC200F323EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA77D485289FADC200F323EB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA77D488289FADC200F323EB /* UIKit+YUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+YUI.swift"; sourceTree = "<group>"; };
-		BA77D48F289FADC200F323EB /* CommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUI.h; sourceTree = "<group>"; };
+		BA77D48F289FADC200F323EB /* CommonPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPresentation.h; sourceTree = "<group>"; };
 		BA77D4C0289FADC200F323EB /* CommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLib.h; sourceTree = "<group>"; };
 		BA77D4C3289FADC200F323EB /* MediationKit+HomeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+HomeAction.h"; sourceTree = "<group>"; };
 		BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+HomeAction.m"; sourceTree = "<group>"; };
 		BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediationKit+Example.swift"; sourceTree = "<group>"; };
-		BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+ExampleObjAction.m"; sourceTree = "<group>"; };
-		BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+ExampleObjAction.h"; sourceTree = "<group>"; };
+		BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjcAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+ExampleObjcAction.m"; sourceTree = "<group>"; };
+		BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjcAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+ExampleObjcAction.h"; sourceTree = "<group>"; };
 		BA77D4CC289FADC200F323EB /* MediationKit+MainAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+MainAction.h"; sourceTree = "<group>"; };
 		BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+MainAction.m"; sourceTree = "<group>"; };
 		BA77D4CF289FADC200F323EB /* CommonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonRequest.m; sourceTree = "<group>"; };
@@ -462,13 +476,9 @@
 		B48E5A4B294071A100B3741F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE9EFA298CDAB8005F9C7A /* Extension */,
-				B48E5AE72940737C00B3741F /* YACommonUI.h */,
-				B48E5AEA2940737C00B3741F /* YACommonUI.m */,
-				B48E5AE92940737C00B3741F /* YAUIHelper.h */,
-				B48E5AE82940737C00B3741F /* YAUIHelper.m */,
-				B48E5A4C294071A100B3741F /* UIImageEffects.h */,
-				B48E5A4F294071A100B3741F /* UIImageEffects.m */,
+				BA77D488289FADC200F323EB /* UIKit+YUI.swift */,
+				B4D52FE32994E0A200BC3006 /* ObjC */,
+				B4D52FE22994E08400BC3006 /* Swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -671,11 +681,37 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		B4A2043B2990D6070042AFD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4A2044C29934B1B0042AFD2 /* Moudule */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D478289FADC200F323EB /* YAAppLifecycleModule.h */,
+				BA77D476289FADC200F323EB /* YAAppLifecycleModule.m */,
+				B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */,
+				B41E71C82938AD5F009D3FC6 /* QMUIAppLifecycleModule.h */,
+				B41E71C92938AD5F009D3FC6 /* QMUIAppLifecycleModule.m */,
+			);
+			path = Moudule;
+			sourceTree = "<group>";
+		};
+		B4A20451299371DA0042AFD2 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				B4A20452299374AC0042AFD2 /* AppDIContainer.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
 		B4AE9EE8298BAFAD005F9C7A /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE9EED298CA90F005F9C7A /* ExampleSwiftList */,
-				B4AE9EF3298CAAEC005F9C7A /* ExampleSwiftDetail */,
+				B4AE9F202990939C005F9C7A /* ExampleSwift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -699,8 +735,9 @@
 		B4AE9EED298CA90F005F9C7A /* ExampleSwiftList */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE9EF5298CD8DB005F9C7A /* View */,
 				B4AE9EF4298CD8A2005F9C7A /* ViewModel */,
+				B4AE9F212990946E005F9C7A /* Controller */,
+				B4AE9EF5298CD8DB005F9C7A /* View */,
 			);
 			path = ExampleSwiftList;
 			sourceTree = "<group>";
@@ -741,6 +778,7 @@
 		B4AE9EF3298CAAEC005F9C7A /* ExampleSwiftDetail */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE9F2629909985005F9C7A /* Cotroller */,
 			);
 			path = ExampleSwiftDetail;
 			sourceTree = "<group>";
@@ -748,6 +786,7 @@
 		B4AE9EF4298CD8A2005F9C7A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -757,6 +796,7 @@
 			children = (
 				B4AE9EF7298CD911005F9C7A /* SwiftUI */,
 				B4AE9EF6298CD903005F9C7A /* UIKit */,
+				B4AE9F24299094F4005F9C7A /* Controller.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -764,6 +804,7 @@
 		B4AE9EF6298CD903005F9C7A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE9F1E2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -790,29 +831,16 @@
 			path = Behavior;
 			sourceTree = "<group>";
 		};
-		B4AE9EFA298CDAB8005F9C7A /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				B4AE9EFE298CDB0B005F9C7A /* CGSize+ScaledSize.swift */,
-				B4AE9EFD298CDB0A005F9C7A /* DataTransferError+ConnectionError.swift */,
-				B4AE9EFB298CDB0A005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift */,
-				B4AE9EFF298CDB0B005F9C7A /* UIViewController+ActivityIndicator.swift */,
-				B4AE9F00298CDB0B005F9C7A /* UIViewController+AddBehaviors.swift */,
-				B4AE9EFC298CDB0A005F9C7A /* UIViewController+AddChild.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		B4AE9F0F298CE08A005F9C7A /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE9F10298CE105005F9C7A /* Cancellable.swift */,
-				B4AE9F12298CE195005F9C7A /* ConnectionError.swift */,
+				B4ECC0E22994D01200E8740F /* Cancellable.swift */,
+				B4ECC0E12994D01200E8740F /* ConnectionError.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		B4AE9F14298CFA09005F9C7A /* ExampleObjMVVM */ = {
+		B4AE9F14298CFA09005F9C7A /* ExampleObjcMVVM */ = {
 			isa = PBXGroup;
 			children = (
 				BA77D42B289FADC200F323EB /* ViewModel */,
@@ -820,7 +848,7 @@
 				BA77D435289FADC200F323EB /* Model */,
 				BA77D43F289FADC200F323EB /* View */,
 			);
-			path = ExampleObjMVVM;
+			path = ExampleObjcMVVM;
 			sourceTree = "<group>";
 		};
 		B4AE9F15298D0057005F9C7A /* Common */ = {
@@ -842,17 +870,106 @@
 		B4AE9F17298D0074005F9C7A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D446289FADC200F323EB /* ExampleObjTableViewCell.h */,
-				BA77D445289FADC200F323EB /* ExampleObjTableViewCell.m */,
+				BA77D446289FADC200F323EB /* ExampleObjcTableViewCell.h */,
+				BA77D445289FADC200F323EB /* ExampleObjcTableViewCell.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		B4AE9F1B2990905A005F9C7A /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE9F1C299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		B4AE9F202990939C005F9C7A /* ExampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE9F1B2990905A005F9C7A /* Flow */,
+				B4AE9F2929909E97005F9C7A /* Behavior */,
+				B4AE9EED298CA90F005F9C7A /* ExampleSwiftList */,
+				B4AE9EF3298CAAEC005F9C7A /* ExampleSwiftDetail */,
+			);
+			path = ExampleSwift;
+			sourceTree = "<group>";
+		};
+		B4AE9F212990946E005F9C7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4AE9F2629909985005F9C7A /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		B4AE9F2929909E97005F9C7A /* Behavior */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Behavior;
+			sourceTree = "<group>";
+		};
+		B4D52FE22994E08400BC3006 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE9EFE298CDB0B005F9C7A /* CGSize+ScaledSize.swift */,
+				B4AE9EFD298CDB0A005F9C7A /* DataTransferError+ConnectionError.swift */,
+				B4AE9EFB298CDB0A005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift */,
+				B4AE9EFF298CDB0B005F9C7A /* UIViewController+ActivityIndicator.swift */,
+				B4AE9F00298CDB0B005F9C7A /* UIViewController+AddBehaviors.swift */,
+				B4AE9EFC298CDB0A005F9C7A /* UIViewController+AddChild.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		B4D52FE32994E0A200BC3006 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				B48E5AE72940737C00B3741F /* YACommonUI.h */,
+				B48E5AEA2940737C00B3741F /* YACommonUI.m */,
+				B48E5AE92940737C00B3741F /* YAUIHelper.h */,
+				B48E5AE82940737C00B3741F /* YAUIHelper.m */,
+				B48E5A4C294071A100B3741F /* UIImageEffects.h */,
+				B48E5A4F294071A100B3741F /* UIImageEffects.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		B4D52FE52994EA9200BC3006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B48E5AA1294071A200B3741F /* QMUIBackBarButton */,
+				B48E5A58294071A100B3741F /* QMUIDropdownNotification */,
+				B48E5A5B294071A100B3741F /* QMUIInteractiveDebugger */,
+				B48E5A55294071A100B3741F /* QMUINavigationBarSmoothEffect */,
+				B48E5A48294071A100B3741F /* QMUINavigationBottomAccessoryView */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B4ECC0E02994C50000E8740F /* AppLifecycleMediator */ = {
+			isa = PBXGroup;
+			children = (
+				BA77D479289FADC200F323EB /* ModulesRegister.plist */,
+				BA77D475289FADC200F323EB /* AppLifecycleMediatorProtocol.h */,
+				BA77D474289FADC200F323EB /* AppLifecycleMediator.h */,
+				BA77D477289FADC200F323EB /* AppLifecycleMediator.m */,
+				B4A2044C29934B1B0042AFD2 /* Moudule */,
+			);
+			path = AppLifecycleMediator;
 			sourceTree = "<group>";
 		};
 		B4FA762628C9CC7100BAFDD7 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D42A289FADC200F323EB /* ExampleObj */,
-				B4AE9EEF298CA9B1005F9C7A /* ExampleSwift */,
 				B4FA762728C9CC7100BAFDD7 /* ViewManager */,
 				B4FA762928C9CC7100BAFDD7 /* ViewModel */,
 				B4FA762B28C9CC7100BAFDD7 /* Controller */,
@@ -929,7 +1046,10 @@
 			isa = PBXGroup;
 			children = (
 				BA77D45E289FADC200F323EB /* Global */,
+				BA77D473289FADC200F323EB /* Application */,
 				BA77D3F4289FADC100F323EB /* Module */,
+				BA77D4D1289FADC200F323EB /* infrastructure */,
+				BA77D48A289FADC200F323EB /* Common */,
 				BA77D486289FADC200F323EB /* Component */,
 				BA77D465289FADC200F323EB /* Other */,
 			);
@@ -994,6 +1114,8 @@
 		BA77D3FC289FADC100F323EB /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				BA77D42A289FADC200F323EB /* ExampleObjc */,
+				B4AE9EEF298CA9B1005F9C7A /* ExampleSwift */,
 				BA77D3FF289FADC100F323EB /* Action */,
 				B4FA762628C9CC7100BAFDD7 /* Example */,
 			);
@@ -1003,28 +1125,28 @@
 		BA77D3FF289FADC100F323EB /* Action */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D433289FADC200F323EB /* Target_ExampleObj.h */,
-				BA77D432289FADC200F323EB /* Target_ExampleObj.m */,
+				BA77D433289FADC200F323EB /* Target_ExampleObjc.h */,
+				BA77D432289FADC200F323EB /* Target_ExampleObjc.m */,
 				B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
 		};
-		BA77D419289FADC100F323EB /* ExampleObjMVC */ = {
+		BA77D419289FADC100F323EB /* ExampleObjcMVC */ = {
 			isa = PBXGroup;
 			children = (
 				BA77D41A289FADC100F323EB /* Controller */,
 				BA77D41D289FADC100F323EB /* Model */,
 				BA77D424289FADC100F323EB /* View */,
 			);
-			path = ExampleObjMVC;
+			path = ExampleObjcMVC;
 			sourceTree = "<group>";
 		};
 		BA77D41A289FADC100F323EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D41C289FADC100F323EB /* ExampleObjMVCViewController.h */,
-				BA77D41B289FADC100F323EB /* ExampleObjMVCViewController.m */,
+				BA77D41C289FADC100F323EB /* ExampleObjcMVCViewController.h */,
+				BA77D41B289FADC100F323EB /* ExampleObjcMVCViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1032,12 +1154,12 @@
 		BA77D41D289FADC100F323EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D421289FADC100F323EB /* ExampleObjMVCDataSourceObject.h */,
-				BA77D41E289FADC100F323EB /* ExampleObjMVCDataSourceObject.m */,
-				BA77D420289FADC100F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.h */,
-				BA77D422289FADC100F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.m */,
-				BA77D41F289FADC100F323EB /* ExampleObjMVCModelManager.h */,
-				BA77D423289FADC100F323EB /* ExampleObjMVCModelManager.m */,
+				BA77D421289FADC100F323EB /* ExampleObjcMVCDataSourceObject.h */,
+				BA77D41E289FADC100F323EB /* ExampleObjcMVCDataSourceObject.m */,
+				BA77D420289FADC100F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.h */,
+				BA77D422289FADC100F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m */,
+				BA77D41F289FADC100F323EB /* ExampleObjcMVCModelManager.h */,
+				BA77D423289FADC100F323EB /* ExampleObjcMVCModelManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1045,27 +1167,27 @@
 		BA77D424289FADC100F323EB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D425289FADC100F323EB /* ExampleObjMVCView.h */,
-				BA77D429289FADC200F323EB /* ExampleObjMVCView.m */,
+				BA77D425289FADC100F323EB /* ExampleObjcMVCView.h */,
+				BA77D429289FADC200F323EB /* ExampleObjcMVCView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		BA77D42A289FADC200F323EB /* ExampleObj */ = {
+		BA77D42A289FADC200F323EB /* ExampleObjc */ = {
 			isa = PBXGroup;
 			children = (
 				B4AE9F15298D0057005F9C7A /* Common */,
-				BA77D419289FADC100F323EB /* ExampleObjMVC */,
-				B4AE9F14298CFA09005F9C7A /* ExampleObjMVVM */,
+				BA77D419289FADC100F323EB /* ExampleObjcMVC */,
+				B4AE9F14298CFA09005F9C7A /* ExampleObjcMVVM */,
 			);
-			path = ExampleObj;
+			path = ExampleObjc;
 			sourceTree = "<group>";
 		};
 		BA77D42B289FADC200F323EB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D42C289FADC200F323EB /* ExampleObjMVVMViewModel.h */,
-				BA77D42D289FADC200F323EB /* ExampleObjMVVMViewModel.m */,
+				BA77D42C289FADC200F323EB /* ExampleObjcMVVMViewModel.h */,
+				BA77D42D289FADC200F323EB /* ExampleObjcMVVMViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1073,12 +1195,12 @@
 		BA77D42E289FADC200F323EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D43A289FADC200F323EB /* ExampleObjMVVMDataSourceObject.h */,
-				BA77D436289FADC200F323EB /* ExampleObjMVVMDataSourceObject.m */,
-				B4AE9F18298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.h */,
-				B4AE9F19298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.m */,
-				BA77D430289FADC200F323EB /* ExampleObjMVVMViewController.h */,
-				BA77D42F289FADC200F323EB /* ExampleObjMVVMViewController.m */,
+				BA77D43A289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.h */,
+				BA77D436289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.m */,
+				B4AE9F18298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.h */,
+				B4AE9F19298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m */,
+				BA77D430289FADC200F323EB /* ExampleObjcMVVMViewController.h */,
+				BA77D42F289FADC200F323EB /* ExampleObjcMVVMViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1086,10 +1208,10 @@
 		BA77D435289FADC200F323EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D438289FADC200F323EB /* ExampleObjImage.h */,
-				BA77D43B289FADC200F323EB /* ExampleObjImage.m */,
-				BA77D437289FADC200F323EB /* ExampleObjModelManager.h */,
-				BA77D439289FADC200F323EB /* ExampleObjModelManager.m */,
+				BA77D438289FADC200F323EB /* ExampleObjcImage.h */,
+				BA77D43B289FADC200F323EB /* ExampleObjcImage.m */,
+				BA77D437289FADC200F323EB /* ExampleObjcModelManager.h */,
+				BA77D439289FADC200F323EB /* ExampleObjcModelManager.m */,
 				BA77D43C289FADC200F323EB /* Request */,
 			);
 			path = Model;
@@ -1098,8 +1220,8 @@
 		BA77D43C289FADC200F323EB /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D43D289FADC200F323EB /* ExampleObjRequest.h */,
-				BA77D43E289FADC200F323EB /* ExampleObjRequest.m */,
+				BA77D43D289FADC200F323EB /* ExampleObjcRequest.h */,
+				BA77D43E289FADC200F323EB /* ExampleObjcRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -1107,8 +1229,8 @@
 		BA77D43F289FADC200F323EB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D447289FADC200F323EB /* ExampleObjMVVMView.h */,
-				BA77D443289FADC200F323EB /* ExampleObjMVVMView.m */,
+				BA77D447289FADC200F323EB /* ExampleObjcMVVMView.h */,
+				BA77D443289FADC200F323EB /* ExampleObjcMVVMView.m */,
 				BA77D440289FADC200F323EB /* ViewManager */,
 			);
 			path = View;
@@ -1117,8 +1239,8 @@
 		BA77D440289FADC200F323EB /* ViewManager */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D442289FADC200F323EB /* ExampleObjMVVMViewManager.h */,
-				BA77D441289FADC200F323EB /* ExampleObjMVVMViewManager.m */,
+				BA77D442289FADC200F323EB /* ExampleObjcMVVMViewManager.h */,
+				BA77D441289FADC200F323EB /* ExampleObjcMVVMViewManager.m */,
 			);
 			path = ViewManager;
 			sourceTree = "<group>";
@@ -1236,17 +1358,11 @@
 		BA77D465289FADC200F323EB /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D466289FADC200F323EB /* LaunchScreen.strings */,
-				BA77D468289FADC200F323EB /* Main.strings */,
 				BA77D46B289FADC200F323EB /* Configuration */,
 				BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */,
 				BA77D471289FADC200F323EB /* Main.storyboard */,
-				BA77D473289FADC200F323EB /* Application */,
 				BA77D47B289FADC200F323EB /* Resource */,
 				BA77D482289FADC200F323EB /* YUIAll.xcdatamodeld */,
-				BA77D484289FADC200F323EB /* Info.plist */,
-				BA77D47A289FADC200F323EB /* AppDelegate.swift */,
-				BA77D485289FADC200F323EB /* SceneDelegate.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -1254,6 +1370,7 @@
 		BA77D46B289FADC200F323EB /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				BA77D484289FADC200F323EB /* Info.plist */,
 				BA77D46C289FADC200F323EB /* YUIAll-Bridging-Header.h */,
 			);
 			path = Configuration;
@@ -1262,14 +1379,13 @@
 		BA77D473289FADC200F323EB /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D474289FADC200F323EB /* AppLifeCycleMediator.h */,
-				BA77D477289FADC200F323EB /* AppLifeCycleMediator.m */,
-				BA77D475289FADC200F323EB /* AppLifeCycleMediatorProtocol.h */,
-				BA77D479289FADC200F323EB /* ModulesRegister.plist */,
-				BA77D478289FADC200F323EB /* YUIAppLifeModule.h */,
-				BA77D476289FADC200F323EB /* YUIAppLifeModule.m */,
-				B41E71C82938AD5F009D3FC6 /* QMUIModule.h */,
-				B41E71C92938AD5F009D3FC6 /* QMUIModule.m */,
+				BA77D47A289FADC200F323EB /* AppDelegate.swift */,
+				B4A2045429939A0B0042AFD2 /* AppAppearance.swift */,
+				B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */,
+				B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */,
+				B4ECC0E02994C50000E8740F /* AppLifecycleMediator */,
+				B4A20451299371DA0042AFD2 /* DIContainer */,
+				BA77D485289FADC200F323EB /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -1278,7 +1394,6 @@
 			isa = PBXGroup;
 			children = (
 				BA77D47C289FADC200F323EB /* Localizable.strings */,
-				BA77D47F289FADC200F323EB /* InfoPlist.strings */,
 				BA77D481289FADC200F323EB /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -1288,9 +1403,6 @@
 			isa = PBXGroup;
 			children = (
 				BA77D487289FADC200F323EB /* Core */,
-				BA77D4D1289FADC200F323EB /* infrastructure */,
-				BA77D48A289FADC200F323EB /* Common */,
-				BA77D488289FADC200F323EB /* UIKit+YUI.swift */,
 				BA77D489289FADC200F323EB /* Business */,
 			);
 			path = Component;
@@ -1317,31 +1429,27 @@
 				BA77D4C0289FADC200F323EB /* CommonLib.h */,
 				BA77D4CE289FADC200F323EB /* Model */,
 				BA77D4C1289FADC200F323EB /* ModuleDependent */,
-				BA77D48B289FADC200F323EB /* UI */,
+				BA77D48B289FADC200F323EB /* Presentation */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		BA77D48B289FADC200F323EB /* UI */ = {
+		BA77D48B289FADC200F323EB /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				BA77D48F289FADC200F323EB /* CommonPresentation.h */,
 				B48E5B77294090A900B3741F /* Configuration */,
 				B48E5A83294071A200B3741F /* Delegate */,
 				B48E5A7B294071A200B3741F /* ViewModel */,
 				B48E5B5E294090A000B3741F /* Controllers */,
 				B48E5A75294071A200B3741F /* ViewManager */,
 				B48E5A95294071A200B3741F /* Model */,
+				B4D52FE52994EA9200BC3006 /* Extension */,
 				B48E5A9C294071A200B3741F /* View */,
 				B48E5A52294071A100B3741F /* LookinConfig */,
-				B48E5AA1294071A200B3741F /* QMUIBackBarButton */,
-				B48E5A58294071A100B3741F /* QMUIDropdownNotification */,
-				B48E5A5B294071A100B3741F /* QMUIInteractiveDebugger */,
-				B48E5A55294071A100B3741F /* QMUINavigationBarSmoothEffect */,
-				B48E5A48294071A100B3741F /* QMUINavigationBottomAccessoryView */,
 				B48E5A4B294071A100B3741F /* Utils */,
-				BA77D48F289FADC200F323EB /* CommonUI.h */,
 			);
-			path = UI;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		BA77D4C1289FADC200F323EB /* ModuleDependent */ = {
@@ -1383,8 +1491,8 @@
 		BA77D4C8289FADC200F323EB /* ExampleObj */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjAction.m */,
-				BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjAction.h */,
+				BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjcAction.m */,
+				BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjcAction.h */,
 			);
 			path = ExampleObj;
 			sourceTree = "<group>";
@@ -1510,8 +1618,10 @@
 		BA77D4E5289FADC200F323EB /* HUD */ = {
 			isa = PBXGroup;
 			children = (
+				B4A2043B2990D6070042AFD2 /* View */,
 				BA77D4E6289FADC200F323EB /* CommonPopupAlertController.m */,
 				BA77D4E7289FADC200F323EB /* CommonPopupAlertController.h */,
+				B4A2043C2990D6240042AFD2 /* HUDService.swift */,
 			);
 			path = HUD;
 			sourceTree = "<group>";
@@ -1671,9 +1781,6 @@
 				BA77D52C289FADC300F323EB /* Localizable.strings in Resources */,
 				BA77D526289FADC300F323EB /* LaunchScreen.storyboard in Resources */,
 				BA77D52A289FADC300F323EB /* ModulesRegister.plist in Resources */,
-				BA77D523289FADC300F323EB /* LaunchScreen.strings in Resources */,
-				BA77D524289FADC300F323EB /* Main.strings in Resources */,
-				BA77D52D289FADC300F323EB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1742,67 +1849,75 @@
 			files = (
 				B4FA763928C9CC7100BAFDD7 /* ExampleModel.swift in Sources */,
 				BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */,
-				BA77D519289FADC300F323EB /* ExampleObjMVVMViewManager.m in Sources */,
+				BA77D519289FADC300F323EB /* ExampleObjcMVVMViewManager.m in Sources */,
 				B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */,
 				B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */,
-				B4AE9F11298CE105005F9C7A /* Cancellable.swift in Sources */,
+				B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */,
 				BA77D549289FADC300F323EB /* LayoutService.m in Sources */,
 				B48E5AC2294071A200B3741F /* CommonAmountTextFieldViewDelegateObject.m in Sources */,
 				B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */,
-				BA77D529289FADC300F323EB /* AppLifeCycleMediator.m in Sources */,
+				BA77D529289FADC300F323EB /* AppLifecycleMediator.m in Sources */,
 				B449E7552949771A00FD84E3 /* YACommonArchitectureViewController.m in Sources */,
 				BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */,
 				B4AE9F03298CDB0B005F9C7A /* DataTransferError+ConnectionError.swift in Sources */,
+				B4AE9F1F2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift in Sources */,
 				B4AE9F0A298CE00C005F9C7A /* NetworkConfig.swift in Sources */,
 				B449E75E294AC6A100FD84E3 /* YACommonArchitectureViewController+MVC.m in Sources */,
 				B48E5ABC294071A200B3741F /* YACommonAlterController.m in Sources */,
+				B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */,
+				B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */,
+				B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */,
 				B48E5AEB2940737C00B3741F /* YAUIHelper.m in Sources */,
 				B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */,
-				BA77D515289FADC300F323EB /* ExampleObjMVVMDataSourceObject.m in Sources */,
+				BA77D515289FADC300F323EB /* ExampleObjcMVVMDataSourceObject.m in Sources */,
 				B48E5AB2294071A200B3741F /* QMUIDropdownNotification.m in Sources */,
-				B41E71CA2938AD5F009D3FC6 /* QMUIModule.m in Sources */,
+				B41E71CA2938AD5F009D3FC6 /* QMUIAppLifecycleModule.m in Sources */,
 				B48E5AB1294071A200B3741F /* UINavigationBar+QMUISmoothEffect.m in Sources */,
 				B48E5ACB294071A200B3741F /* UIView+Common.m in Sources */,
+				B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */,
 				BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */,
+				B4A20453299374AC0042AFD2 /* AppDIContainer.swift in Sources */,
 				B4AE9F0E298CE012005F9C7A /* NetworkService.swift in Sources */,
 				B48E5B70294090A000B3741F /* YACommonListViewController.m in Sources */,
-				BA77D510289FADC300F323EB /* ExampleObjMVCView.m in Sources */,
+				BA77D510289FADC300F323EB /* ExampleObjcMVCView.m in Sources */,
 				B4AE9F04298CDB0B005F9C7A /* CGSize+ScaledSize.swift in Sources */,
 				B48E5AB4294071A200B3741F /* QMUIInteractiveDebugPanelItem.m in Sources */,
 				BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */,
 				BA77D500289FADC300F323EB /* HomeViewController.m in Sources */,
-				BA77D511289FADC300F323EB /* ExampleObjMVVMViewModel.m in Sources */,
+				B4ECC0DF2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift in Sources */,
+				BA77D511289FADC300F323EB /* ExampleObjcMVVMViewModel.m in Sources */,
 				B48E5AC0294071A200B3741F /* YACommonViewModel.m in Sources */,
 				B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */,
+				B4A2045529939A0B0042AFD2 /* AppAppearance.swift in Sources */,
 				B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */,
 				B48E5ACD294071A200B3741F /* QMUIBackBarButton.m in Sources */,
+				B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */,
 				B48E5B89294090A900B3741F /* YUIConfigurationTemplateDark.m in Sources */,
 				B48E5B86294090A900B3741F /* YUIConfigurationTemplatePinkRose.m in Sources */,
 				B48E5ABF294071A200B3741F /* YUIViewModel+Common.m in Sources */,
 				BA77D522289FADC300F323EB /* GlobalState.m in Sources */,
-				B4AE9F1A298D03E3005F9C7A /* ExampleObjMVVMEmptyDataSetDelegateObject.m in Sources */,
+				B4AE9F1A298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m in Sources */,
 				BA77D548289FADC300F323EB /* CommonRequest.m in Sources */,
 				BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */,
 				B4FA763728C9CC7100BAFDD7 /* ExampleDataSourceObject.swift in Sources */,
 				B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */,
-				BA77D516289FADC300F323EB /* ExampleObjModelManager.m in Sources */,
+				BA77D516289FADC300F323EB /* ExampleObjcModelManager.m in Sources */,
 				BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */,
 				B48E5AC8294071A200B3741F /* CommonLayoutModel.m in Sources */,
 				B4FA763828C9CC7100BAFDD7 /* Target_Example.swift in Sources */,
 				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
 				B48E5AC3294071A200B3741F /* YAComnonArchitectureDelegateObject.m in Sources */,
-				B4AE9F13298CE195005F9C7A /* ConnectionError.swift in Sources */,
 				B48E5AEC2940737C00B3741F /* YACommonUI.m in Sources */,
-				BA77D51B289FADC300F323EB /* ExampleObjTableViewCell.m in Sources */,
+				BA77D51B289FADC300F323EB /* ExampleObjcTableViewCell.m in Sources */,
 				B48E5B74294090A000B3741F /* YACommonGridViewController.m in Sources */,
-				BA77D50E289FADC300F323EB /* ExampleObjMVCModelManager.m in Sources */,
+				BA77D50E289FADC300F323EB /* ExampleObjcMVCModelManager.m in Sources */,
 				B48E5B87294090A900B3741F /* YUIConfigurationTemplate.m in Sources */,
 				B48E5B72294090A000B3741F /* YAStyleSelectableTableViewController.m in Sources */,
 				BA77D54B289FADC300F323EB /* NSObject+YUIModel.m in Sources */,
 				B48E5AAE294071A200B3741F /* UIImageEffects.m in Sources */,
 				B4AE9F02298CDB0B005F9C7A /* UIViewController+AddChild.swift in Sources */,
 				BA77D52B289FADC300F323EB /* AppDelegate.swift in Sources */,
-				BA77D528289FADC300F323EB /* YUIAppLifeModule.m in Sources */,
+				BA77D528289FADC300F323EB /* YAAppLifecycleModule.m in Sources */,
 				B4AE9F0B298CE00C005F9C7A /* DataTransferService.swift in Sources */,
 				BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */,
 				B48E5B73294090A000B3741F /* YACommonTableViewController.m in Sources */,
@@ -1813,41 +1928,44 @@
 				B48E5B76294090A000B3741F /* YACommonGroupListViewController.m in Sources */,
 				BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */,
 				B449E74A2948531500FD84E3 /* YATabBarViewController.m in Sources */,
-				BA77D546289FADC300F323EB /* MediationKit+ExampleObjAction.m in Sources */,
+				BA77D546289FADC300F323EB /* MediationKit+ExampleObjcAction.m in Sources */,
 				B4AE9F05298CDB0B005F9C7A /* UIViewController+ActivityIndicator.swift in Sources */,
 				BA77D54F289FADC300F323EB /* MediationKit.m in Sources */,
-				BA77D50B289FADC300F323EB /* ExampleObjMVCViewController.m in Sources */,
+				BA77D50B289FADC300F323EB /* ExampleObjcMVCViewController.m in Sources */,
+				B4AE9F1D299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift in Sources */,
 				B48E5B85294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */,
 				B449E74D29486EA500FD84E3 /* YACommonViewController.m in Sources */,
+				B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */,
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
 				B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */,
 				B48E5B88294090A900B3741F /* YUIConfigurationTemplateGrass.m in Sources */,
-				BA77D50C289FADC300F323EB /* ExampleObjMVCDataSourceObject.m in Sources */,
+				BA77D50C289FADC300F323EB /* ExampleObjcMVCDataSourceObject.m in Sources */,
 				B4AE9F0C298CE00C005F9C7A /* Endpoint.swift in Sources */,
 				B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */,
 				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
 				B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */,
 				B48E5AB5294071A200B3741F /* QMUIInteractiveDebugPanelViewController.m in Sources */,
-				BA77D50D289FADC300F323EB /* ExampleObjMVCEmptyDataSetDelegateObject.m in Sources */,
+				BA77D50D289FADC300F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m in Sources */,
 				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
 				B48E5B8A294090A900B3741F /* YAThemeManager.m in Sources */,
 				B48E5AAC294071A200B3741F /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */,
-				BA77D518289FADC300F323EB /* ExampleObjRequest.m in Sources */,
+				BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */,
 				B48E5AB3294071A200B3741F /* QMUIInteractiveDebugger.m in Sources */,
 				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
-				BA77D51A289FADC300F323EB /* ExampleObjMVVMView.m in Sources */,
+				BA77D51A289FADC300F323EB /* ExampleObjcMVVMView.m in Sources */,
 				BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */,
 				BA77D550289FADC300F323EB /* NetworkKit.m in Sources */,
-				BA77D513289FADC300F323EB /* Target_ExampleObj.m in Sources */,
-				BA77D517289FADC300F323EB /* ExampleObjImage.m in Sources */,
+				BA77D513289FADC300F323EB /* Target_ExampleObjc.m in Sources */,
+				BA77D517289FADC300F323EB /* ExampleObjcImage.m in Sources */,
 				B48E5AC9294071A200B3741F /* CommonTransferModel.m in Sources */,
 				B48E5AC5294071A200B3741F /* YACommonViewController+PopupView.m in Sources */,
 				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
 				B48E5B71294090A000B3741F /* YANavigationController.m in Sources */,
 				B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */,
-				BA77D512289FADC300F323EB /* ExampleObjMVVMViewController.m in Sources */,
+				BA77D512289FADC300F323EB /* ExampleObjcMVVMViewController.m in Sources */,
 				BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */,
+				B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */,
 				B4AE9F01298CDB0B005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift in Sources */,
 				B48E5ACC294071A200B3741F /* YACommonView.m in Sources */,
 			);
@@ -1886,24 +2004,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA77D466289FADC200F323EB /* LaunchScreen.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA77D467289FADC200F323EB /* zh-Hans */,
-				BA77D46D289FADC200F323EB /* en-GB */,
-			);
-			name = LaunchScreen.strings;
-			sourceTree = "<group>";
-		};
-		BA77D468289FADC200F323EB /* Main.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA77D469289FADC200F323EB /* zh-Hans */,
-				BA77D46E289FADC200F323EB /* en-GB */,
-			);
-			name = Main.strings;
-			sourceTree = "<group>";
-		};
 		BA77D46F289FADC200F323EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1927,14 +2027,6 @@
 				BA77D47E289FADC200F323EB /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		BA77D47F289FADC200F323EB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA77D480289FADC200F323EB /* en-GB */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -2068,7 +2160,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YUIAll/Global/YUIPrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YUIAll/Other/Info.plist;
+				INFOPLIST_FILE = YUIAll/Other/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
@@ -2102,7 +2194,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YUIAll/Global/YUIPrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YUIAll/Other/Info.plist;
+				INFOPLIST_FILE = YUIAll/Other/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;

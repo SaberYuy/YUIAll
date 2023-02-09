@@ -9,7 +9,7 @@ import UIKit
 
 class Target_Example: NSObject {
 
-    @objc func Action_nativeFetchExampleObjViewController(_ params:[AnyHashable:Any]?) -> UIViewController {
+    @objc func Action_nativeFetchExampleObjcViewController(_ params:[AnyHashable:Any]?) -> UIViewController {
 
         if let actionParams = params {
 
@@ -38,7 +38,7 @@ class Target_Example: NSObject {
     }
     
     
-//    @objc func Action_nativeFetchExampleObjViewController(_ params:NSDictionary) -> UIViewController {
+//    @objc func Action_nativeFetchExampleObjcViewController(_ params:NSDictionary) -> UIViewController {
 //
 //            if let actionParams = params {
 //                let block = actionParams["callback"]
