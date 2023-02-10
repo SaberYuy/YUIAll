@@ -22,10 +22,9 @@ PODS:
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
   - DGActivityIndicatorView (2.1.1)
-  - DoraemonKit (3.1.2):
-    - DoraemonKit/Core (= 3.1.2)
-  - DoraemonKit/Core (3.1.2):
-    - AFNetworking
+  - DoraemonKit (3.1.3):
+    - DoraemonKit/Core (= 3.1.3)
+  - DoraemonKit/Core (3.1.3):
     - FMDB
     - GCDWebServer
     - GCDWebServer/WebDAV
@@ -43,11 +42,11 @@ PODS:
     - GCDWebServer/Core
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
-  - Hero (1.6.1)
-  - HWPanModal (0.9.3)
-  - IQKeyboardManager (6.5.10)
+  - Hero (1.6.2)
+  - HWPanModal (0.9.5)
+  - IQKeyboardManager (6.5.11)
   - JVFloatLabeledTextField (1.2.2)
-  - JXCategoryView (1.6.0)
+  - JXCategoryView (1.6.1)
   - JZLocationConverter (1.0.0)
   - KVOController (1.2.0)
   - libextobjc (0.6):
@@ -85,7 +84,7 @@ PODS:
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (0.6)
   - libextobjc/UmbrellaHeader (0.6)
-  - lottie-ios (3.2.3)
+  - lottie-ios (4.1.2)
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
@@ -96,74 +95,74 @@ PODS:
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.5)
   - pop (1.0.12)
-  - QMUIKit (4.5.1):
-    - QMUIKit/QMUIComponents (= 4.5.1)
-    - QMUIKit/QMUICore (= 4.5.1)
-    - QMUIKit/QMUILog (= 4.5.1)
-    - QMUIKit/QMUIMainFrame (= 4.5.1)
-    - QMUIKit/QMUIResources (= 4.5.1)
-    - QMUIKit/QMUIWeakObjectContainer (= 4.5.1)
-  - QMUIKit/QMUIComponents (4.5.1):
-    - QMUIKit/QMUIComponents/NavigationBarTransition (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIAlertController (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIAnimation (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIAppearance (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIAssetLibrary (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIBadge (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIButton (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUICAAnimationExtension (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUICALayerExtension (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUICellHeightCache (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUICellHeightKeyCache (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUICellSizeKeyCache (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIConsole (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIDialogViewController (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIEmotionInputManager (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIEmotionView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIEmptyView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIFloatLayoutView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIGridView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIImagePickerLibrary (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIImagePreviewView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIKeyboardManager (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUILabel (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUILogManagerViewController (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUILogWithConfigurationSupported (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIMarqueeLabel (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIModalPresentationViewController (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIMoreOperationController (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIMultipleDelegates (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUINavigationButton (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUINavigationTitleView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIOrderedDictionary (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIPieProgressView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIPopupContainerView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIPopupMenuView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIScrollAnimator (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUISearchBar (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUISearchController (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUISegmentedControl (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIStaticTableView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITableView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITableViewCell (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITableViewProtocols (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITestView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITextField (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITextView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITheme (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUITips (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIToastView (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIToolbarButton (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIWindowSizeMonitor (= 4.5.1)
-    - QMUIKit/QMUIComponents/QMUIZoomImageView (= 4.5.1)
+  - QMUIKit (4.6.0):
+    - QMUIKit/QMUIComponents (= 4.6.0)
+    - QMUIKit/QMUICore (= 4.6.0)
+    - QMUIKit/QMUILog (= 4.6.0)
+    - QMUIKit/QMUIMainFrame (= 4.6.0)
+    - QMUIKit/QMUIResources (= 4.6.0)
+    - QMUIKit/QMUIWeakObjectContainer (= 4.6.0)
+  - QMUIKit/QMUIComponents (4.6.0):
+    - QMUIKit/QMUIComponents/NavigationBarTransition (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIAlertController (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIAnimation (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIAppearance (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIAssetLibrary (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIBadge (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIButton (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUICAAnimationExtension (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUICALayerExtension (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUICellHeightCache (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUICellHeightKeyCache (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUICellSizeKeyCache (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIConsole (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIDialogViewController (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIEmotionInputManager (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIEmotionView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIEmptyView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIFloatLayoutView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIGridView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIImagePickerLibrary (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIImagePreviewView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIKeyboardManager (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUILabel (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUILogManagerViewController (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUILogWithConfigurationSupported (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIMarqueeLabel (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIModalPresentationViewController (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIMoreOperationController (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIMultipleDelegates (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUINavigationButton (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUINavigationTitleView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIOrderedDictionary (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIPieProgressView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIPopupContainerView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIPopupMenuView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIScrollAnimator (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUISearchBar (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUISearchController (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUISegmentedControl (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIStaticTableView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITableView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITableViewCell (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITableViewProtocols (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITestView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITextField (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITextView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITheme (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUITips (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIToastView (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIToolbarButton (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIWindowSizeMonitor (= 4.6.0)
+    - QMUIKit/QMUIComponents/QMUIZoomImageView (= 4.6.0)
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/NavigationBarTransition (4.5.1):
+  - QMUIKit/QMUIComponents/NavigationBarTransition (4.6.0):
     - QMUIKit/QMUIComponents/QMUINavigationTitleView
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUIAlertController (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIAlertController (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUIKeyboardManager
@@ -171,36 +170,36 @@ PODS:
     - QMUIKit/QMUIComponents/QMUIModalPresentationViewController
     - QMUIKit/QMUIComponents/QMUITextField
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIAnimation (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIAnimation (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIAppearance (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIAppearance (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIAssetLibrary (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIAssetLibrary (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIBadge (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIBadge (4.6.0):
     - QMUIKit/QMUIComponents/QMUILabel
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIButton (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIButton (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUICAAnimationExtension (4.5.1):
+  - QMUIKit/QMUIComponents/QMUICAAnimationExtension (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUICALayerExtension (4.5.1):
+  - QMUIKit/QMUIComponents/QMUICALayerExtension (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUICellHeightCache (4.5.1):
+  - QMUIKit/QMUIComponents/QMUICellHeightCache (4.6.0):
     - QMUIKit/QMUIComponents/QMUITableViewProtocols
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUICellHeightKeyCache (4.5.1):
+  - QMUIKit/QMUIComponents/QMUICellHeightKeyCache (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUIComponents/QMUITableViewProtocols
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUICellSizeKeyCache (4.5.1):
+  - QMUIKit/QMUIComponents/QMUICellSizeKeyCache (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout (4.5.1):
+  - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIConsole (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIConsole (4.6.0):
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUICAAnimationExtension
     - QMUIKit/QMUIComponents/QMUICellHeightKeyCache
@@ -211,7 +210,7 @@ PODS:
     - QMUIKit/QMUIComponents/QMUITextView
     - QMUIKit/QMUICore
     - QMUIKit/QMUIResources
-  - QMUIKit/QMUIComponents/QMUIDialogViewController (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIDialogViewController (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUILabel
@@ -222,22 +221,22 @@ PODS:
     - QMUIKit/QMUIComponents/QMUITextField
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUIEmotionInputManager (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIEmotionInputManager (4.6.0):
     - QMUIKit/QMUIComponents/QMUIEmotionView
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIEmotionView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIEmotionView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUICore
     - QMUIKit/QMUIResources
-  - QMUIKit/QMUIComponents/QMUIEmptyView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIEmptyView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIFloatLayoutView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIFloatLayoutView (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIGridView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIGridView (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIImagePickerLibrary (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIImagePickerLibrary (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAlertController
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIAssetLibrary
@@ -250,7 +249,7 @@ PODS:
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
     - QMUIKit/QMUIResources
-  - QMUIKit/QMUIComponents/QMUIImagePreviewView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIImagePreviewView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout
@@ -259,89 +258,89 @@ PODS:
     - QMUIKit/QMUIComponents/QMUIZoomImageView
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUIKeyboardManager (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIKeyboardManager (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUILabel (4.5.1):
+  - QMUIKit/QMUIComponents/QMUILabel (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUILogManagerViewController (4.5.1):
+  - QMUIKit/QMUIComponents/QMUILogManagerViewController (4.6.0):
     - QMUIKit/QMUIComponents/QMUIPopupMenuView
     - QMUIKit/QMUIComponents/QMUISearchController
     - QMUIKit/QMUIComponents/QMUIStaticTableView
     - QMUIKit/QMUIComponents/QMUITableView
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUILogWithConfigurationSupported (4.5.1):
+  - QMUIKit/QMUIComponents/QMUILogWithConfigurationSupported (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIMarqueeLabel (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIMarqueeLabel (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIModalPresentationViewController (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIModalPresentationViewController (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIKeyboardManager
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIMoreOperationController (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIMoreOperationController (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUIModalPresentationViewController
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIMultipleDelegates (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIMultipleDelegates (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUINavigationButton (4.5.1):
+  - QMUIKit/QMUIComponents/QMUINavigationButton (4.6.0):
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUINavigationTitleView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUINavigationTitleView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIOrderedDictionary (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIOrderedDictionary (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIPieProgressView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIPieProgressView (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIPopupContainerView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIPopupContainerView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAppearance
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUIPopupMenuView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIPopupMenuView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUIPopupContainerView
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIScrollAnimator (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIScrollAnimator (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUISearchBar (4.5.1):
+  - QMUIKit/QMUIComponents/QMUISearchBar (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUISearchController (4.5.1):
+  - QMUIKit/QMUIComponents/QMUISearchController (4.6.0):
     - QMUIKit/QMUIComponents/QMUIEmptyView
     - QMUIKit/QMUIComponents/QMUISearchBar
     - QMUIKit/QMUICore
     - QMUIKit/QMUIMainFrame
-  - QMUIKit/QMUIComponents/QMUISegmentedControl (4.5.1):
+  - QMUIKit/QMUIComponents/QMUISegmentedControl (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIStaticTableView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIStaticTableView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUIComponents/QMUITableViewCell
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITableView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITableView (4.6.0):
     - QMUIKit/QMUIComponents/QMUITableViewProtocols
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITableViewCell (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITableViewCell (4.6.0):
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITableViewProtocols (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITableViewProtocols (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITestView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITestView (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITextField (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITextField (4.6.0):
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITextView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITextView (4.6.0):
     - QMUIKit/QMUIComponents/QMUILabel
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITheme (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITheme (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAlertController
     - QMUIKit/QMUIComponents/QMUIBadge
     - QMUIKit/QMUIComponents/QMUIButton
@@ -359,29 +358,29 @@ PODS:
     - QMUIKit/QMUIComponents/QMUITextView
     - QMUIKit/QMUIComponents/QMUIToastView
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUITips (4.5.1):
+  - QMUIKit/QMUIComponents/QMUITips (4.6.0):
     - QMUIKit/QMUIComponents/QMUIToastView
     - QMUIKit/QMUICore
     - QMUIKit/QMUIResources
-  - QMUIKit/QMUIComponents/QMUIToastView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIToastView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIKeyboardManager
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIToolbarButton (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIToolbarButton (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIWindowSizeMonitor (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIWindowSizeMonitor (4.6.0):
     - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUIZoomImageView (4.5.1):
+  - QMUIKit/QMUIComponents/QMUIZoomImageView (4.6.0):
     - QMUIKit/QMUIComponents/QMUIAssetLibrary
     - QMUIKit/QMUIComponents/QMUIButton
     - QMUIKit/QMUIComponents/QMUIEmptyView
     - QMUIKit/QMUIComponents/QMUIPieProgressView
     - QMUIKit/QMUICore
     - QMUIKit/QMUIResources
-  - QMUIKit/QMUICore (4.5.1):
+  - QMUIKit/QMUICore (4.6.0):
     - QMUIKit/QMUILog
     - QMUIKit/QMUIWeakObjectContainer
-  - QMUIKit/QMUILog (4.5.1)
-  - QMUIKit/QMUIMainFrame (4.5.1):
+  - QMUIKit/QMUILog (4.6.0)
+  - QMUIKit/QMUIMainFrame (4.6.0):
     - QMUIKit/QMUIComponents/QMUIEmptyView
     - QMUIKit/QMUIComponents/QMUIKeyboardManager
     - QMUIKit/QMUIComponents/QMUIMultipleDelegates
@@ -390,13 +389,13 @@ PODS:
     - QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView
     - QMUIKit/QMUICore
     - QMUIKit/QMUILog
-  - QMUIKit/QMUIResources (4.5.1)
-  - QMUIKit/QMUIWeakObjectContainer (4.5.1)
+  - QMUIKit/QMUIResources (4.6.0)
+  - QMUIKit/QMUIWeakObjectContainer (4.6.0)
   - RESideMenu (4.0.7)
   - RZDataBinding (2.1.1)
-  - SDWebImage (5.12.6):
-    - SDWebImage/Core (= 5.12.6)
-  - SDWebImage/Core (5.12.6)
+  - SDWebImage (5.15.2):
+    - SDWebImage/Core (= 5.15.2)
+  - SDWebImage/Core (5.15.2)
   - Shimmer (1.0.2)
   - SnapKit (5.6.0)
   - SwiftyJSON (5.0.1)
@@ -409,27 +408,13 @@ PODS:
     - YYImage
   - YTKNetwork (3.0.6):
     - AFNetworking/NSURLSession (~> 4.0)
-  - YUIArchitectureKit (0.2.1):
-    - YUIArchitectureKit/YUIArchitecture (= 0.2.1)
-    - YUIArchitectureKit/YUICore (= 0.2.1)
-    - YUIArchitectureKit/YUILog (= 0.2.1)
-    - YUIArchitectureKit/YUIWeakObjectContainer (= 0.2.1)
-  - YUIArchitectureKit/YUIArchitecture (0.2.1):
-    - YUIArchitectureKit/YUICore
-    - YUIArchitectureKit/YUILog
-    - YUIArchitectureKit/YUIWeakObjectContainer
-  - YUIArchitectureKit/YUICore (0.2.1):
-    - YUIArchitectureKit/YUILog
-    - YUIArchitectureKit/YUIWeakObjectContainer
-  - YUIArchitectureKit/YUILog (0.2.1)
-  - YUIArchitectureKit/YUIWeakObjectContainer (0.2.1)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
   - YYModel (1.0.4)
-  - ZFPlayer (4.0.3):
-    - ZFPlayer/Core (= 4.0.3)
-  - ZFPlayer/Core (4.0.3)
+  - ZFPlayer (4.1.4):
+    - ZFPlayer/Core (= 4.1.4)
+  - ZFPlayer/Core (4.1.4)
 
 DEPENDENCIES:
   - AFNetworking
@@ -469,7 +454,6 @@ DEPENDENCIES:
   - WZLBadge
   - YBImageBrowser
   - YTKNetwork
-  - YUIArchitectureKit
   - YYModel
   - ZFPlayer
 
@@ -514,7 +498,6 @@ SPEC REPOS:
     - WZLBadge
     - YBImageBrowser
     - YTKNetwork
-    - YUIArchitectureKit
     - YYImage
     - YYModel
     - ZFPlayer
@@ -527,31 +510,31 @@ SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
-  DoraemonKit: 0a040ae24386654e2a2d2c8d029f5ff5837de3c3
+  DoraemonKit: 7448814a80d9ca56bc8db9105c464b7ec2e62623
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   expanding-collection: 7eb1fc48c6ec5e00c8887fe46c595c31b81b578a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
-  Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
-  HWPanModal: abe04993fc45bb875ac4cc4d7aacaea52e0c9715
-  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
+  HWPanModal: b6c51a2fd3ab5cfde868eec840c9e2d7465d745e
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
   JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
-  JXCategoryView: 99c87854c67659f7e2ef1b43079656a46b36b398
+  JXCategoryView: 7b1ee69ede4843c581688afe84d0f047723262f2
   JZLocationConverter: 3d816bee6484aed9c155a6045a02ce444833e2f0
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
-  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  lottie-ios: b3846a9fa8ca1a1a3bebfa256ebe8b6fd4aaaaad
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
-  QMUIKit: 3e717c45730ecdf5011ca76751990ad1a23ba7e1
+  QMUIKit: 6321cf1124623d686a9ec0a79a7cc59d0d64a52c
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
   RZDataBinding: 289e2fbdce8b9585afef69def83425c5d380ffbd
-  SDWebImage: a47aea9e3d8816015db4e523daff50cfd294499d
+  SDWebImage: 8ab87d4b3e5cc4927bd47f78db6ceb0b94442577
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
@@ -559,11 +542,10 @@ SPEC CHECKSUMS:
   WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
   YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
-  YUIArchitectureKit: 2ab58b0856ca652f7683182ea0fa68714c537112
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
 
-PODFILE CHECKSUM: f0162f187f238617ccb0cc52f789612edad5ef5c
+PODFILE CHECKSUM: 5fa6bc6f0ca37fd1ad155ae7d5d33b0ee6f7494a
 
 COCOAPODS: 1.11.3

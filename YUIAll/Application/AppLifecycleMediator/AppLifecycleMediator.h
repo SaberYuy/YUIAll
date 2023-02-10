@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AppLifeCycleMediatorProtocol.h"
+#import "AppLifecycleMediatorProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -1,5 +1,5 @@
 //
-//  YACommonPresentation.h
+//  CommonPresentation.h
 //  qmuidemo
 //
 //  Created by QMUI Team on 16/8/8.
@@ -56,17 +56,17 @@ extern NSString *const YAThemeIdentifierDark;
 /// QMUIButton 系列 Demo 里的一行高度
 extern const CGFloat YUIButtonSpacingHeight;
 
-@interface YACommonPresentation : NSObject
+@interface CommonPresentation : NSObject
 
 + (void)renderGlobalAppearances;
 @end
 
-@interface YACommonPresentation (ThemeColor)
+@interface CommonPresentation (ThemeColor)
 
 + (UIColor *)randomThemeColor;
 @end
 
-@interface YACommonPresentation (Layer)
+@interface CommonPresentation (Layer)
 
 + (CALayer *)generateSeparatorLayer;
 @end

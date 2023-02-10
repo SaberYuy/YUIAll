@@ -1425,8 +1425,8 @@
 		BA77D48A289FADC200F323EB /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE9F0F298CE08A005F9C7A /* Protocol */,
 				BA77D4C0289FADC200F323EB /* CommonLib.h */,
+				B4AE9F0F298CE08A005F9C7A /* Protocol */,
 				BA77D4CE289FADC200F323EB /* Model */,
 				BA77D4C1289FADC200F323EB /* ModuleDependent */,
 				BA77D48B289FADC200F323EB /* Presentation */,

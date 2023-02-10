@@ -21,7 +21,7 @@
 #endif
 
 
-#if __has_include("CommonView.h")
+#if __has_include("YACommonView.h")
 #import "YACommonView.h"
 #endif
 
@@ -47,12 +47,12 @@
 #endif
 
 
-#if __has_include("ComnonArchitectureDelegateObject.h")
+#if __has_include("YAComnonArchitectureDelegateObject.h")
 #import "YAComnonArchitectureDelegateObject.h"
 #endif
 
-#if __has_include("CommonEmptyDataTableSetViewDelegateObject.h")
-#import "CommonEmptyDataSetDelegateObject.h"
+#if __has_include("YACommonEmptyDataSetSourceAndDelegateObject.h")
+#import "YACommonEmptyDataSetSourceAndDelegateObject.h"
 #endif
 
 #endif /* Common_h */

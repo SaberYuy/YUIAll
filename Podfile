@@ -15,7 +15,7 @@ target :"YUIAll" do
   
   #  pod 'YUIKit', :path => 'Lib/YUIKit'
   
-  pod 'YUIArchitectureKit'
+#  pod 'YUIArchitectureKit'
   
   #   致力于提高项目 UI 开发效率的解决方案
   pod 'QMUIKit'

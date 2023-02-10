@@ -19,6 +19,4 @@
 
 #import "CommonLib.h"
 
-#import <QMUIKit/QMUIKit.h>
-
 #endif /* YUIPrefixHeader_pch */

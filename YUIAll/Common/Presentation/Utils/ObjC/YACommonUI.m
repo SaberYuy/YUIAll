@@ -1,12 +1,12 @@
 //
-//  YACommonPresentation.m
+//  CommonPresentation.m
 //  qmuidemo
 //
 //  Created by QMUI Team on 16/8/8.
 //  Copyright © 2016年 QMUI Team. All rights reserved.
 //
 
-#import "YACommonPresentation.h"
+#import "CommonPresentation.h"
 #import "YAUIHelper.h"
 
 NSString *const YASelectedThemeIdentifier = @"selectedThemeIdentifier";
@@ -18,7 +18,7 @@ NSString *const YAThemeIdentifierDark = @"Dark";
 
 const CGFloat YAButtonSpacingHeight = 72;
 
-@implementation YACommonPresentation
+@implementation CommonPresentation
 
 + (void)load {
     static dispatch_once_t onceToken;
@@ -65,7 +65,7 @@ const CGFloat YAButtonSpacingHeight = 72;
 
 @end
 
-@implementation YACommonPresentation (ThemeColor)
+@implementation CommonPresentation (ThemeColor)
 
 static NSArray<UIColor *> *themeColors = nil;
 + (UIColor *)randomThemeColor {
@@ -86,7 +86,7 @@ static NSArray<UIColor *> *themeColors = nil;
 
 @end
 
-@implementation YACommonPresentation (Layer)
+@implementation CommonPresentation (Layer)
 
 + (CALayer *)generateSeparatorLayer {
     CALayer *layer = [CALayer layer];

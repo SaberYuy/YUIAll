@@ -18,8 +18,8 @@
 #import "MediationKit+MainAction.h"
 #endif
 
-#if __has_include("YACommonLib.h")
-#import "YACommonLib.h"
+#if __has_include("CommonLib.h")
+#import "CommonLib.h"
 #endif
 
 #if __has_include("BaseLib.h")
