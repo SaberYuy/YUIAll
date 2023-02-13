@@ -15,14 +15,8 @@
 		B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */; };
 		B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */; };
 		B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */; };
-		B48E5AAC294071A200B3741F /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A4A294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.m */; };
 		B48E5AAE294071A200B3741F /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A4F294071A100B3741F /* UIImageEffects.m */; };
 		B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A54294071A100B3741F /* LookinConfig.m */; };
-		B48E5AB1294071A200B3741F /* UINavigationBar+QMUISmoothEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A56294071A100B3741F /* UINavigationBar+QMUISmoothEffect.m */; };
-		B48E5AB2294071A200B3741F /* QMUIDropdownNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A5A294071A100B3741F /* QMUIDropdownNotification.m */; };
-		B48E5AB3294071A200B3741F /* QMUIInteractiveDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A5C294071A100B3741F /* QMUIInteractiveDebugger.m */; };
-		B48E5AB4294071A200B3741F /* QMUIInteractiveDebugPanelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A5E294071A100B3741F /* QMUIInteractiveDebugPanelItem.m */; };
-		B48E5AB5294071A200B3741F /* QMUIInteractiveDebugPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A60294071A100B3741F /* QMUIInteractiveDebugPanelViewController.m */; };
 		B48E5ABC294071A200B3741F /* YACommonAlterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A72294071A200B3741F /* YACommonAlterController.m */; };
 		B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A78294071A200B3741F /* YUIViewManager+Common.m */; };
 		B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A7A294071A200B3741F /* YACommonViewManager.m */; };
@@ -39,7 +33,6 @@
 		B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A99294071A200B3741F /* CommonModelManager.m */; };
 		B48E5ACB294071A200B3741F /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A9D294071A200B3741F /* UIView+Common.m */; };
 		B48E5ACC294071A200B3741F /* YACommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AA0294071A200B3741F /* YACommonView.m */; };
-		B48E5ACD294071A200B3741F /* QMUIBackBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AA3294071A200B3741F /* QMUIBackBarButton.m */; };
 		B48E5AEB2940737C00B3741F /* YAUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AE82940737C00B3741F /* YAUIHelper.m */; };
 		B48E5AEC2940737C00B3741F /* YACommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AEA2940737C00B3741F /* YACommonUI.m */; };
 		B48E5B70294090A000B3741F /* YACommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B63294090A000B3741F /* YACommonListViewController.m */; };
@@ -75,6 +68,13 @@
 		B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */; };
 		B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F24299094F4005F9C7A /* Controller.swift */; };
 		B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */; };
+		B4C087D5299A1EC6006230EF /* QMUIInteractiveDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087C3299A1EC6006230EF /* QMUIInteractiveDebugger.m */; };
+		B4C087D6299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087C5299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m */; };
+		B4C087D7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087C7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m */; };
+		B4C087D8299A1EC6006230EF /* QMUIDropdownNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087CB299A1EC6006230EF /* QMUIDropdownNotification.m */; };
+		B4C087D9299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087CD299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m */; };
+		B4C087DA299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087D1299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m */; };
+		B4C087DB299A1EC6006230EF /* QMUIBackBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087D4299A1EC6006230EF /* QMUIBackBarButton.m */; };
 		B4ECC0DF2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */; };
 		B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E12994D01200E8740F /* ConnectionError.swift */; };
 		B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E22994D01200E8740F /* Cancellable.swift */; };
@@ -175,22 +175,10 @@
 		B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+MVVM.h"; sourceTree = "<group>"; };
 		B4647F16295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+YASubclassingHooks.h"; sourceTree = "<group>"; };
 		B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+YASubclassingHooks.m"; sourceTree = "<group>"; };
-		B48E5A49294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+QMUIBottomAccessoryView.h"; sourceTree = "<group>"; };
-		B48E5A4A294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+QMUIBottomAccessoryView.m"; sourceTree = "<group>"; };
 		B48E5A4C294071A100B3741F /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
 		B48E5A4F294071A100B3741F /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		B48E5A53294071A100B3741F /* LookinConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookinConfig.h; sourceTree = "<group>"; };
 		B48E5A54294071A100B3741F /* LookinConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookinConfig.m; sourceTree = "<group>"; };
-		B48E5A56294071A100B3741F /* UINavigationBar+QMUISmoothEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+QMUISmoothEffect.m"; sourceTree = "<group>"; };
-		B48E5A57294071A100B3741F /* UINavigationBar+QMUISmoothEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+QMUISmoothEffect.h"; sourceTree = "<group>"; };
-		B48E5A59294071A100B3741F /* QMUIDropdownNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIDropdownNotification.h; sourceTree = "<group>"; };
-		B48E5A5A294071A100B3741F /* QMUIDropdownNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIDropdownNotification.m; sourceTree = "<group>"; };
-		B48E5A5C294071A100B3741F /* QMUIInteractiveDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugger.m; sourceTree = "<group>"; };
-		B48E5A5D294071A100B3741F /* QMUIInteractiveDebugPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIInteractiveDebugPanelViewController.h; sourceTree = "<group>"; };
-		B48E5A5E294071A100B3741F /* QMUIInteractiveDebugPanelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugPanelItem.m; sourceTree = "<group>"; };
-		B48E5A5F294071A100B3741F /* QMUIInteractiveDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIInteractiveDebugger.h; sourceTree = "<group>"; };
-		B48E5A60294071A100B3741F /* QMUIInteractiveDebugPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugPanelViewController.m; sourceTree = "<group>"; };
-		B48E5A61294071A100B3741F /* QMUIInteractiveDebugPanelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIInteractiveDebugPanelItem.h; sourceTree = "<group>"; };
 		B48E5A72294071A200B3741F /* YACommonAlterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonAlterController.m; sourceTree = "<group>"; };
 		B48E5A73294071A200B3741F /* YACommonAlterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonAlterController.h; sourceTree = "<group>"; };
 		B48E5A77294071A200B3741F /* YUIViewManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewManager+Common.h"; sourceTree = "<group>"; };
@@ -224,8 +212,6 @@
 		B48E5A9E294071A200B3741F /* YACommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonView.h; sourceTree = "<group>"; };
 		B48E5A9F294071A200B3741F /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		B48E5AA0294071A200B3741F /* YACommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonView.m; sourceTree = "<group>"; };
-		B48E5AA2294071A200B3741F /* QMUIBackBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIBackBarButton.h; sourceTree = "<group>"; };
-		B48E5AA3294071A200B3741F /* QMUIBackBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIBackBarButton.m; sourceTree = "<group>"; };
 		B48E5AE72940737C00B3741F /* YACommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonUI.h; sourceTree = "<group>"; };
 		B48E5AE82940737C00B3741F /* YAUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAUIHelper.m; sourceTree = "<group>"; };
 		B48E5AE92940737C00B3741F /* YAUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAUIHelper.h; sourceTree = "<group>"; };
@@ -277,6 +263,20 @@
 		B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewController.swift; sourceTree = "<group>"; };
 		B4AE9F24299094F4005F9C7A /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewModel.swift; sourceTree = "<group>"; };
+		B4C087C3299A1EC6006230EF /* QMUIInteractiveDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugger.m; sourceTree = "<group>"; };
+		B4C087C4299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIInteractiveDebugPanelViewController.h; sourceTree = "<group>"; };
+		B4C087C5299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugPanelItem.m; sourceTree = "<group>"; };
+		B4C087C6299A1EC6006230EF /* QMUIInteractiveDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIInteractiveDebugger.h; sourceTree = "<group>"; };
+		B4C087C7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugPanelViewController.m; sourceTree = "<group>"; };
+		B4C087C8299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIInteractiveDebugPanelItem.h; sourceTree = "<group>"; };
+		B4C087CA299A1EC6006230EF /* QMUIDropdownNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIDropdownNotification.h; sourceTree = "<group>"; };
+		B4C087CB299A1EC6006230EF /* QMUIDropdownNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIDropdownNotification.m; sourceTree = "<group>"; };
+		B4C087CD299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+QMUISmoothEffect.m"; sourceTree = "<group>"; };
+		B4C087CE299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+QMUISmoothEffect.h"; sourceTree = "<group>"; };
+		B4C087D0299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+QMUIBottomAccessoryView.h"; sourceTree = "<group>"; };
+		B4C087D1299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+QMUIBottomAccessoryView.m"; sourceTree = "<group>"; };
+		B4C087D3299A1EC6006230EF /* QMUIBackBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIBackBarButton.h; sourceTree = "<group>"; };
+		B4C087D4299A1EC6006230EF /* QMUIBackBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIBackBarButton.m; sourceTree = "<group>"; };
 		B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAppLifeCycleSwiftModule.swift; sourceTree = "<group>"; };
 		B4ECC0E12994D01200E8740F /* ConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
 		B4ECC0E22994D01200E8740F /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
@@ -464,15 +464,6 @@
 			path = Catrtory;
 			sourceTree = "<group>";
 		};
-		B48E5A48294071A100B3741F /* QMUINavigationBottomAccessoryView */ = {
-			isa = PBXGroup;
-			children = (
-				B48E5A49294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.h */,
-				B48E5A4A294071A100B3741F /* UINavigationItem+QMUIBottomAccessoryView.m */,
-			);
-			path = QMUINavigationBottomAccessoryView;
-			sourceTree = "<group>";
-		};
 		B48E5A4B294071A100B3741F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,37 +481,6 @@
 				B48E5A54294071A100B3741F /* LookinConfig.m */,
 			);
 			path = LookinConfig;
-			sourceTree = "<group>";
-		};
-		B48E5A55294071A100B3741F /* QMUINavigationBarSmoothEffect */ = {
-			isa = PBXGroup;
-			children = (
-				B48E5A56294071A100B3741F /* UINavigationBar+QMUISmoothEffect.m */,
-				B48E5A57294071A100B3741F /* UINavigationBar+QMUISmoothEffect.h */,
-			);
-			path = QMUINavigationBarSmoothEffect;
-			sourceTree = "<group>";
-		};
-		B48E5A58294071A100B3741F /* QMUIDropdownNotification */ = {
-			isa = PBXGroup;
-			children = (
-				B48E5A59294071A100B3741F /* QMUIDropdownNotification.h */,
-				B48E5A5A294071A100B3741F /* QMUIDropdownNotification.m */,
-			);
-			path = QMUIDropdownNotification;
-			sourceTree = "<group>";
-		};
-		B48E5A5B294071A100B3741F /* QMUIInteractiveDebugger */ = {
-			isa = PBXGroup;
-			children = (
-				B48E5A5C294071A100B3741F /* QMUIInteractiveDebugger.m */,
-				B48E5A5D294071A100B3741F /* QMUIInteractiveDebugPanelViewController.h */,
-				B48E5A5E294071A100B3741F /* QMUIInteractiveDebugPanelItem.m */,
-				B48E5A5F294071A100B3741F /* QMUIInteractiveDebugger.h */,
-				B48E5A60294071A100B3741F /* QMUIInteractiveDebugPanelViewController.m */,
-				B48E5A61294071A100B3741F /* QMUIInteractiveDebugPanelItem.h */,
-			);
-			path = QMUIInteractiveDebugger;
 			sourceTree = "<group>";
 		};
 		B48E5A75294071A200B3741F /* ViewManager */ = {
@@ -626,15 +586,6 @@
 				B48E5A9D294071A200B3741F /* UIView+Common.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B48E5AA1294071A200B3741F /* QMUIBackBarButton */ = {
-			isa = PBXGroup;
-			children = (
-				B48E5AA2294071A200B3741F /* QMUIBackBarButton.h */,
-				B48E5AA3294071A200B3741F /* QMUIBackBarButton.m */,
-			);
-			path = QMUIBackBarButton;
 			sourceTree = "<group>";
 		};
 		B48E5B5E294090A000B3741F /* Controllers */ = {
@@ -917,6 +868,55 @@
 			path = Behavior;
 			sourceTree = "<group>";
 		};
+		B4C087C2299A1EC6006230EF /* QMUIInteractiveDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				B4C087C3299A1EC6006230EF /* QMUIInteractiveDebugger.m */,
+				B4C087C4299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.h */,
+				B4C087C5299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m */,
+				B4C087C6299A1EC6006230EF /* QMUIInteractiveDebugger.h */,
+				B4C087C7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m */,
+				B4C087C8299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.h */,
+			);
+			path = QMUIInteractiveDebugger;
+			sourceTree = "<group>";
+		};
+		B4C087C9299A1EC6006230EF /* QMUIDropdownNotification */ = {
+			isa = PBXGroup;
+			children = (
+				B4C087CA299A1EC6006230EF /* QMUIDropdownNotification.h */,
+				B4C087CB299A1EC6006230EF /* QMUIDropdownNotification.m */,
+			);
+			path = QMUIDropdownNotification;
+			sourceTree = "<group>";
+		};
+		B4C087CC299A1EC6006230EF /* QMUINavigationBarSmoothEffect */ = {
+			isa = PBXGroup;
+			children = (
+				B4C087CD299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m */,
+				B4C087CE299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.h */,
+			);
+			path = QMUINavigationBarSmoothEffect;
+			sourceTree = "<group>";
+		};
+		B4C087CF299A1EC6006230EF /* QMUINavigationBottomAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				B4C087D0299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.h */,
+				B4C087D1299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m */,
+			);
+			path = QMUINavigationBottomAccessoryView;
+			sourceTree = "<group>";
+		};
+		B4C087D2299A1EC6006230EF /* QMUIBackBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				B4C087D3299A1EC6006230EF /* QMUIBackBarButton.h */,
+				B4C087D4299A1EC6006230EF /* QMUIBackBarButton.m */,
+			);
+			path = QMUIBackBarButton;
+			sourceTree = "<group>";
+		};
 		B4D52FE22994E08400BC3006 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -946,11 +946,11 @@
 		B4D52FE52994EA9200BC3006 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B48E5AA1294071A200B3741F /* QMUIBackBarButton */,
-				B48E5A58294071A100B3741F /* QMUIDropdownNotification */,
-				B48E5A5B294071A100B3741F /* QMUIInteractiveDebugger */,
-				B48E5A55294071A100B3741F /* QMUINavigationBarSmoothEffect */,
-				B48E5A48294071A100B3741F /* QMUINavigationBottomAccessoryView */,
+				B4C087D2299A1EC6006230EF /* QMUIBackBarButton */,
+				B4C087C9299A1EC6006230EF /* QMUIDropdownNotification */,
+				B4C087C2299A1EC6006230EF /* QMUIInteractiveDebugger */,
+				B4C087CC299A1EC6006230EF /* QMUINavigationBarSmoothEffect */,
+				B4C087CF299A1EC6006230EF /* QMUINavigationBottomAccessoryView */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -1862,6 +1862,7 @@
 				B4AE9F03298CDB0B005F9C7A /* DataTransferError+ConnectionError.swift in Sources */,
 				B4AE9F1F2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift in Sources */,
 				B4AE9F0A298CE00C005F9C7A /* NetworkConfig.swift in Sources */,
+				B4C087D5299A1EC6006230EF /* QMUIInteractiveDebugger.m in Sources */,
 				B449E75E294AC6A100FD84E3 /* YACommonArchitectureViewController+MVC.m in Sources */,
 				B48E5ABC294071A200B3741F /* YACommonAlterController.m in Sources */,
 				B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */,
@@ -1870,9 +1871,7 @@
 				B48E5AEB2940737C00B3741F /* YAUIHelper.m in Sources */,
 				B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */,
 				BA77D515289FADC300F323EB /* ExampleObjcMVVMDataSourceObject.m in Sources */,
-				B48E5AB2294071A200B3741F /* QMUIDropdownNotification.m in Sources */,
 				B41E71CA2938AD5F009D3FC6 /* QMUIAppLifecycleModule.m in Sources */,
-				B48E5AB1294071A200B3741F /* UINavigationBar+QMUISmoothEffect.m in Sources */,
 				B48E5ACB294071A200B3741F /* UIView+Common.m in Sources */,
 				B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */,
 				BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */,
@@ -1881,7 +1880,6 @@
 				B48E5B70294090A000B3741F /* YACommonListViewController.m in Sources */,
 				BA77D510289FADC300F323EB /* ExampleObjcMVCView.m in Sources */,
 				B4AE9F04298CDB0B005F9C7A /* CGSize+ScaledSize.swift in Sources */,
-				B48E5AB4294071A200B3741F /* QMUIInteractiveDebugPanelItem.m in Sources */,
 				BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */,
 				BA77D500289FADC300F323EB /* HomeViewController.m in Sources */,
 				B4ECC0DF2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift in Sources */,
@@ -1890,7 +1888,6 @@
 				B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */,
 				B4A2045529939A0B0042AFD2 /* AppAppearance.swift in Sources */,
 				B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */,
-				B48E5ACD294071A200B3741F /* QMUIBackBarButton.m in Sources */,
 				B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */,
 				B48E5B89294090A900B3741F /* YUIConfigurationTemplateDark.m in Sources */,
 				B48E5B86294090A900B3741F /* YUIConfigurationTemplatePinkRose.m in Sources */,
@@ -1899,6 +1896,7 @@
 				B4AE9F1A298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m in Sources */,
 				BA77D548289FADC300F323EB /* CommonRequest.m in Sources */,
 				BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */,
+				B4C087D8299A1EC6006230EF /* QMUIDropdownNotification.m in Sources */,
 				B4FA763728C9CC7100BAFDD7 /* ExampleDataSourceObject.swift in Sources */,
 				B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */,
 				BA77D516289FADC300F323EB /* ExampleObjcModelManager.m in Sources */,
@@ -1926,6 +1924,7 @@
 				B48E5AC6294071A200B3741F /* YACommonViewController+EmptyView.m in Sources */,
 				B48E5AC1294071A200B3741F /* YACommonEmptyDataSetSourceAndDelegateObject.m in Sources */,
 				B48E5B76294090A000B3741F /* YACommonGroupListViewController.m in Sources */,
+				B4C087DA299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */,
 				BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */,
 				B449E74A2948531500FD84E3 /* YATabBarViewController.m in Sources */,
 				BA77D546289FADC300F323EB /* MediationKit+ExampleObjcAction.m in Sources */,
@@ -1936,6 +1935,7 @@
 				B48E5B85294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */,
 				B449E74D29486EA500FD84E3 /* YACommonViewController.m in Sources */,
+				B4C087D6299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m in Sources */,
 				B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */,
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
 				B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */,
@@ -1945,13 +1945,10 @@
 				B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */,
 				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
 				B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */,
-				B48E5AB5294071A200B3741F /* QMUIInteractiveDebugPanelViewController.m in Sources */,
 				BA77D50D289FADC300F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m in Sources */,
 				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
 				B48E5B8A294090A900B3741F /* YAThemeManager.m in Sources */,
-				B48E5AAC294071A200B3741F /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */,
 				BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */,
-				B48E5AB3294071A200B3741F /* QMUIInteractiveDebugger.m in Sources */,
 				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
 				BA77D51A289FADC300F323EB /* ExampleObjcMVVMView.m in Sources */,
 				BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */,
@@ -1963,8 +1960,11 @@
 				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
 				B48E5B71294090A000B3741F /* YANavigationController.m in Sources */,
 				B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */,
+				B4C087D7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m in Sources */,
+				B4C087D9299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m in Sources */,
 				BA77D512289FADC300F323EB /* ExampleObjcMVVMViewController.m in Sources */,
 				BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */,
+				B4C087DB299A1EC6006230EF /* QMUIBackBarButton.m in Sources */,
 				B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */,
 				B4AE9F01298CDB0B005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift in Sources */,
 				B48E5ACC294071A200B3741F /* YACommonView.m in Sources */,

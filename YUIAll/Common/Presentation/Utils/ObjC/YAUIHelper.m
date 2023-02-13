@@ -33,10 +33,6 @@
     });
 }
 
-+ (void)forceInterfaceOrientationPortrait {
-    [QMUIHelper rotateToDeviceOrientation:UIDeviceOrientationPortrait];
-}
-
 @end
 
 
@@ -315,7 +311,7 @@ static NSArray<QMUIEmotion *> *QMUIEmotionArray;
         viewController.view.backgroundColor = UIColor.ya_backgroundColorLighten;
         viewController.view.layer.borderColor = UIColor.ya_separatorColor.CGColor;
         viewController.titleLabel.textColor = UIColor.ya_titleTextColor;
-        [viewController.ya_Items enumerateObjectsUsingBlock:^(QMUIInteractiveDebugPanelItem * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [viewController.debugItems enumerateObjectsUsingBlock:^(QMUIInteractiveDebugPanelItem * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             obj.titleLabel.textColor = UIColor.ya_titleTextColor;
             obj.actionView.tintColor = UIColor.ya_tintColor;
             if ([obj.actionView isKindOfClass:UITextField.class]) {

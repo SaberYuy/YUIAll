@@ -10,8 +10,6 @@
 
 @interface YAUIHelper : NSObject
 
-+ (void)forceInterfaceOrientationPortrait;
-
 @end
 
 
@@ -110,4 +108,5 @@
 - (void)enumerateCodeStringUsingBlock:(void (^)(NSString *codeString, NSRange codeRange))block;
 
 @end
+
 
