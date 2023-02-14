@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B41E71CA2938AD5F009D3FC6 /* QMUIAppLifecycleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E71C92938AD5F009D3FC6 /* QMUIAppLifecycleModule.m */; };
-		B449E74A2948531500FD84E3 /* YATabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E7482948531500FD84E3 /* YATabBarViewController.m */; };
-		B449E74D29486EA500FD84E3 /* YACommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E74B29486EA500FD84E3 /* YACommonViewController.m */; };
 		B449E7552949771A00FD84E3 /* YACommonArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E7542949771A00FD84E3 /* YACommonArchitectureViewController.m */; };
 		B449E75E294AC6A100FD84E3 /* YACommonArchitectureViewController+MVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */; };
 		B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */; };
 		B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */; };
 		B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */; };
-		B48E5AAE294071A200B3741F /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A4F294071A100B3741F /* UIImageEffects.m */; };
 		B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A54294071A100B3741F /* LookinConfig.m */; };
-		B48E5ABC294071A200B3741F /* YACommonAlterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A72294071A200B3741F /* YACommonAlterController.m */; };
 		B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A78294071A200B3741F /* YUIViewManager+Common.m */; };
 		B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A7A294071A200B3741F /* YACommonViewManager.m */; };
 		B48E5ABF294071A200B3741F /* YUIViewModel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A7F294071A200B3741F /* YUIViewModel+Common.m */; };
@@ -33,20 +29,6 @@
 		B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A99294071A200B3741F /* CommonModelManager.m */; };
 		B48E5ACB294071A200B3741F /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A9D294071A200B3741F /* UIView+Common.m */; };
 		B48E5ACC294071A200B3741F /* YACommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AA0294071A200B3741F /* YACommonView.m */; };
-		B48E5AEB2940737C00B3741F /* YAUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AE82940737C00B3741F /* YAUIHelper.m */; };
-		B48E5AEC2940737C00B3741F /* YACommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AEA2940737C00B3741F /* YACommonUI.m */; };
-		B48E5B70294090A000B3741F /* YACommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B63294090A000B3741F /* YACommonListViewController.m */; };
-		B48E5B71294090A000B3741F /* YANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B65294090A000B3741F /* YANavigationController.m */; };
-		B48E5B72294090A000B3741F /* YAStyleSelectableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B67294090A000B3741F /* YAStyleSelectableTableViewController.m */; };
-		B48E5B73294090A000B3741F /* YACommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B69294090A000B3741F /* YACommonTableViewController.m */; };
-		B48E5B74294090A000B3741F /* YACommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B6A294090A000B3741F /* YACommonGridViewController.m */; };
-		B48E5B76294090A000B3741F /* YACommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B6E294090A000B3741F /* YACommonGroupListViewController.m */; };
-		B48E5B85294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B79294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m */; };
-		B48E5B86294090A900B3741F /* YUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B7C294090A900B3741F /* YUIConfigurationTemplatePinkRose.m */; };
-		B48E5B87294090A900B3741F /* YUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B7D294090A900B3741F /* YUIConfigurationTemplate.m */; };
-		B48E5B88294090A900B3741F /* YUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B7F294090A900B3741F /* YUIConfigurationTemplateGrass.m */; };
-		B48E5B89294090A900B3741F /* YUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B81294090A900B3741F /* YUIConfigurationTemplateDark.m */; };
-		B48E5B8A294090A900B3741F /* YAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5B82294090A900B3741F /* YAThemeManager.m */; };
 		B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2043C2990D6240042AFD2 /* HUDService.swift */; };
 		B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */; };
 		B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */; };
@@ -75,7 +57,24 @@
 		B4C087D9299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087CD299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m */; };
 		B4C087DA299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087D1299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m */; };
 		B4C087DB299A1EC6006230EF /* QMUIBackBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087D4299A1EC6006230EF /* QMUIBackBarButton.m */; };
-		B4ECC0DF2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */; };
+		B4C087F2299B8066006230EF /* YACommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087E4299B8065006230EF /* YACommonGridViewController.m */; };
+		B4C087F3299B8066006230EF /* YACommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087E5299B8065006230EF /* YACommonListViewController.m */; };
+		B4C087F4299B8066006230EF /* YAStyleSelectableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087E6299B8065006230EF /* YAStyleSelectableTableViewController.m */; };
+		B4C087F5299B8066006230EF /* YATabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087E8299B8065006230EF /* YATabBarViewController.m */; };
+		B4C087F6299B8066006230EF /* YACommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087EA299B8065006230EF /* YACommonGroupListViewController.m */; };
+		B4C087F7299B8066006230EF /* YANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087EB299B8065006230EF /* YANavigationController.m */; };
+		B4C087F8299B8066006230EF /* YACommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087EF299B8066006230EF /* YACommonTableViewController.m */; };
+		B4C087F9299B8066006230EF /* YACommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087F1299B8066006230EF /* YACommonViewController.m */; };
+		B4C08800299B8F68006230EF /* YACommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087FC299B8F68006230EF /* YACommonUI.m */; };
+		B4C08801299B8F68006230EF /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087FD299B8F68006230EF /* UIImageEffects.m */; };
+		B4C08802299B8F68006230EF /* YAUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087FF299B8F68006230EF /* YAUIHelper.m */; };
+		B4C08824299B9071006230EF /* YUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C08817299B9070006230EF /* YUIConfigurationTemplateGrass.m */; };
+		B4C08825299B9071006230EF /* YUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C08818299B9070006230EF /* YUIConfigurationTemplate.m */; };
+		B4C08826299B9071006230EF /* YAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0881C299B9071006230EF /* YAThemeManager.m */; };
+		B4C08827299B9071006230EF /* YUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0881D299B9071006230EF /* YUIConfigurationTemplateDark.m */; };
+		B4C08828299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0881E299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m */; };
+		B4C08829299B9071006230EF /* YUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C08820299B9071006230EF /* YUIConfigurationTemplatePinkRose.m */; };
+		B4ECC0DF2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0DE2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift */; };
 		B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E12994D01200E8740F /* ConnectionError.swift */; };
 		B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E22994D01200E8740F /* Cancellable.swift */; };
 		B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */; };
@@ -161,10 +160,6 @@
 		72E9BD2221A36A7AA20E842C /* Pods-YUIAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUIAll.release.xcconfig"; path = "Target Support Files/Pods-YUIAll/Pods-YUIAll.release.xcconfig"; sourceTree = "<group>"; };
 		B41E71C82938AD5F009D3FC6 /* QMUIAppLifecycleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIAppLifecycleModule.h; sourceTree = "<group>"; };
 		B41E71C92938AD5F009D3FC6 /* QMUIAppLifecycleModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIAppLifecycleModule.m; sourceTree = "<group>"; };
-		B449E7482948531500FD84E3 /* YATabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YATabBarViewController.m; sourceTree = "<group>"; };
-		B449E7492948531500FD84E3 /* YATabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YATabBarViewController.h; sourceTree = "<group>"; };
-		B449E74B29486EA500FD84E3 /* YACommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonViewController.m; sourceTree = "<group>"; };
-		B449E74C29486EA500FD84E3 /* YACommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonViewController.h; sourceTree = "<group>"; };
 		B449E7532949771A00FD84E3 /* YACommonArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YACommonArchitectureViewController.h; sourceTree = "<group>"; };
 		B449E7542949771A00FD84E3 /* YACommonArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YACommonArchitectureViewController.m; sourceTree = "<group>"; };
 		B449E758294AC6A000FD84E3 /* YACommonArchitectureViewController+MVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+MVC.m"; sourceTree = "<group>"; };
@@ -175,12 +170,8 @@
 		B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+MVVM.h"; sourceTree = "<group>"; };
 		B4647F16295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+YASubclassingHooks.h"; sourceTree = "<group>"; };
 		B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+YASubclassingHooks.m"; sourceTree = "<group>"; };
-		B48E5A4C294071A100B3741F /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
-		B48E5A4F294071A100B3741F /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		B48E5A53294071A100B3741F /* LookinConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookinConfig.h; sourceTree = "<group>"; };
 		B48E5A54294071A100B3741F /* LookinConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookinConfig.m; sourceTree = "<group>"; };
-		B48E5A72294071A200B3741F /* YACommonAlterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonAlterController.m; sourceTree = "<group>"; };
-		B48E5A73294071A200B3741F /* YACommonAlterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonAlterController.h; sourceTree = "<group>"; };
 		B48E5A77294071A200B3741F /* YUIViewManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewManager+Common.h"; sourceTree = "<group>"; };
 		B48E5A78294071A200B3741F /* YUIViewManager+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YUIViewManager+Common.m"; sourceTree = "<group>"; };
 		B48E5A79294071A200B3741F /* YACommonViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonViewManager.h; sourceTree = "<group>"; };
@@ -212,35 +203,6 @@
 		B48E5A9E294071A200B3741F /* YACommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonView.h; sourceTree = "<group>"; };
 		B48E5A9F294071A200B3741F /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		B48E5AA0294071A200B3741F /* YACommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonView.m; sourceTree = "<group>"; };
-		B48E5AE72940737C00B3741F /* YACommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonUI.h; sourceTree = "<group>"; };
-		B48E5AE82940737C00B3741F /* YAUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAUIHelper.m; sourceTree = "<group>"; };
-		B48E5AE92940737C00B3741F /* YAUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAUIHelper.h; sourceTree = "<group>"; };
-		B48E5AEA2940737C00B3741F /* YACommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonUI.m; sourceTree = "<group>"; };
-		B48E5B60294090A000B3741F /* YAStyleSelectableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAStyleSelectableTableViewController.h; sourceTree = "<group>"; };
-		B48E5B61294090A000B3741F /* YACommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonGridViewController.h; sourceTree = "<group>"; };
-		B48E5B62294090A000B3741F /* YACommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonTableViewController.h; sourceTree = "<group>"; };
-		B48E5B63294090A000B3741F /* YACommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonListViewController.m; sourceTree = "<group>"; };
-		B48E5B65294090A000B3741F /* YANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANavigationController.m; sourceTree = "<group>"; };
-		B48E5B66294090A000B3741F /* YACommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonGroupListViewController.h; sourceTree = "<group>"; };
-		B48E5B67294090A000B3741F /* YAStyleSelectableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAStyleSelectableTableViewController.m; sourceTree = "<group>"; };
-		B48E5B69294090A000B3741F /* YACommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonTableViewController.m; sourceTree = "<group>"; };
-		B48E5B6A294090A000B3741F /* YACommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonGridViewController.m; sourceTree = "<group>"; };
-		B48E5B6C294090A000B3741F /* YANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANavigationController.h; sourceTree = "<group>"; };
-		B48E5B6D294090A000B3741F /* YACommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonListViewController.h; sourceTree = "<group>"; };
-		B48E5B6E294090A000B3741F /* YACommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonGroupListViewController.m; sourceTree = "<group>"; };
-		B48E5B78294090A900B3741F /* YUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
-		B48E5B79294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
-		B48E5B7A294090A900B3741F /* YAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAThemeManager.h; sourceTree = "<group>"; };
-		B48E5B7B294090A900B3741F /* YUIConfigurationTemplateDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateDark.h; sourceTree = "<group>"; };
-		B48E5B7C294090A900B3741F /* YUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
-		B48E5B7D294090A900B3741F /* YUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplate.m; sourceTree = "<group>"; };
-		B48E5B7E294090A900B3741F /* YUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
-		B48E5B7F294090A900B3741F /* YUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
-		B48E5B80294090A900B3741F /* YUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
-		B48E5B81294090A900B3741F /* YUIConfigurationTemplateDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplateDark.m; sourceTree = "<group>"; };
-		B48E5B82294090A900B3741F /* YAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAThemeManager.m; sourceTree = "<group>"; };
-		B48E5B83294090A900B3741F /* YAThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAThemeProtocol.h; sourceTree = "<group>"; };
-		B48E5B84294090A900B3741F /* YUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplate.h; sourceTree = "<group>"; };
 		B4A2043C2990D6240042AFD2 /* HUDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDService.swift; sourceTree = "<group>"; };
 		B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
 		B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
@@ -277,7 +239,42 @@
 		B4C087D1299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+QMUIBottomAccessoryView.m"; sourceTree = "<group>"; };
 		B4C087D3299A1EC6006230EF /* QMUIBackBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIBackBarButton.h; sourceTree = "<group>"; };
 		B4C087D4299A1EC6006230EF /* QMUIBackBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIBackBarButton.m; sourceTree = "<group>"; };
-		B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAppLifeCycleSwiftModule.swift; sourceTree = "<group>"; };
+		B4C087E2299B8064006230EF /* YACommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonViewController.h; sourceTree = "<group>"; };
+		B4C087E3299B8065006230EF /* YACommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonTableViewController.h; sourceTree = "<group>"; };
+		B4C087E4299B8065006230EF /* YACommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonGridViewController.m; sourceTree = "<group>"; };
+		B4C087E5299B8065006230EF /* YACommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonListViewController.m; sourceTree = "<group>"; };
+		B4C087E6299B8065006230EF /* YAStyleSelectableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAStyleSelectableTableViewController.m; sourceTree = "<group>"; };
+		B4C087E7299B8065006230EF /* YAStyleSelectableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAStyleSelectableTableViewController.h; sourceTree = "<group>"; };
+		B4C087E8299B8065006230EF /* YATabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YATabBarViewController.m; sourceTree = "<group>"; };
+		B4C087E9299B8065006230EF /* YATabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YATabBarViewController.h; sourceTree = "<group>"; };
+		B4C087EA299B8065006230EF /* YACommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonGroupListViewController.m; sourceTree = "<group>"; };
+		B4C087EB299B8065006230EF /* YANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANavigationController.m; sourceTree = "<group>"; };
+		B4C087EC299B8065006230EF /* YACommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonListViewController.h; sourceTree = "<group>"; };
+		B4C087ED299B8065006230EF /* YACommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonGridViewController.h; sourceTree = "<group>"; };
+		B4C087EE299B8065006230EF /* YANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANavigationController.h; sourceTree = "<group>"; };
+		B4C087EF299B8066006230EF /* YACommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonTableViewController.m; sourceTree = "<group>"; };
+		B4C087F0299B8066006230EF /* YACommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonGroupListViewController.h; sourceTree = "<group>"; };
+		B4C087F1299B8066006230EF /* YACommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonViewController.m; sourceTree = "<group>"; };
+		B4C087FA299B8F67006230EF /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		B4C087FB299B8F67006230EF /* YACommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonUI.h; sourceTree = "<group>"; };
+		B4C087FC299B8F68006230EF /* YACommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonUI.m; sourceTree = "<group>"; };
+		B4C087FD299B8F68006230EF /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		B4C087FE299B8F68006230EF /* YAUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAUIHelper.h; sourceTree = "<group>"; };
+		B4C087FF299B8F68006230EF /* YAUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAUIHelper.m; sourceTree = "<group>"; };
+		B4C08817299B9070006230EF /* YUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
+		B4C08818299B9070006230EF /* YUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		B4C08819299B9070006230EF /* YAThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAThemeProtocol.h; sourceTree = "<group>"; };
+		B4C0881A299B9070006230EF /* YUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
+		B4C0881B299B9070006230EF /* YUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
+		B4C0881C299B9071006230EF /* YAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAThemeManager.m; sourceTree = "<group>"; };
+		B4C0881D299B9071006230EF /* YUIConfigurationTemplateDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplateDark.m; sourceTree = "<group>"; };
+		B4C0881E299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
+		B4C0881F299B9071006230EF /* YUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		B4C08820299B9071006230EF /* YUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
+		B4C08821299B9071006230EF /* YUIConfigurationTemplateDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateDark.h; sourceTree = "<group>"; };
+		B4C08822299B9071006230EF /* YAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAThemeManager.h; sourceTree = "<group>"; };
+		B4C08823299B9071006230EF /* YUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		B4ECC0DE2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAppLifecycleSwiftModule.swift; sourceTree = "<group>"; };
 		B4ECC0E12994D01200E8740F /* ConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
 		B4ECC0E22994D01200E8740F /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewManager.swift; sourceTree = "<group>"; };
@@ -431,10 +428,10 @@
 		B449E74E29487A9100FD84E3 /* CommonViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B4C087E2299B8064006230EF /* YACommonViewController.h */,
+				B4C087F1299B8066006230EF /* YACommonViewController.m */,
 				B449E74F294888A300FD84E3 /* Architecture */,
 				B48E5A8C294071A200B3741F /* Category */,
-				B449E74C29486EA500FD84E3 /* YACommonViewController.h */,
-				B449E74B29486EA500FD84E3 /* YACommonViewController.m */,
 			);
 			path = CommonViewController;
 			sourceTree = "<group>";
@@ -591,23 +588,21 @@
 		B48E5B5E294090A000B3741F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B4C087ED299B8065006230EF /* YACommonGridViewController.h */,
+				B4C087E4299B8065006230EF /* YACommonGridViewController.m */,
+				B4C087F0299B8066006230EF /* YACommonGroupListViewController.h */,
+				B4C087EA299B8065006230EF /* YACommonGroupListViewController.m */,
+				B4C087EC299B8065006230EF /* YACommonListViewController.h */,
+				B4C087E5299B8065006230EF /* YACommonListViewController.m */,
+				B4C087E3299B8065006230EF /* YACommonTableViewController.h */,
+				B4C087EF299B8066006230EF /* YACommonTableViewController.m */,
+				B4C087EE299B8065006230EF /* YANavigationController.h */,
+				B4C087EB299B8065006230EF /* YANavigationController.m */,
+				B4C087E7299B8065006230EF /* YAStyleSelectableTableViewController.h */,
+				B4C087E6299B8065006230EF /* YAStyleSelectableTableViewController.m */,
+				B4C087E9299B8065006230EF /* YATabBarViewController.h */,
+				B4C087E8299B8065006230EF /* YATabBarViewController.m */,
 				B449E74E29487A9100FD84E3 /* CommonViewController */,
-				B48E5B61294090A000B3741F /* YACommonGridViewController.h */,
-				B48E5B6A294090A000B3741F /* YACommonGridViewController.m */,
-				B48E5B66294090A000B3741F /* YACommonGroupListViewController.h */,
-				B48E5B6E294090A000B3741F /* YACommonGroupListViewController.m */,
-				B48E5B6D294090A000B3741F /* YACommonListViewController.h */,
-				B48E5B63294090A000B3741F /* YACommonListViewController.m */,
-				B48E5B62294090A000B3741F /* YACommonTableViewController.h */,
-				B48E5B69294090A000B3741F /* YACommonTableViewController.m */,
-				B48E5B6C294090A000B3741F /* YANavigationController.h */,
-				B48E5B65294090A000B3741F /* YANavigationController.m */,
-				B48E5B60294090A000B3741F /* YAStyleSelectableTableViewController.h */,
-				B48E5B67294090A000B3741F /* YAStyleSelectableTableViewController.m */,
-				B449E7492948531500FD84E3 /* YATabBarViewController.h */,
-				B449E7482948531500FD84E3 /* YATabBarViewController.m */,
-				B48E5A73294071A200B3741F /* YACommonAlterController.h */,
-				B48E5A72294071A200B3741F /* YACommonAlterController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -615,19 +610,19 @@
 		B48E5B77294090A900B3741F /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				B48E5B7A294090A900B3741F /* YAThemeManager.h */,
-				B48E5B82294090A900B3741F /* YAThemeManager.m */,
-				B48E5B83294090A900B3741F /* YAThemeProtocol.h */,
-				B48E5B84294090A900B3741F /* YUIConfigurationTemplate.h */,
-				B48E5B7D294090A900B3741F /* YUIConfigurationTemplate.m */,
-				B48E5B7B294090A900B3741F /* YUIConfigurationTemplateDark.h */,
-				B48E5B81294090A900B3741F /* YUIConfigurationTemplateDark.m */,
-				B48E5B7E294090A900B3741F /* YUIConfigurationTemplateGrapefruit.h */,
-				B48E5B79294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m */,
-				B48E5B78294090A900B3741F /* YUIConfigurationTemplateGrass.h */,
-				B48E5B7F294090A900B3741F /* YUIConfigurationTemplateGrass.m */,
-				B48E5B80294090A900B3741F /* YUIConfigurationTemplatePinkRose.h */,
-				B48E5B7C294090A900B3741F /* YUIConfigurationTemplatePinkRose.m */,
+				B4C08822299B9071006230EF /* YAThemeManager.h */,
+				B4C0881C299B9071006230EF /* YAThemeManager.m */,
+				B4C08819299B9070006230EF /* YAThemeProtocol.h */,
+				B4C0881F299B9071006230EF /* YUIConfigurationTemplate.h */,
+				B4C08818299B9070006230EF /* YUIConfigurationTemplate.m */,
+				B4C08821299B9071006230EF /* YUIConfigurationTemplateDark.h */,
+				B4C0881D299B9071006230EF /* YUIConfigurationTemplateDark.m */,
+				B4C0881A299B9070006230EF /* YUIConfigurationTemplateGrapefruit.h */,
+				B4C0881E299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m */,
+				B4C0881B299B9070006230EF /* YUIConfigurationTemplateGrass.h */,
+				B4C08817299B9070006230EF /* YUIConfigurationTemplateGrass.m */,
+				B4C08823299B9071006230EF /* YUIConfigurationTemplatePinkRose.h */,
+				B4C08820299B9071006230EF /* YUIConfigurationTemplatePinkRose.m */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -644,7 +639,7 @@
 			children = (
 				BA77D478289FADC200F323EB /* YAAppLifecycleModule.h */,
 				BA77D476289FADC200F323EB /* YAAppLifecycleModule.m */,
-				B4ECC0DE2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift */,
+				B4ECC0DE2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift */,
 				B41E71C82938AD5F009D3FC6 /* QMUIAppLifecycleModule.h */,
 				B41E71C92938AD5F009D3FC6 /* QMUIAppLifecycleModule.m */,
 			);
@@ -933,12 +928,12 @@
 		B4D52FE32994E0A200BC3006 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				B48E5AE72940737C00B3741F /* YACommonUI.h */,
-				B48E5AEA2940737C00B3741F /* YACommonUI.m */,
-				B48E5AE92940737C00B3741F /* YAUIHelper.h */,
-				B48E5AE82940737C00B3741F /* YAUIHelper.m */,
-				B48E5A4C294071A100B3741F /* UIImageEffects.h */,
-				B48E5A4F294071A100B3741F /* UIImageEffects.m */,
+				B4C087FA299B8F67006230EF /* UIImageEffects.h */,
+				B4C087FD299B8F68006230EF /* UIImageEffects.m */,
+				B4C087FB299B8F67006230EF /* YACommonUI.h */,
+				B4C087FC299B8F68006230EF /* YACommonUI.m */,
+				B4C087FE299B8F68006230EF /* YAUIHelper.h */,
+				B4C087FF299B8F68006230EF /* YAUIHelper.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -1851,24 +1846,26 @@
 				BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */,
 				BA77D519289FADC300F323EB /* ExampleObjcMVVMViewManager.m in Sources */,
 				B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */,
+				B4C087F9299B8066006230EF /* YACommonViewController.m in Sources */,
 				B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */,
 				B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */,
+				B4C087F5299B8066006230EF /* YATabBarViewController.m in Sources */,
 				BA77D549289FADC300F323EB /* LayoutService.m in Sources */,
+				B4C087F4299B8066006230EF /* YAStyleSelectableTableViewController.m in Sources */,
 				B48E5AC2294071A200B3741F /* CommonAmountTextFieldViewDelegateObject.m in Sources */,
 				B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */,
 				BA77D529289FADC300F323EB /* AppLifecycleMediator.m in Sources */,
 				B449E7552949771A00FD84E3 /* YACommonArchitectureViewController.m in Sources */,
 				BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */,
+				B4C08802299B8F68006230EF /* YAUIHelper.m in Sources */,
 				B4AE9F03298CDB0B005F9C7A /* DataTransferError+ConnectionError.swift in Sources */,
 				B4AE9F1F2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift in Sources */,
 				B4AE9F0A298CE00C005F9C7A /* NetworkConfig.swift in Sources */,
 				B4C087D5299A1EC6006230EF /* QMUIInteractiveDebugger.m in Sources */,
 				B449E75E294AC6A100FD84E3 /* YACommonArchitectureViewController+MVC.m in Sources */,
-				B48E5ABC294071A200B3741F /* YACommonAlterController.m in Sources */,
 				B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */,
 				B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */,
 				B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */,
-				B48E5AEB2940737C00B3741F /* YAUIHelper.m in Sources */,
 				B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */,
 				BA77D515289FADC300F323EB /* ExampleObjcMVVMDataSourceObject.m in Sources */,
 				B41E71CA2938AD5F009D3FC6 /* QMUIAppLifecycleModule.m in Sources */,
@@ -1876,23 +1873,22 @@
 				B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */,
 				BA77D51E289FADC300F323EB /* LoginViewController.m in Sources */,
 				B4A20453299374AC0042AFD2 /* AppDIContainer.swift in Sources */,
+				B4C087F3299B8066006230EF /* YACommonListViewController.m in Sources */,
 				B4AE9F0E298CE012005F9C7A /* NetworkService.swift in Sources */,
-				B48E5B70294090A000B3741F /* YACommonListViewController.m in Sources */,
 				BA77D510289FADC300F323EB /* ExampleObjcMVCView.m in Sources */,
 				B4AE9F04298CDB0B005F9C7A /* CGSize+ScaledSize.swift in Sources */,
 				BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */,
 				BA77D500289FADC300F323EB /* HomeViewController.m in Sources */,
-				B4ECC0DF2993A5C400E8740F /* YAAppLifeCycleSwiftModule.swift in Sources */,
+				B4ECC0DF2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift in Sources */,
 				BA77D511289FADC300F323EB /* ExampleObjcMVVMViewModel.m in Sources */,
 				B48E5AC0294071A200B3741F /* YACommonViewModel.m in Sources */,
 				B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */,
 				B4A2045529939A0B0042AFD2 /* AppAppearance.swift in Sources */,
 				B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */,
 				B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */,
-				B48E5B89294090A900B3741F /* YUIConfigurationTemplateDark.m in Sources */,
-				B48E5B86294090A900B3741F /* YUIConfigurationTemplatePinkRose.m in Sources */,
 				B48E5ABF294071A200B3741F /* YUIViewModel+Common.m in Sources */,
 				BA77D522289FADC300F323EB /* GlobalState.m in Sources */,
+				B4C087F6299B8066006230EF /* YACommonGroupListViewController.m in Sources */,
 				B4AE9F1A298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m in Sources */,
 				BA77D548289FADC300F323EB /* CommonRequest.m in Sources */,
 				BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */,
@@ -1903,51 +1899,49 @@
 				BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */,
 				B48E5AC8294071A200B3741F /* CommonLayoutModel.m in Sources */,
 				B4FA763828C9CC7100BAFDD7 /* Target_Example.swift in Sources */,
+				B4C087F8299B8066006230EF /* YACommonTableViewController.m in Sources */,
 				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
 				B48E5AC3294071A200B3741F /* YAComnonArchitectureDelegateObject.m in Sources */,
-				B48E5AEC2940737C00B3741F /* YACommonUI.m in Sources */,
 				BA77D51B289FADC300F323EB /* ExampleObjcTableViewCell.m in Sources */,
-				B48E5B74294090A000B3741F /* YACommonGridViewController.m in Sources */,
 				BA77D50E289FADC300F323EB /* ExampleObjcMVCModelManager.m in Sources */,
-				B48E5B87294090A900B3741F /* YUIConfigurationTemplate.m in Sources */,
-				B48E5B72294090A000B3741F /* YAStyleSelectableTableViewController.m in Sources */,
 				BA77D54B289FADC300F323EB /* NSObject+YUIModel.m in Sources */,
-				B48E5AAE294071A200B3741F /* UIImageEffects.m in Sources */,
 				B4AE9F02298CDB0B005F9C7A /* UIViewController+AddChild.swift in Sources */,
 				BA77D52B289FADC300F323EB /* AppDelegate.swift in Sources */,
 				BA77D528289FADC300F323EB /* YAAppLifecycleModule.m in Sources */,
+				B4C08801299B8F68006230EF /* UIImageEffects.m in Sources */,
 				B4AE9F0B298CE00C005F9C7A /* DataTransferService.swift in Sources */,
+				B4C08827299B9071006230EF /* YUIConfigurationTemplateDark.m in Sources */,
+				B4C08829299B9071006230EF /* YUIConfigurationTemplatePinkRose.m in Sources */,
 				BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */,
-				B48E5B73294090A000B3741F /* YACommonTableViewController.m in Sources */,
 				B4FA763A28C9CC7100BAFDD7 /* ExampleView.swift in Sources */,
 				B4AE9F06298CDB0B005F9C7A /* UIViewController+AddBehaviors.swift in Sources */,
+				B4C087F7299B8066006230EF /* YANavigationController.m in Sources */,
 				B48E5AC6294071A200B3741F /* YACommonViewController+EmptyView.m in Sources */,
 				B48E5AC1294071A200B3741F /* YACommonEmptyDataSetSourceAndDelegateObject.m in Sources */,
-				B48E5B76294090A000B3741F /* YACommonGroupListViewController.m in Sources */,
 				B4C087DA299A1EC6006230EF /* UINavigationItem+QMUIBottomAccessoryView.m in Sources */,
 				BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */,
-				B449E74A2948531500FD84E3 /* YATabBarViewController.m in Sources */,
+				B4C08825299B9071006230EF /* YUIConfigurationTemplate.m in Sources */,
+				B4C08800299B8F68006230EF /* YACommonUI.m in Sources */,
 				BA77D546289FADC300F323EB /* MediationKit+ExampleObjcAction.m in Sources */,
 				B4AE9F05298CDB0B005F9C7A /* UIViewController+ActivityIndicator.swift in Sources */,
 				BA77D54F289FADC300F323EB /* MediationKit.m in Sources */,
 				BA77D50B289FADC300F323EB /* ExampleObjcMVCViewController.m in Sources */,
 				B4AE9F1D299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift in Sources */,
-				B48E5B85294090A900B3741F /* YUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */,
-				B449E74D29486EA500FD84E3 /* YACommonViewController.m in Sources */,
 				B4C087D6299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m in Sources */,
+				B4C08824299B9071006230EF /* YUIConfigurationTemplateGrass.m in Sources */,
 				B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */,
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
 				B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */,
-				B48E5B88294090A900B3741F /* YUIConfigurationTemplateGrass.m in Sources */,
 				BA77D50C289FADC300F323EB /* ExampleObjcMVCDataSourceObject.m in Sources */,
 				B4AE9F0C298CE00C005F9C7A /* Endpoint.swift in Sources */,
 				B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */,
+				B4C08826299B9071006230EF /* YAThemeManager.m in Sources */,
 				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
 				B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */,
 				BA77D50D289FADC300F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m in Sources */,
 				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
-				B48E5B8A294090A900B3741F /* YAThemeManager.m in Sources */,
+				B4C08828299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */,
 				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
 				BA77D51A289FADC300F323EB /* ExampleObjcMVVMView.m in Sources */,
@@ -1958,12 +1952,12 @@
 				B48E5AC9294071A200B3741F /* CommonTransferModel.m in Sources */,
 				B48E5AC5294071A200B3741F /* YACommonViewController+PopupView.m in Sources */,
 				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
-				B48E5B71294090A000B3741F /* YANavigationController.m in Sources */,
 				B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */,
 				B4C087D7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m in Sources */,
 				B4C087D9299A1EC6006230EF /* UINavigationBar+QMUISmoothEffect.m in Sources */,
 				BA77D512289FADC300F323EB /* ExampleObjcMVVMViewController.m in Sources */,
 				BA77D521289FADC300F323EB /* LoginViewManager.m in Sources */,
+				B4C087F2299B8066006230EF /* YACommonGridViewController.m in Sources */,
 				B4C087DB299A1EC6006230EF /* QMUIBackBarButton.m in Sources */,
 				B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */,
 				B4AE9F01298CDB0B005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift in Sources */,

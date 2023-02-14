@@ -9,7 +9,7 @@
 #import "YAThemeProtocol.h"
 
 /**
- *  YUIConfigurationTemplate 是一份配置表，用于配合 QMUIConfiguration 来管理整个 App 的全局样式，使用方式：
+ *  YUIConfigurationTemplate 是一份配置表，用于配合 YUIConfiguration 来管理整个 App 的全局样式，使用方式：
  *  在 QMUI 项目代码的文件夹里找到 YUIConfigurationTemplate 目录，把里面所有文件复制到自己项目里，保证能被编译到即可，不需要在某些地方 import，也不需要手动运行。
  *
  *  @warning 更新 QMUIKit 的版本时，请留意 Release Log 里是否有提醒更新配置表，请尽量保持自己项目里的配置表与 QMUIKit 里的配置表一致，避免遗漏新的属性。

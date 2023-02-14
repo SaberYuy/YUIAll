@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define LayoutServiceShared     [LayoutService sharedInstance]
 #define IS_iPhone_X_SERIES      [LayoutService isIPhoneXSeries]

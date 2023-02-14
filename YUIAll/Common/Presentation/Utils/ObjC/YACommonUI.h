@@ -1,5 +1,5 @@
 //
-//  CommonPresentation.h
+//  YACommonUI.h
 //  qmuidemo
 //
 //  Created by QMUI Team on 16/8/8.
@@ -49,24 +49,24 @@ extern NSString *const YAThemeIdentifierPinkRose;
 extern NSString *const YAThemeIdentifierDark;
 
 #define CodeFontMake(_pointSize) [UIFont fontWithName:@"Menlo" size:_pointSize]
-#define CodeAttributes(_fontSize) @{NSFontAttributeName: CodeFontMake(_fontSize), NSForegroundColorAttributeName: YUIThemeManager.currentTheme.themeCodeColor}
+#define CodeAttributes(_fontSize) @{NSFontAttributeName: CodeFontMake(_fontSize), NSForegroundColorAttributeName: YAThemeManager.currentTheme.themeCodeColor}
 
 #define IsUITest NSProcessInfo.processInfo.environment[@"isUITest"].boolValue
 
 /// QMUIButton 系列 Demo 里的一行高度
-extern const CGFloat YUIButtonSpacingHeight;
+extern const CGFloat YAButtonSpacingHeight;
 
-@interface CommonPresentation : NSObject
+@interface YACommonUI : NSObject
 
 + (void)renderGlobalAppearances;
 @end
 
-@interface CommonPresentation (ThemeColor)
+@interface YACommonUI (ThemeColor)
 
 + (UIColor *)randomThemeColor;
 @end
 
-@interface CommonPresentation (Layer)
+@interface YACommonUI (Layer)
 
 + (CALayer *)generateSeparatorLayer;
 @end

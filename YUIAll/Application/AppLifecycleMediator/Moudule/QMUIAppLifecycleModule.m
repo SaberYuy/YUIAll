@@ -81,7 +81,7 @@
     [QMUIConsole sharedInstance].canShow = YES;
     
     // YUI自定义的全局样式渲染
-    [CommonPresentation renderGlobalAppearances];
+    [YACommonUI renderGlobalAppearances];
     
     // 预加载 QQ 表情，避免第一次使用时卡顿
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -100,7 +100,7 @@
     
     if (QMUIHelper.canUpdateAppearance) {
         // 主题发生变化，在这里更新全局 UI 控件的 appearance
-        [CommonPresentation renderGlobalAppearances];
+        [YACommonUI renderGlobalAppearances];
         
         // 更新表情 icon 的颜色
         [YAUIHelper updateEmotionImages];

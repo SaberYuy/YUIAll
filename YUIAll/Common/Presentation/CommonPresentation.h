@@ -62,8 +62,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-#import <QMUIKit/QMUIKit.h>
-
 #import "YACommonUI.h"
 #import "YAUIHelper.h"
 #import "YAThemeManager.h"

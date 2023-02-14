@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 #source 'https://cdn.cocoapods.org/'
 #source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
 
-platform :ios, '11.0'
+platform :ios, '13.0'
 
 target :"YUIAll" do
   

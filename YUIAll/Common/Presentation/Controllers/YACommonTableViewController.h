@@ -6,6 +6,8 @@
 //  Copyright (c) 2015年 QMUI Team. All rights reserved.
 //
 
+#import <QMUIKit/QMUIKit.h>
+
 @interface YACommonTableViewController : QMUICommonTableViewController
 
 @end

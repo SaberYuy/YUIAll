@@ -9,10 +9,10 @@
 #ifndef BaseLib_h
 #define BaseLib_h
 
-#if __has_include("YUIArchitecture.h")
-#import "YUIArchitecture.h"
-#endif
-
+//#if __has_include("YUIArchitecture.h")
+//#import "YUIArchitecture.h"
+//#endif
+//
 #if __has_include("QMUIKit.h")
 #import "QMUIKit.h"
 #endif

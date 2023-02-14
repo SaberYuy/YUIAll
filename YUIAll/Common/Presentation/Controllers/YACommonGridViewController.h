@@ -7,6 +7,7 @@
 //
 
 #import "YACommonViewController.h"
+#import <QMUIKit/QMUIKit.h>
 
 @interface YACommonGridViewController : YACommonViewController
 
