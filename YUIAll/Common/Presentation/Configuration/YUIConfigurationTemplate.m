@@ -1,5 +1,5 @@
 //
-//  YUIConfigurationTemplate.m
+//  QMUIConfigurationTemplate.m
 //  qmui
 //
 //  Created by QMUI Team on 15/3/29.
@@ -10,7 +10,7 @@
 
 @implementation YUIConfigurationTemplate
 
-#pragma mark - <YUIConfigurationTemplateProtocol>
+#pragma mark - <QMUIConfigurationTemplateProtocol>
 
 - (void)applyConfigurationTemplate {
     
@@ -101,7 +101,7 @@
     
     QMUICMI.navBarLoadingMarginRight = 3;                                       // NavBarLoadingMarginRight : QMUINavigationTitleView 里左边 loading 的右边距
     QMUICMI.navBarAccessoryViewMarginLeft = 5;                                  // NavBarAccessoryViewMarginLeft : QMUINavigationTitleView 里右边 accessoryView 的左边距
-    QMUICMI.navBarActivityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;// NavBarActivityIndicatorViewStyle : QMUINavigationTitleView 里左边 loading 的主题
+    QMUICMI.navBarActivityIndicatorViewStyle = UIActivityIndicatorViewStyleMedium;// NavBarActivityIndicatorViewStyle : QMUINavigationTitleView 里左边 loading 的主题
     QMUICMI.navBarAccessoryViewTypeDisclosureIndicatorImage = UIImage.ya_navigationBarDisclosureIndicatorImage;     // NavBarAccessoryViewTypeDisclosureIndicatorImage : QMUINavigationTitleView 右边箭头的图片
 
     

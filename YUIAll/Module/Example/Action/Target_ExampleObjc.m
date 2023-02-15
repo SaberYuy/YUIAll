@@ -31,7 +31,7 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
     ExampleObjcMVVMViewController *viewController = [[ExampleObjcMVVMViewController alloc] init];
 //    viewController.valueLabel.text = @"this is image";
 //    viewController.imageView.image = params[@"image"];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:viewController animated:YES completion:nil];
+    [[UIApplication sharedApplication].windows.firstObject.rootViewController presentViewController:viewController animated:YES completion:nil];
     return nil;
 }
 
@@ -54,7 +54,7 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"alert from Module ExampleObjc" message:params[@"message"] preferredStyle:UIAlertControllerStyleAlert];
     [alertController addAction:cancelAction];
     [alertController addAction:confirmAction];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alertController animated:YES completion:nil];
+    [[UIApplication sharedApplication].windows.firstObject.rootViewController presentViewController:alertController animated:YES completion:nil];
     return nil;
 }
 
@@ -63,7 +63,7 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
     ExampleObjcMVVMViewController *viewController = [[ExampleObjcMVVMViewController alloc] init];
 //    viewController.valueLabel.text = @"no image";
 //    viewController.imageView.image = [UIImage imageNamed:@"noImage"];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:viewController animated:YES completion:nil];
+    [[UIApplication sharedApplication].windows.firstObject.rootViewController presentViewController:viewController animated:YES completion:nil];
     
     return nil;
 }

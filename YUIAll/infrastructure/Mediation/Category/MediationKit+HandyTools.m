@@ -13,7 +13,7 @@
 
 - (UIViewController *)topViewController
 {
-    UIViewController *topController = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIViewController *topController = [UIApplication sharedApplication].windows.firstObject.rootViewController;
     
     while (topController.presentedViewController) {
         topController = topController.presentedViewController;

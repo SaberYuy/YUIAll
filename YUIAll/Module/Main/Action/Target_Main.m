@@ -24,7 +24,7 @@
     MainTabBarController *mainTBC = [[MainTabBarController alloc] init];
     //    [[UIApplication sharedApplication].keyWindow setRootViewController:viewController];
     
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:mainTBC animated:YES completion:nil];
+    [[UIApplication sharedApplication].windows.firstObject.rootViewController presentViewController:mainTBC animated:YES completion:nil];
 }
 
 - (void)Action_nativeRootMainNavigationController:(nullable NSDictionary *)params{
@@ -33,7 +33,7 @@
     
     UINavigationController *mainNC = [[UINavigationController alloc]initWithRootViewController:mainTBC];
     
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:mainNC animated:YES completion:nil];
+    [[UIApplication sharedApplication].windows.firstObject.rootViewController presentViewController:mainNC animated:YES completion:nil];
 }
 
 @end

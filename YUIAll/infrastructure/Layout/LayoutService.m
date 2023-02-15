@@ -114,7 +114,7 @@
             CGRectEqualToRect(window.bounds, [UIScreen mainScreen].bounds))
             return window;
     }
-    return [UIApplication sharedApplication].keyWindow;
+    return [UIApplication sharedApplication].windows.firstObject;
 }
 
 - (NSInteger)adaptWidthRatio:(float)length{

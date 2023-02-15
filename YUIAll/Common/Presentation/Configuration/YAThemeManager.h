@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "YAThemeProtocol.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /// 简单对 QMUIThemeManager 做一层业务的封装，省去类型转换的工作量
 @interface YAThemeManager : NSObject
 
@@ -47,3 +49,5 @@
 
 @property(class, nonatomic, strong, readonly) UIVisualEffect *ya_standardBlurEffect;
 @end
+
+NS_ASSUME_NONNULL_END

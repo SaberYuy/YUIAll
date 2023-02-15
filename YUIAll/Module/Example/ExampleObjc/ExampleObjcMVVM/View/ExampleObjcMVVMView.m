@@ -64,6 +64,10 @@ static NSString * const kExampleObjcTableViewCell = @"ExampleObjcTableViewCellID
 
 - (void)tapB {
     
+    if (self.viewEventBlock) {
+        self.viewEventBlock(@"btnClick");
+    }
+    
     if(self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(receiveView:name:event:)]) {
 
         [self.viewDelegate receiveView:self name:@"tapB" event:@{@"data": @"123"}];
