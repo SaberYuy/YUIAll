@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSMutableArray <ExampleObjcImage *> *datas;
 
-- (void)loadData:(id)parameter;
-
 @end
 
 NS_ASSUME_NONNULL_END

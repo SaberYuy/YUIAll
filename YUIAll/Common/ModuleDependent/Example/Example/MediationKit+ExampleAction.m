@@ -1,15 +1,17 @@
 //
-//  MediationKit+ExampleObjc.m
+//  MediationKit+ExampleAction.m
 //  YUIAll
 //
 //  Created by YUI on 2021/8/27.
 //
 
-#import "MediationKit+ExampleObjcAction.h"
+#import "MediationKit+ExampleAction.h"
 
 NSString * const kMediationKitTargetExampleObjc = @"ExampleObjc";
+NSString * const kMediationKitTargetExampleSwift = @"ExampleSwift";
 
 NSString * const kMediationKitActionNativeFetchExampleObjcViewController = @"nativeFetchExampleObjcViewController";
+NSString * const kMediationKitActionNativeFetchExampleSwiftListViewController = @"nativeFetchExampleSwiftListViewController";
 NSString * const kMediationKitActionNativePresentImage = @"nativePresentImage";
 NSString * const kMediationKitActionNativeNoImage = @"nativeNoImage";
 NSString * const kMediationKitActionShowAlert = @"showAlert";
@@ -34,16 +36,34 @@ NSString * const kMediationKitActionConfigCell = @"configCell";
     }
 }
 
+- (UIViewController *)viewControllerForExampleSwift {
+    
+    UIViewController *viewController = [self performTarget:kMediationKitTargetExampleSwift
+                                                    action:kMediationKitActionNativeFetchExampleSwiftListViewController
+                                                    params:@{@"key":@"value",
+                                                             kYAMediatorParamsKeySwiftTargetModuleName: @"YUIAll"
+                                                           }
+                                         shouldCacheTarget:NO
+                                        ];
+    if ([viewController isKindOfClass:[UIViewController class]]) {
+        // view controller 交付出去之后，可以由外界选择是push还是present
+        return viewController;
+    } else {
+        // 这里处理异常场景，具体如何处理取决于产品
+        return [[UIViewController alloc] init];
+    }
+}
+
 - (void)presentImage:(UIImage *)image
 {
     if (image) {
-        [self performTarget:kMediationKitTargetExampleObjc
+        [self performTarget:kMediationKitTargetExampleSwift
                      action:kMediationKitActionNativePresentImage
                      params:@{@"image":image}
           shouldCacheTarget:NO];
     } else {
         // 这里处理image为nil的场景，如何处理取决于产品
-        [self performTarget:kMediationKitTargetExampleObjc
+        [self performTarget:kMediationKitTargetExampleSwift
                      action:kMediationKitActionNativeNoImage
                      params:@{@"image":[UIImage imageNamed:@"noImage"]}
           shouldCacheTarget:NO];
@@ -62,7 +82,7 @@ NSString * const kMediationKitActionConfigCell = @"configCell";
     if (confirmAction) {
         paramsToSend[@"confirmAction"] = confirmAction;
     }
-    [self performTarget:kMediationKitTargetExampleObjc
+    [self performTarget:kMediationKitTargetExampleSwift
                  action:kMediationKitActionShowAlert
                  params:paramsToSend
       shouldCacheTarget:NO];
@@ -70,7 +90,7 @@ NSString * const kMediationKitActionConfigCell = @"configCell";
 
 - (UITableViewCell *)tableViewCellWithIdentifier:(NSString *)identifier tableView:(UITableView *)tableView
 {
-    return [self performTarget:kMediationKitTargetExampleObjc
+    return [self performTarget:kMediationKitTargetExampleSwift
                         action:kMediationKitActionCell
                         params:@{
                                  @"identifier":identifier,
@@ -81,7 +101,7 @@ NSString * const kMediationKitActionConfigCell = @"configCell";
 
 - (void)configTableViewCell:(UITableViewCell *)cell withTitle:(NSString *)title atIndexPath:(NSIndexPath *)indexPath
 {
-    [self performTarget:kMediationKitTargetExampleObjc
+    [self performTarget:kMediationKitTargetExampleSwift
                  action:kMediationKitActionConfigCell
                  params:@{
                           @"cell":cell,
@@ -93,7 +113,7 @@ NSString * const kMediationKitActionConfigCell = @"configCell";
 
 - (void)cleanTableViewCellTarget
 {
-    NSString *fullTargetName = [NSString stringWithFormat:@"Target_%@", kMediationKitTargetExampleObjc];
+    NSString *fullTargetName = [NSString stringWithFormat:@"Target_%@", kMediationKitTargetExampleSwift];
     [self releaseCachedTargetWithFullTargetName:fullTargetName];
 }
 

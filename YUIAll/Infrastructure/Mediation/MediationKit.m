@@ -9,7 +9,7 @@
 
 #import <CTMediator.h>
 
-NSString *const kYUIMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParamsKeySwiftTargetModuleName";
+NSString *const kYAMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParamsKeySwiftTargetModuleName";
 
 @interface MediationKit ()
 

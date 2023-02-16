@@ -17,7 +17,7 @@ NSString * const kMediationKitActionNativeFetchHomeViewController = @"nativeFetc
 {
     UIViewController *viewController = [self performTarget:kMediationKitTargetHome
                                                     action:kMediationKitActionNativeFetchHomeViewController
-                                                    params:@{ kYUIMediatorParamsKeySwiftTargetModuleName: @"YUIAll"}
+                                                    params:@{kYAMediatorParamsKeySwiftTargetModuleName: @"YUIAll"}
                                          shouldCacheTarget:NO
                                         ];
     if ([viewController isKindOfClass:[UIViewController class]]) {

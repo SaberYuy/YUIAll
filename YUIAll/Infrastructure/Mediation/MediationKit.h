@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-extern NSString *const kYUIMediatorParamsKeySwiftTargetModuleName;
+extern NSString *const kYAMediatorParamsKeySwiftTargetModuleName;
 
 @interface MediationKit : NSObject
 

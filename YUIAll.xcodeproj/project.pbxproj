@@ -13,6 +13,7 @@
 		B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75A294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.m */; };
 		B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */ = {isa = PBXBuildFile; fileRef = B449E75C294AC6A000FD84E3 /* YACommonArchitectureViewController+MVP.m */; };
 		B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */; };
+		B46DB5BF299E29980003B044 /* FetchRecentExampleQueryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5BE299E29980003B044 /* FetchRecentExampleQueryUseCase.swift */; };
 		B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A54294071A100B3741F /* LookinConfig.m */; };
 		B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A78294071A200B3741F /* YUIViewManager+Common.m */; };
 		B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A7A294071A200B3741F /* YACommonViewManager.m */; };
@@ -74,16 +75,16 @@
 		B4C08827299B9071006230EF /* YUIConfigurationTemplateDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0881D299B9071006230EF /* YUIConfigurationTemplateDark.m */; };
 		B4C08828299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0881E299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m */; };
 		B4C08829299B9071006230EF /* YUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C08820299B9071006230EF /* YUIConfigurationTemplatePinkRose.m */; };
+		B4C0883F299E05BE006230EF /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0883E299E05BE006230EF /* Example.swift */; };
+		B4C08841299E06B9006230EF /* ExampleQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C08840299E06B9006230EF /* ExampleQuery.swift */; };
+		B4C08848299E0D68006230EF /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C08847299E0D68006230EF /* UseCase.swift */; };
+		B4C0884A299E0F96006230EF /* SearchExampleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C08849299E0F96006230EF /* SearchExampleUseCase.swift */; };
+		B4C0884C299E1A6A006230EF /* ExampleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0884B299E1A6A006230EF /* ExampleRepository.swift */; };
+		B4C0884E299E1A91006230EF /* ExampleQueryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0884D299E1A91006230EF /* ExampleQueryRepository.swift */; };
 		B4ECC0DF2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0DE2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift */; };
 		B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E12994D01200E8740F /* ConnectionError.swift */; };
 		B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECC0E22994D01200E8740F /* Cancellable.swift */; };
-		B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */; };
-		B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */; };
-		B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */; };
-		B4FA763728C9CC7100BAFDD7 /* ExampleDataSourceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762D28C9CC7100BAFDD7 /* ExampleDataSourceObject.swift */; };
-		B4FA763828C9CC7100BAFDD7 /* Target_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */; };
-		B4FA763928C9CC7100BAFDD7 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA763128C9CC7100BAFDD7 /* ExampleModel.swift */; };
-		B4FA763A28C9CC7100BAFDD7 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA763328C9CC7100BAFDD7 /* ExampleView.swift */; };
+		B4FA763828C9CC7100BAFDD7 /* Target_ExampleSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA762F28C9CC7100BAFDD7 /* Target_ExampleSwift.swift */; };
 		BA77D3C6289FAC9900F323EB /* YUIAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3C5289FAC9900F323EB /* YUIAllTests.swift */; };
 		BA77D3D0289FAC9900F323EB /* YUIAllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3CF289FAC9900F323EB /* YUIAllUITests.swift */; };
 		BA77D3D2289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D3D1289FAC9900F323EB /* YUIAllUITestsLaunchTests.swift */; };
@@ -98,7 +99,6 @@
 		BA77D512289FADC300F323EB /* ExampleObjcMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D42F289FADC200F323EB /* ExampleObjcMVVMViewController.m */; };
 		BA77D513289FADC300F323EB /* Target_ExampleObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D432289FADC200F323EB /* Target_ExampleObjc.m */; };
 		BA77D515289FADC300F323EB /* ExampleObjcMVVMDataSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D436289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.m */; };
-		BA77D516289FADC300F323EB /* ExampleObjcModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D439289FADC200F323EB /* ExampleObjcModelManager.m */; };
 		BA77D517289FADC300F323EB /* ExampleObjcImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43B289FADC200F323EB /* ExampleObjcImage.m */; };
 		BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D43E289FADC200F323EB /* ExampleObjcRequest.m */; };
 		BA77D519289FADC300F323EB /* ExampleObjcMVVMViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D441289FADC200F323EB /* ExampleObjcMVVMViewManager.m */; };
@@ -123,8 +123,8 @@
 		BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D485289FADC200F323EB /* SceneDelegate.swift */; };
 		BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D488289FADC200F323EB /* UIKit+YUI.swift */; };
 		BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */; };
-		BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */; };
-		BA77D546289FADC300F323EB /* MediationKit+ExampleObjcAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjcAction.m */; };
+		BA77D545289FADC300F323EB /* MediationKit+ExampleSwiftAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C7289FADC200F323EB /* MediationKit+ExampleSwiftAction.swift */; };
+		BA77D546289FADC300F323EB /* MediationKit+ExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4C9289FADC200F323EB /* MediationKit+ExampleAction.m */; };
 		BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */; };
 		BA77D548289FADC300F323EB /* CommonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4CF289FADC200F323EB /* CommonRequest.m */; };
 		BA77D549289FADC300F323EB /* LayoutService.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77D4D3289FADC200F323EB /* LayoutService.m */; };
@@ -170,6 +170,7 @@
 		B449E75D294AC6A000FD84E3 /* YACommonArchitectureViewController+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+MVVM.h"; sourceTree = "<group>"; };
 		B4647F16295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YACommonArchitectureViewController+YASubclassingHooks.h"; sourceTree = "<group>"; };
 		B4647F17295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YACommonArchitectureViewController+YASubclassingHooks.m"; sourceTree = "<group>"; };
+		B46DB5BE299E29980003B044 /* FetchRecentExampleQueryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRecentExampleQueryUseCase.swift; sourceTree = "<group>"; };
 		B48E5A53294071A100B3741F /* LookinConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookinConfig.h; sourceTree = "<group>"; };
 		B48E5A54294071A100B3741F /* LookinConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookinConfig.m; sourceTree = "<group>"; };
 		B48E5A77294071A200B3741F /* YUIViewManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewManager+Common.h"; sourceTree = "<group>"; };
@@ -274,16 +275,16 @@
 		B4C08821299B9071006230EF /* YUIConfigurationTemplateDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplateDark.h; sourceTree = "<group>"; };
 		B4C08822299B9071006230EF /* YAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAThemeManager.h; sourceTree = "<group>"; };
 		B4C08823299B9071006230EF /* YUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		B4C0883E299E05BE006230EF /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		B4C08840299E06B9006230EF /* ExampleQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleQuery.swift; sourceTree = "<group>"; };
+		B4C08847299E0D68006230EF /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		B4C08849299E0F96006230EF /* SearchExampleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchExampleUseCase.swift; sourceTree = "<group>"; };
+		B4C0884B299E1A6A006230EF /* ExampleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRepository.swift; sourceTree = "<group>"; };
+		B4C0884D299E1A91006230EF /* ExampleQueryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleQueryRepository.swift; sourceTree = "<group>"; };
 		B4ECC0DE2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAppLifecycleSwiftModule.swift; sourceTree = "<group>"; };
 		B4ECC0E12994D01200E8740F /* ConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
 		B4ECC0E22994D01200E8740F /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
-		B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewManager.swift; sourceTree = "<group>"; };
-		B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
-		B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
-		B4FA762D28C9CC7100BAFDD7 /* ExampleDataSourceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleDataSourceObject.swift; sourceTree = "<group>"; };
-		B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_Example.swift; sourceTree = "<group>"; };
-		B4FA763128C9CC7100BAFDD7 /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
-		B4FA763328C9CC7100BAFDD7 /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		B4FA762F28C9CC7100BAFDD7 /* Target_ExampleSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_ExampleSwift.swift; sourceTree = "<group>"; };
 		B9A20A01A15F4BFDC4E0F886 /* Pods_YUIAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUIAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA77D3A8289FAC9700F323EB /* YUIAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUIAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA77D3C1289FAC9900F323EB /* YUIAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUIAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,9 +313,7 @@
 		BA77D432289FADC200F323EB /* Target_ExampleObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ExampleObjc.m; sourceTree = "<group>"; };
 		BA77D433289FADC200F323EB /* Target_ExampleObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ExampleObjc.h; sourceTree = "<group>"; };
 		BA77D436289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMDataSourceObject.m; sourceTree = "<group>"; };
-		BA77D437289FADC200F323EB /* ExampleObjcModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcModelManager.h; sourceTree = "<group>"; };
 		BA77D438289FADC200F323EB /* ExampleObjcImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcImage.h; sourceTree = "<group>"; };
-		BA77D439289FADC200F323EB /* ExampleObjcModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcModelManager.m; sourceTree = "<group>"; };
 		BA77D43A289FADC200F323EB /* ExampleObjcMVVMDataSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcMVVMDataSourceObject.h; sourceTree = "<group>"; };
 		BA77D43B289FADC200F323EB /* ExampleObjcImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcImage.m; sourceTree = "<group>"; };
 		BA77D43D289FADC200F323EB /* ExampleObjcRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleObjcRequest.h; sourceTree = "<group>"; };
@@ -363,9 +362,9 @@
 		BA77D4C0289FADC200F323EB /* CommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLib.h; sourceTree = "<group>"; };
 		BA77D4C3289FADC200F323EB /* MediationKit+HomeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+HomeAction.h"; sourceTree = "<group>"; };
 		BA77D4C4289FADC200F323EB /* MediationKit+HomeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+HomeAction.m"; sourceTree = "<group>"; };
-		BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediationKit+Example.swift"; sourceTree = "<group>"; };
-		BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjcAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+ExampleObjcAction.m"; sourceTree = "<group>"; };
-		BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjcAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+ExampleObjcAction.h"; sourceTree = "<group>"; };
+		BA77D4C7289FADC200F323EB /* MediationKit+ExampleSwiftAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediationKit+ExampleSwiftAction.swift"; sourceTree = "<group>"; };
+		BA77D4C9289FADC200F323EB /* MediationKit+ExampleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+ExampleAction.m"; sourceTree = "<group>"; };
+		BA77D4CA289FADC200F323EB /* MediationKit+ExampleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+ExampleAction.h"; sourceTree = "<group>"; };
 		BA77D4CC289FADC200F323EB /* MediationKit+MainAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediationKit+MainAction.h"; sourceTree = "<group>"; };
 		BA77D4CD289FADC200F323EB /* MediationKit+MainAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediationKit+MainAction.m"; sourceTree = "<group>"; };
 		BA77D4CF289FADC200F323EB /* CommonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonRequest.m; sourceTree = "<group>"; };
@@ -665,6 +664,7 @@
 		B4AE9EE9298BAFB7005F9C7A /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				B4C08842299E07EE006230EF /* Interface */,
 				B4AE9EF1298CAA0C005F9C7A /* UseCase */,
 				B4AE9EF0298CAA05005F9C7A /* Entity */,
 			);
@@ -692,7 +692,7 @@
 			isa = PBXGroup;
 			children = (
 				B4AE9EF9298CD9F3005F9C7A /* Behavior */,
-				B4AE9EF2298CAA33005F9C7A /* interface */,
+				B4AE9EF2298CAA33005F9C7A /* Interface */,
 				B4AE9EEC298CA8FB005F9C7A /* Data */,
 				B4AE9EE9298BAFB7005F9C7A /* Domain */,
 				B4AE9EE8298BAFAD005F9C7A /* Presentation */,
@@ -703,6 +703,8 @@
 		B4AE9EF0298CAA05005F9C7A /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				B4C0883E299E05BE006230EF /* Example.swift */,
+				B4C08840299E06B9006230EF /* ExampleQuery.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -710,15 +712,17 @@
 		B4AE9EF1298CAA0C005F9C7A /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				B4C08849299E0F96006230EF /* SearchExampleUseCase.swift */,
+				B46DB5BE299E29980003B044 /* FetchRecentExampleQueryUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
 		};
-		B4AE9EF2298CAA33005F9C7A /* interface */ = {
+		B4AE9EF2298CAA33005F9C7A /* Interface */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = interface;
+			path = Interface;
 			sourceTree = "<group>";
 		};
 		B4AE9EF3298CAAEC005F9C7A /* ExampleSwiftDetail */ = {
@@ -912,6 +916,47 @@
 			path = QMUIBackBarButton;
 			sourceTree = "<group>";
 		};
+		B4C08842299E07EE006230EF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B4C08843299E080C006230EF /* Repository */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		B4C08843299E080C006230EF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B4C0884B299E1A6A006230EF /* ExampleRepository.swift */,
+				B4C0884D299E1A91006230EF /* ExampleQueryRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B4C08844299E0CCF006230EF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B4C08845299E0CF2006230EF /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B4C08845299E0CF2006230EF /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B4C08846299E0D25006230EF /* Protocol */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B4C08846299E0D25006230EF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B4C08847299E0D68006230EF /* UseCase.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		B4D52FE22994E08400BC3006 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -962,59 +1007,6 @@
 			path = AppLifecycleMediator;
 			sourceTree = "<group>";
 		};
-		B4FA762628C9CC7100BAFDD7 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				B4FA762728C9CC7100BAFDD7 /* ViewManager */,
-				B4FA762928C9CC7100BAFDD7 /* ViewModel */,
-				B4FA762B28C9CC7100BAFDD7 /* Controller */,
-				B4FA763028C9CC7100BAFDD7 /* Model */,
-				B4FA763228C9CC7100BAFDD7 /* View */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		B4FA762728C9CC7100BAFDD7 /* ViewManager */ = {
-			isa = PBXGroup;
-			children = (
-				B4FA762828C9CC7100BAFDD7 /* ExampleViewManager.swift */,
-			);
-			path = ViewManager;
-			sourceTree = "<group>";
-		};
-		B4FA762928C9CC7100BAFDD7 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				B4FA762A28C9CC7100BAFDD7 /* ExampleViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		B4FA762B28C9CC7100BAFDD7 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B4FA762C28C9CC7100BAFDD7 /* ExampleViewController.swift */,
-				B4FA762D28C9CC7100BAFDD7 /* ExampleDataSourceObject.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B4FA763028C9CC7100BAFDD7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B4FA763128C9CC7100BAFDD7 /* ExampleModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B4FA763228C9CC7100BAFDD7 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B4FA763328C9CC7100BAFDD7 /* ExampleView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		BA77D39F289FAC9600F323EB = {
 			isa = PBXGroup;
 			children = (
@@ -1043,7 +1035,7 @@
 				BA77D45E289FADC200F323EB /* Global */,
 				BA77D473289FADC200F323EB /* Application */,
 				BA77D3F4289FADC100F323EB /* Module */,
-				BA77D4D1289FADC200F323EB /* infrastructure */,
+				BA77D4D1289FADC200F323EB /* Infrastructure */,
 				BA77D48A289FADC200F323EB /* Common */,
 				BA77D486289FADC200F323EB /* Component */,
 				BA77D465289FADC200F323EB /* Other */,
@@ -1109,10 +1101,9 @@
 		BA77D3FC289FADC100F323EB /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D42A289FADC200F323EB /* ExampleObjc */,
-				B4AE9EEF298CA9B1005F9C7A /* ExampleSwift */,
 				BA77D3FF289FADC100F323EB /* Action */,
-				B4FA762628C9CC7100BAFDD7 /* Example */,
+				B4AE9EEF298CA9B1005F9C7A /* ExampleSwift */,
+				BA77D42A289FADC200F323EB /* ExampleObjc */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -1122,7 +1113,7 @@
 			children = (
 				BA77D433289FADC200F323EB /* Target_ExampleObjc.h */,
 				BA77D432289FADC200F323EB /* Target_ExampleObjc.m */,
-				B4FA762F28C9CC7100BAFDD7 /* Target_Example.swift */,
+				B4FA762F28C9CC7100BAFDD7 /* Target_ExampleSwift.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -1205,8 +1196,6 @@
 			children = (
 				BA77D438289FADC200F323EB /* ExampleObjcImage.h */,
 				BA77D43B289FADC200F323EB /* ExampleObjcImage.m */,
-				BA77D437289FADC200F323EB /* ExampleObjcModelManager.h */,
-				BA77D439289FADC200F323EB /* ExampleObjcModelManager.m */,
 				BA77D43C289FADC200F323EB /* Request */,
 			);
 			path = Model;
@@ -1420,6 +1409,7 @@
 		BA77D48A289FADC200F323EB /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B4C08844299E0CCF006230EF /* Domain */,
 				BA77D4C0289FADC200F323EB /* CommonLib.h */,
 				B4AE9F0F298CE08A005F9C7A /* Protocol */,
 				BA77D4CE289FADC200F323EB /* Model */,
@@ -1470,7 +1460,6 @@
 			isa = PBXGroup;
 			children = (
 				BA77D4C6289FADC200F323EB /* Example */,
-				BA77D4C8289FADC200F323EB /* ExampleObj */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -1478,18 +1467,11 @@
 		BA77D4C6289FADC200F323EB /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				BA77D4C7289FADC200F323EB /* MediationKit+Example.swift */,
+				BA77D4C9289FADC200F323EB /* MediationKit+ExampleAction.m */,
+				BA77D4CA289FADC200F323EB /* MediationKit+ExampleAction.h */,
+				BA77D4C7289FADC200F323EB /* MediationKit+ExampleSwiftAction.swift */,
 			);
 			path = Example;
-			sourceTree = "<group>";
-		};
-		BA77D4C8289FADC200F323EB /* ExampleObj */ = {
-			isa = PBXGroup;
-			children = (
-				BA77D4C9289FADC200F323EB /* MediationKit+ExampleObjcAction.m */,
-				BA77D4CA289FADC200F323EB /* MediationKit+ExampleObjcAction.h */,
-			);
-			path = ExampleObj;
 			sourceTree = "<group>";
 		};
 		BA77D4CB289FADC200F323EB /* Main */ = {
@@ -1510,7 +1492,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BA77D4D1289FADC200F323EB /* infrastructure */ = {
+		BA77D4D1289FADC200F323EB /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
 				BA77D4E8289FADC200F323EB /* BaseLib.h */,
@@ -1521,7 +1503,7 @@
 				BA77D4E9289FADC200F323EB /* Mediation */,
 				BA77D4EF289FADC200F323EB /* Network */,
 			);
-			path = infrastructure;
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		BA77D4D2289FADC200F323EB /* Layout */ = {
@@ -1842,18 +1824,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4FA763928C9CC7100BAFDD7 /* ExampleModel.swift in Sources */,
 				BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */,
 				BA77D519289FADC300F323EB /* ExampleObjcMVVMViewManager.m in Sources */,
-				B4FA763528C9CC7100BAFDD7 /* ExampleViewModel.swift in Sources */,
 				B4C087F9299B8066006230EF /* YACommonViewController.m in Sources */,
-				B4FA763628C9CC7100BAFDD7 /* ExampleViewController.swift in Sources */,
 				B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */,
 				B4C087F5299B8066006230EF /* YATabBarViewController.m in Sources */,
 				BA77D549289FADC300F323EB /* LayoutService.m in Sources */,
 				B4C087F4299B8066006230EF /* YAStyleSelectableTableViewController.m in Sources */,
 				B48E5AC2294071A200B3741F /* CommonAmountTextFieldViewDelegateObject.m in Sources */,
 				B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */,
+				B4C08848299E0D68006230EF /* UseCase.swift in Sources */,
 				BA77D529289FADC300F323EB /* AppLifecycleMediator.m in Sources */,
 				B449E7552949771A00FD84E3 /* YACommonArchitectureViewController.m in Sources */,
 				BA77D532289FADC300F323EB /* UIKit+YUI.swift in Sources */,
@@ -1865,6 +1845,7 @@
 				B449E75E294AC6A100FD84E3 /* YACommonArchitectureViewController+MVC.m in Sources */,
 				B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */,
 				B4ECC0E42994D01200E8740F /* Cancellable.swift in Sources */,
+				B46DB5BF299E29980003B044 /* FetchRecentExampleQueryUseCase.swift in Sources */,
 				B4ECC0E32994D01200E8740F /* ConnectionError.swift in Sources */,
 				B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */,
 				BA77D515289FADC300F323EB /* ExampleObjcMVVMDataSourceObject.m in Sources */,
@@ -1877,6 +1858,7 @@
 				B4AE9F0E298CE012005F9C7A /* NetworkService.swift in Sources */,
 				BA77D510289FADC300F323EB /* ExampleObjcMVCView.m in Sources */,
 				B4AE9F04298CDB0B005F9C7A /* CGSize+ScaledSize.swift in Sources */,
+				B4C0883F299E05BE006230EF /* Example.swift in Sources */,
 				BA77D51C289FADC300F323EB /* MainTabBarController.m in Sources */,
 				BA77D500289FADC300F323EB /* HomeViewController.m in Sources */,
 				B4ECC0DF2993A5C400E8740F /* YAAppLifecycleSwiftModule.swift in Sources */,
@@ -1887,18 +1869,17 @@
 				B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */,
 				B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */,
 				B48E5ABF294071A200B3741F /* YUIViewModel+Common.m in Sources */,
+				B4C0884C299E1A6A006230EF /* ExampleRepository.swift in Sources */,
 				BA77D522289FADC300F323EB /* GlobalState.m in Sources */,
 				B4C087F6299B8066006230EF /* YACommonGroupListViewController.m in Sources */,
 				B4AE9F1A298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m in Sources */,
 				BA77D548289FADC300F323EB /* CommonRequest.m in Sources */,
 				BA77D52F289FADC300F323EB /* YUIAll.xcdatamodeld in Sources */,
 				B4C087D8299A1EC6006230EF /* QMUIDropdownNotification.m in Sources */,
-				B4FA763728C9CC7100BAFDD7 /* ExampleDataSourceObject.swift in Sources */,
 				B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */,
-				BA77D516289FADC300F323EB /* ExampleObjcModelManager.m in Sources */,
 				BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */,
 				B48E5AC8294071A200B3741F /* CommonLayoutModel.m in Sources */,
-				B4FA763828C9CC7100BAFDD7 /* Target_Example.swift in Sources */,
+				B4FA763828C9CC7100BAFDD7 /* Target_ExampleSwift.swift in Sources */,
 				B4C087F8299B8066006230EF /* YACommonTableViewController.m in Sources */,
 				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
 				B48E5AC3294071A200B3741F /* YAComnonArchitectureDelegateObject.m in Sources */,
@@ -1912,8 +1893,8 @@
 				B4AE9F0B298CE00C005F9C7A /* DataTransferService.swift in Sources */,
 				B4C08827299B9071006230EF /* YUIConfigurationTemplateDark.m in Sources */,
 				B4C08829299B9071006230EF /* YUIConfigurationTemplatePinkRose.m in Sources */,
+				B4C0884E299E1A91006230EF /* ExampleQueryRepository.swift in Sources */,
 				BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */,
-				B4FA763A28C9CC7100BAFDD7 /* ExampleView.swift in Sources */,
 				B4AE9F06298CDB0B005F9C7A /* UIViewController+AddBehaviors.swift in Sources */,
 				B4C087F7299B8066006230EF /* YANavigationController.m in Sources */,
 				B48E5AC6294071A200B3741F /* YACommonViewController+EmptyView.m in Sources */,
@@ -1922,7 +1903,8 @@
 				BA77D54C289FADC300F323EB /* NSObject+YUIViewManager.m in Sources */,
 				B4C08825299B9071006230EF /* YUIConfigurationTemplate.m in Sources */,
 				B4C08800299B8F68006230EF /* YACommonUI.m in Sources */,
-				BA77D546289FADC300F323EB /* MediationKit+ExampleObjcAction.m in Sources */,
+				B4C08841299E06B9006230EF /* ExampleQuery.swift in Sources */,
+				BA77D546289FADC300F323EB /* MediationKit+ExampleAction.m in Sources */,
 				B4AE9F05298CDB0B005F9C7A /* UIViewController+ActivityIndicator.swift in Sources */,
 				BA77D54F289FADC300F323EB /* MediationKit.m in Sources */,
 				BA77D50B289FADC300F323EB /* ExampleObjcMVCViewController.m in Sources */,
@@ -1932,7 +1914,6 @@
 				B4C08824299B9071006230EF /* YUIConfigurationTemplateGrass.m in Sources */,
 				B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */,
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
-				B4FA763428C9CC7100BAFDD7 /* ExampleViewManager.swift in Sources */,
 				BA77D50C289FADC300F323EB /* ExampleObjcMVCDataSourceObject.m in Sources */,
 				B4AE9F0C298CE00C005F9C7A /* Endpoint.swift in Sources */,
 				B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */,
@@ -1945,12 +1926,13 @@
 				BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */,
 				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
 				BA77D51A289FADC300F323EB /* ExampleObjcMVVMView.m in Sources */,
-				BA77D545289FADC300F323EB /* MediationKit+Example.swift in Sources */,
+				BA77D545289FADC300F323EB /* MediationKit+ExampleSwiftAction.swift in Sources */,
 				BA77D550289FADC300F323EB /* NetworkKit.m in Sources */,
 				BA77D513289FADC300F323EB /* Target_ExampleObjc.m in Sources */,
 				BA77D517289FADC300F323EB /* ExampleObjcImage.m in Sources */,
 				B48E5AC9294071A200B3741F /* CommonTransferModel.m in Sources */,
 				B48E5AC5294071A200B3741F /* YACommonViewController+PopupView.m in Sources */,
+				B4C0884A299E0F96006230EF /* SearchExampleUseCase.swift in Sources */,
 				BA77D501289FADC300F323EB /* HomeModelManager.m in Sources */,
 				B4647F18295EE652000D85FB /* YACommonArchitectureViewController+YASubclassingHooks.m in Sources */,
 				B4C087D7299A1EC6006230EF /* QMUIInteractiveDebugPanelViewController.m in Sources */,

@@ -10,14 +10,6 @@
 #import "AppLifecycleMediatorProtocol.h"
 #endif
 
-#if __has_include("MediationKit+ExampleObjcAction.h")
-#import "MediationKit+ExampleObjcAction.h"
-#endif
-
-#if __has_include("MediationKit+MainAction.h")
-#import "MediationKit+MainAction.h"
-#endif
-
 #if __has_include("CommonLib.h")
 #import "CommonLib.h"
 #endif

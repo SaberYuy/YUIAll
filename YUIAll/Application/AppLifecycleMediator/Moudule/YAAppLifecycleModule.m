@@ -11,7 +11,7 @@
 #import <YUIAll-Swift.h>
 #import "IQKeyboardManager.h"
 #import "MediationKit+MainAction.h"
-#import "MediationKit+ExampleObjcAction.h"
+#import "MediationKit+ExampleAction.h"
 #import "MediationKit+HomeAction.h"
 
 @implementation YAAppLifecycleModule
@@ -118,7 +118,8 @@
 - (UIViewController *)generateWindowRootViewController{
     
     //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForMain];
-    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleObjc];
+//    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleObjc];
+    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForExampleSwift];
     //    UIViewController *viewController = [[MediationKit sharedInstance]viewControllerForHome];
     return viewController;
 }

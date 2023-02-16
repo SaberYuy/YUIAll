@@ -7,9 +7,9 @@
 
 import UIKit
 
-class Target_Example: NSObject {
+class Target_ExampleSwift: NSObject {
 
-    @objc func Action_nativeFetchExampleObjcViewController(_ params:[AnyHashable:Any]?) -> UIViewController {
+    @objc func Action_nativeFetchExampleSwiftListViewController(_ params:[AnyHashable:Any]?) -> UIViewController {
 
         if let actionParams = params {
 
@@ -18,7 +18,7 @@ class Target_Example: NSObject {
             }
         }
 
-        let viewController = ExampleViewController()
+        let viewController = ExampleSwiftListViewController()
         return viewController
     }
     
@@ -33,7 +33,7 @@ class Target_Example: NSObject {
             callback("success")
         }
         
-        let viewController = ExampleViewController()
+        let viewController = ExampleSwiftListViewController()
         return viewController
     }
     

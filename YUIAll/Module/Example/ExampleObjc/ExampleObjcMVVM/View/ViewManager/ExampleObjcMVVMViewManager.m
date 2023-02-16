@@ -15,7 +15,7 @@
 
 @implementation ExampleObjcMVVMViewManager
 
-@dynamic managerView;
+@dynamic managementView;
 @dynamic viewController;
 
 - (void)tapA:(NSDictionary *)event {
@@ -36,7 +36,7 @@
 
 - (void)loadComplete {
     
-    [self.managerView.tableView reloadData];
+    [self.managementView.tableView reloadData];
 }
 
 @end

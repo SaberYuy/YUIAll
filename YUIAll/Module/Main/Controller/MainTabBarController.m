@@ -8,7 +8,7 @@
 
 #import "MainTabBarController.h"
 
-#import "MediationKit+ExampleObjcAction.h"
+#import "MediationKit+ExampleAction.h"
 
 @interface MainTabBarController ()
 

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ExampleObjcMVVMViewManager : YACommonViewManager <QMUITableViewDelegate>
 
-@property (nonatomic, weak) ExampleObjcMVVMView *managerView;
+@property (nonatomic, weak) ExampleObjcMVVMView *managementView;
 
 @property (nonatomic, weak) ExampleObjcMVVMViewController *viewController;
 

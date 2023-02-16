@@ -11,9 +11,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MediationKit (ExampleObjcAction)
+@interface MediationKit (ExampleAction)
 
 - (UIViewController *)viewControllerForExampleObjc;
+
+- (UIViewController *)viewControllerForExampleSwift;
 
 - (void)showAlertWithMessage:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 
