@@ -1,5 +1,5 @@
 //
-//  Example.swift
+//  ExampleSwift.swift
 //  YUIAll
 //
 //  Created by SPDBVIP453 on 2023/2/16.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Example: Equatable, Identifiable {
+struct ExampleSwift: Equatable, Identifiable {
     typealias Identifier = String
     enum Genre {
         case adventure
@@ -21,8 +21,8 @@ struct Example: Equatable, Identifiable {
     let releaseDate: Date?
 }
 
-struct ExamplePage: Equatable {
+struct ExampleSwiftPage: Equatable {
     let page: Int
-    let totalPages: Int
-    let movies: [Example]
+    let totalPage: Int
+    let exampleSwifts: [ExampleSwift]
 }

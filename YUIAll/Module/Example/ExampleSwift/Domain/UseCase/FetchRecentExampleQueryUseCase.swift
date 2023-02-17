@@ -1,5 +1,5 @@
 //
-//  FetchRecentExampleQueryUseCase.swift
+//  FetchRecentExampleSwiftQueryUseCase.swift
 //  YUIAll
 //
 //  Created by SPDBVIP453 on 2023/2/16.
@@ -8,29 +8,29 @@
 import Foundation
 
 // This is another option to create Use Case using more generic way
-final class FetchRecentExampQueryUseCase: UseCase {
+final class FetchRecentExampleSwiftQueryUseCase: UseCase {
     
     struct RequestValue {
         let maxCount: Int
     }
-    typealias ResultValue = (Result<[ExampleQuery], Error>)
+    typealias ResultValue = (Result<[ExampleSwiftQuery], Error>)
     
     private let requestValue: RequestValue
     private let completion: (ResultValue) -> Void
-    private let exampleQueryRepository: ExampleQueryRepository
+    private let exampleSwiftQueryRepository: ExampleSwiftQueryRepository
     
     init(requestValue: RequestValue,
          completion: @escaping (ResultValue) -> Void,
-         exampleQueryRepository: ExampleQueryRepository) {
+         exampleSwiftQueryRepository: ExampleSwiftQueryRepository) {
         
         self.requestValue = requestValue
         self.completion = completion
-        self.exampleQueryRepository = exampleQueryRepository
+        self.exampleSwiftQueryRepository = exampleSwiftQueryRepository
     }
     
     func start() -> Cancellable? {
         
-        exampleQueryRepository.fetchRecentQuery(maxCount: requestValue.maxCount, completion: completion)
+        exampleSwiftQueryRepository.fetchRecentQuery(maxCount: requestValue.maxCount, completion: completion)
         return nil
     }
 }
