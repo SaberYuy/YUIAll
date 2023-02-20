@@ -143,18 +143,20 @@ extension DefaultExampleSwiftListViewModel {
     }
     
     func showQuerySuggestion() {
-        
+        actions?.showExampleQuerySuggestion(update(exampleSwiftQuery:))
     }
     
     func closeQuerySuggestion() {
-        
+        actions?.closeExampleQuerySuggestion()
     }
     
     func didSelectItem(at index: Int) {
-        
+        actions?.showExampleDetail(pages.exampleSwifts[index])
     }
 }
 
 // MARK: - Private
 
-//private extension
+private extension Array where Element == ExampleSwiftPage {
+    var exampleSwifts: [ExampleSwift] { flatMap{ $0.exampleSwifts } }
+}

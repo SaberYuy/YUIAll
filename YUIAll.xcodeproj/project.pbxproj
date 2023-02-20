@@ -16,6 +16,11 @@
 		B46DB5BF299E29980003B044 /* FetchRecentExampleQueryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5BE299E29980003B044 /* FetchRecentExampleQueryUseCase.swift */; };
 		B46DB5C2299F145E0003B044 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5C1299F145E0003B044 /* Observable.swift */; };
 		B46DB5C4299F4B070003B044 /* ExampleSwiftListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5C3299F4B070003B044 /* ExampleSwiftListItemViewModel.swift */; };
+		B46DB5C729A318C00003B044 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5C629A318C00003B044 /* Alertable.swift */; };
+		B46DB5C929A31B1D0003B044 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5C829A31B1D0003B044 /* StoryboardInstantiable.swift */; };
+		B46DB5CB29A344A50003B044 /* PosterImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5CA29A344A50003B044 /* PosterImageRepository.swift */; };
+		B46DB5CE29A348080003B044 /* ExampleSwiftListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5CD29A348080003B044 /* ExampleSwiftListTableViewController.swift */; };
+		B46DB5D129A34C4F0003B044 /* ExampleSwiftListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5D029A34C4F0003B044 /* ExampleSwiftListItemCell.swift */; };
 		B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A54294071A100B3741F /* LookinConfig.m */; };
 		B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A78294071A200B3741F /* YUIViewManager+Common.m */; };
 		B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A7A294071A200B3741F /* YACommonViewManager.m */; };
@@ -175,6 +180,11 @@
 		B46DB5BE299E29980003B044 /* FetchRecentExampleQueryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRecentExampleQueryUseCase.swift; sourceTree = "<group>"; };
 		B46DB5C1299F145E0003B044 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		B46DB5C3299F4B070003B044 /* ExampleSwiftListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListItemViewModel.swift; sourceTree = "<group>"; };
+		B46DB5C629A318C00003B044 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		B46DB5C829A31B1D0003B044 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		B46DB5CA29A344A50003B044 /* PosterImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageRepository.swift; sourceTree = "<group>"; };
+		B46DB5CD29A348080003B044 /* ExampleSwiftListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListTableViewController.swift; sourceTree = "<group>"; };
+		B46DB5D029A34C4F0003B044 /* ExampleSwiftListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListItemCell.swift; sourceTree = "<group>"; };
 		B48E5A53294071A100B3741F /* LookinConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookinConfig.h; sourceTree = "<group>"; };
 		B48E5A54294071A100B3741F /* LookinConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookinConfig.m; sourceTree = "<group>"; };
 		B48E5A77294071A200B3741F /* YUIViewManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewManager+Common.h"; sourceTree = "<group>"; };
@@ -475,6 +485,32 @@
 				B4AE9EFC298CDB0A005F9C7A /* UIViewController+AddChild.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		B46DB5C529A3185F0003B044 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B46DB5C629A318C00003B044 /* Alertable.swift */,
+				B46DB5C829A31B1D0003B044 /* StoryboardInstantiable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B46DB5CC29A347E40003B044 /* ExampleSwiftListTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B46DB5CF29A34C1F0003B044 /* Cell */,
+				B46DB5CD29A348080003B044 /* ExampleSwiftListTableViewController.swift */,
+			);
+			path = ExampleSwiftListTableViewController;
+			sourceTree = "<group>";
+		};
+		B46DB5CF29A34C1F0003B044 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B46DB5D029A34C4F0003B044 /* ExampleSwiftListItemCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		B48E5A4B294071A100B3741F /* Utils */ = {
@@ -866,6 +902,7 @@
 		B4AE9F212990946E005F9C7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46DB5CC29A347E40003B044 /* ExampleSwiftListTableViewController */,
 				B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */,
 			);
 			path = Controller;
@@ -947,6 +984,7 @@
 			children = (
 				B4C0884B299E1A6A006230EF /* ExampleSwiftRepository.swift */,
 				B4C0884D299E1A91006230EF /* ExampleSwiftQueryRepository.swift */,
+				B46DB5CA29A344A50003B044 /* PosterImageRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -978,6 +1016,7 @@
 		B4D52FE22994E08400BC3006 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B46DB5C529A3185F0003B044 /* Protocol */,
 				B46DB5C0299F139F0003B044 /* Extension */,
 				B46DB5C1299F145E0003B044 /* Observable.swift */,
 			);
@@ -1895,6 +1934,7 @@
 				BA77D54D289FADC300F323EB /* CommonPopupAlertController.m in Sources */,
 				B48E5AC8294071A200B3741F /* CommonLayoutModel.m in Sources */,
 				B4FA763828C9CC7100BAFDD7 /* Target_ExampleSwift.swift in Sources */,
+				B46DB5D129A34C4F0003B044 /* ExampleSwiftListItemCell.swift in Sources */,
 				B4C087F8299B8066006230EF /* YACommonTableViewController.m in Sources */,
 				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
 				B48E5AC3294071A200B3741F /* YAComnonArchitectureDelegateObject.m in Sources */,
@@ -1910,6 +1950,7 @@
 				B4C08829299B9071006230EF /* YUIConfigurationTemplatePinkRose.m in Sources */,
 				B4C0884E299E1A91006230EF /* ExampleSwiftQueryRepository.swift in Sources */,
 				BA77D54E289FADC300F323EB /* MediationKit+HandyTools.m in Sources */,
+				B46DB5CE29A348080003B044 /* ExampleSwiftListTableViewController.swift in Sources */,
 				B4AE9F06298CDB0B005F9C7A /* UIViewController+AddBehaviors.swift in Sources */,
 				B4C087F7299B8066006230EF /* YANavigationController.m in Sources */,
 				B48E5AC6294071A200B3741F /* YACommonViewController+EmptyView.m in Sources */,
@@ -1932,6 +1973,7 @@
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
 				BA77D50C289FADC300F323EB /* ExampleObjcMVCDataSourceObject.m in Sources */,
 				B4AE9F0C298CE00C005F9C7A /* Endpoint.swift in Sources */,
+				B46DB5C929A31B1D0003B044 /* StoryboardInstantiable.swift in Sources */,
 				B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */,
 				B4C08826299B9071006230EF /* YAThemeManager.m in Sources */,
 				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
@@ -1940,6 +1982,7 @@
 				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
 				B4C08828299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */,
+				B46DB5C729A318C00003B044 /* Alertable.swift in Sources */,
 				BA77D51D289FADC300F323EB /* Target_Main.m in Sources */,
 				BA77D51A289FADC300F323EB /* ExampleObjcMVVMView.m in Sources */,
 				BA77D545289FADC300F323EB /* MediationKit+ExampleSwiftAction.swift in Sources */,
@@ -1958,6 +2001,7 @@
 				B4C087F2299B8066006230EF /* YACommonGridViewController.m in Sources */,
 				B4C087DB299A1EC6006230EF /* QMUIBackBarButton.m in Sources */,
 				B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */,
+				B46DB5CB29A344A50003B044 /* PosterImageRepository.swift in Sources */,
 				B4AE9F01298CDB0B005F9C7A /* UIImageView+ImageSizeAfterAspectFit.swift in Sources */,
 				B48E5ACC294071A200B3741F /* YACommonView.m in Sources */,
 			);
