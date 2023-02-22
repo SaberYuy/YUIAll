@@ -38,7 +38,7 @@ final class ExampleSwiftListTableViewController: UITableViewController {
     // MARK: - Private
     
     private func setupViews() {
-        tableView.estimatedRowHeight =
-        tableView
+//        tableView.estimatedRowHeight = ExampleSwiftlistite
+        tableView.rowHeight = UITableView.automaticDimension
     }
 }

@@ -53,10 +53,10 @@
 }
 
 - (void)tapA:(UIControl *)sender {
-    
-    if(self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(receiveView:name:event:)]) {
 
-        [self.viewDelegate receiveView:self name:@"tapA" event:@{@"data": @"123"}];
+    if(self.yui_viewDelegate && [self.yui_viewDelegate respondsToSelector:@selector(receiveView:name:event:)]) {
+
+        [self.yui_viewDelegate receiveView:self name:@"tapA" event:@{@"data": @"123"}];
     }
 }
 

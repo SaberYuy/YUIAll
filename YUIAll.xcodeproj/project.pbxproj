@@ -37,6 +37,11 @@
 		B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A99294071A200B3741F /* CommonModelManager.m */; };
 		B48E5ACB294071A200B3741F /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A9D294071A200B3741F /* UIView+Common.m */; };
 		B48E5ACC294071A200B3741F /* YACommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5AA0294071A200B3741F /* YACommonView.m */; };
+		B49F519929A5B6CC00D762C3 /* ExampleSwiftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F519829A5B6CC00D762C3 /* ExampleSwiftListViewController.swift */; };
+		B49F519B29A6026700D762C3 /* AccessibilityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F519A29A6026700D762C3 /* AccessibilityIdentifier.swift */; };
+		B49F519E29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F519D29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift */; };
+		B49F51A029A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F519F29A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift */; };
+		B49F51A329A615F800D762C3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F51A229A615F800D762C3 /* LoadingView.swift */; };
 		B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2043C2990D6240042AFD2 /* HUDService.swift */; };
 		B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */; };
 		B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */; };
@@ -55,7 +60,6 @@
 		B4AE9F1A298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F19298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m */; };
 		B4AE9F1D299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F1C299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift */; };
 		B4AE9F1F2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F1E2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift */; };
-		B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */; };
 		B4AE9F25299094F4005F9C7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F24299094F4005F9C7A /* Controller.swift */; };
 		B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */; };
 		B4C087D5299A1EC6006230EF /* QMUIInteractiveDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C087C3299A1EC6006230EF /* QMUIInteractiveDebugger.m */; };
@@ -218,6 +222,11 @@
 		B48E5A9E294071A200B3741F /* YACommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YACommonView.h; sourceTree = "<group>"; };
 		B48E5A9F294071A200B3741F /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		B48E5AA0294071A200B3741F /* YACommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACommonView.m; sourceTree = "<group>"; };
+		B49F519829A5B6CC00D762C3 /* ExampleSwiftListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewController.swift; sourceTree = "<group>"; };
+		B49F519A29A6026700D762C3 /* AccessibilityIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifier.swift; sourceTree = "<group>"; };
+		B49F519D29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonEmptyTitleNavigationBarBehavior.swift; sourceTree = "<group>"; };
+		B49F519F29A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackStyleNavigationBarBehavior.swift; sourceTree = "<group>"; };
+		B49F51A229A615F800D762C3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		B4A2043C2990D6240042AFD2 /* HUDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDService.swift; sourceTree = "<group>"; };
 		B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
 		B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
@@ -237,7 +246,6 @@
 		B4AE9F19298D03E3005F9C7A /* ExampleObjcMVVMEmptyDataSetDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjcMVVMEmptyDataSetDelegateObject.m; sourceTree = "<group>"; };
 		B4AE9F1C299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftFlowCoordinator.swift; sourceTree = "<group>"; };
 		B4AE9F1E2990911B005F9C7A /* ExampleSwiftListSearchFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListSearchFlowCoordinator.swift; sourceTree = "<group>"; };
-		B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewController.swift; sourceTree = "<group>"; };
 		B4AE9F24299094F4005F9C7A /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		B4AE9F2729909DC4005F9C7A /* ExampleSwiftListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListViewModel.swift; sourceTree = "<group>"; };
 		B4C087C3299A1EC6006230EF /* QMUIInteractiveDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIInteractiveDebugger.m; sourceTree = "<group>"; };
@@ -679,6 +687,15 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		B49F519C29A612D400D762C3 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				B49F519D29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift */,
+				B49F519F29A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift */,
+			);
+			path = Behaviors;
+			sourceTree = "<group>";
+		};
 		B4A2043B2990D6070042AFD2 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -902,8 +919,8 @@
 		B4AE9F212990946E005F9C7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B49F519829A5B6CC00D762C3 /* ExampleSwiftListViewController.swift */,
 				B46DB5CC29A347E40003B044 /* ExampleSwiftListTableViewController */,
-				B4AE9F22299094C8005F9C7A /* ExampleSwiftListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1019,6 +1036,8 @@
 				B46DB5C529A3185F0003B044 /* Protocol */,
 				B46DB5C0299F139F0003B044 /* Extension */,
 				B46DB5C1299F145E0003B044 /* Observable.swift */,
+				B49F519A29A6026700D762C3 /* AccessibilityIdentifier.swift */,
+				B49F51A229A615F800D762C3 /* LoadingView.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -1157,6 +1176,7 @@
 				BA77D3FF289FADC100F323EB /* Action */,
 				B4AE9EEF298CA9B1005F9C7A /* ExampleSwift */,
 				BA77D42A289FADC200F323EB /* ExampleObjc */,
+				B49F519C29A612D400D762C3 /* Behaviors */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -1910,6 +1930,7 @@
 				B4A20453299374AC0042AFD2 /* AppDIContainer.swift in Sources */,
 				B4C087F3299B8066006230EF /* YACommonListViewController.m in Sources */,
 				B4AE9F0E298CE012005F9C7A /* NetworkService.swift in Sources */,
+				B49F519929A5B6CC00D762C3 /* ExampleSwiftListViewController.swift in Sources */,
 				BA77D510289FADC300F323EB /* ExampleObjcMVCView.m in Sources */,
 				B4AE9F04298CDB0B005F9C7A /* CGSize+ScaledSize.swift in Sources */,
 				B4C0883F299E05BE006230EF /* ExampleSwift.swift in Sources */,
@@ -1935,6 +1956,7 @@
 				B48E5AC8294071A200B3741F /* CommonLayoutModel.m in Sources */,
 				B4FA763828C9CC7100BAFDD7 /* Target_ExampleSwift.swift in Sources */,
 				B46DB5D129A34C4F0003B044 /* ExampleSwiftListItemCell.swift in Sources */,
+				B49F51A029A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift in Sources */,
 				B4C087F8299B8066006230EF /* YACommonTableViewController.m in Sources */,
 				BA77D51F289FADC300F323EB /* LoginModelManager.m in Sources */,
 				B48E5AC3294071A200B3741F /* YAComnonArchitectureDelegateObject.m in Sources */,
@@ -1943,6 +1965,7 @@
 				BA77D54B289FADC300F323EB /* NSObject+YUIModel.m in Sources */,
 				B4AE9F02298CDB0B005F9C7A /* UIViewController+AddChild.swift in Sources */,
 				BA77D52B289FADC300F323EB /* AppDelegate.swift in Sources */,
+				B49F519B29A6026700D762C3 /* AccessibilityIdentifier.swift in Sources */,
 				BA77D528289FADC300F323EB /* YAAppLifecycleModule.m in Sources */,
 				B4C08801299B8F68006230EF /* UIImageEffects.m in Sources */,
 				B4AE9F0B298CE00C005F9C7A /* DataTransferService.swift in Sources */,
@@ -1969,13 +1992,14 @@
 				B4C087D6299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m in Sources */,
 				B4C08824299B9071006230EF /* YUIConfigurationTemplateGrass.m in Sources */,
 				B46DB5C2299F145E0003B044 /* Observable.swift in Sources */,
-				B4AE9F23299094C8005F9C7A /* ExampleSwiftListViewController.swift in Sources */,
 				BA77D531289FADC300F323EB /* SceneDelegate.swift in Sources */,
 				BA77D50C289FADC300F323EB /* ExampleObjcMVCDataSourceObject.m in Sources */,
 				B4AE9F0C298CE00C005F9C7A /* Endpoint.swift in Sources */,
+				B49F519E29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift in Sources */,
 				B46DB5C929A31B1D0003B044 /* StoryboardInstantiable.swift in Sources */,
 				B48E5ACA294071A200B3741F /* CommonModelManager.m in Sources */,
 				B4C08826299B9071006230EF /* YAThemeManager.m in Sources */,
+				B49F51A329A615F800D762C3 /* LoadingView.swift in Sources */,
 				BA77D544289FADC300F323EB /* MediationKit+HomeAction.m in Sources */,
 				B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */,
 				BA77D50D289FADC300F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m in Sources */,
