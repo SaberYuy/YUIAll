@@ -1,64 +1,43 @@
-////
-////  ExampleSwiftFlowCoordinator.swift
-////  YUIAll
-////
-////  Created by YUIAll on 2023/2/6.
-////
 //
-//import Foundation
+//  ExampleSwiftFlowCoordinator.swift
+//  YUIAll
 //
-//import UIKit
+//  Created by YUIAll on 2023/2/6.
 //
-//protocol ExampleSwiftFlowCoordinatorDependencies  {
-//    func makeMoviesListViewController(actions: MoviesListViewModelActions) -> MoviesListViewController
-//    func makeMoviesDetailsViewController(movie: Movie) -> UIViewController
-//    func makeMoviesQueriesSuggestionsListViewController(didSelect: @escaping MoviesQueryListViewModelDidSelectAction) -> UIViewController
-//}
-//
-//final class ExampleSwiftFlowCoordinator {
-//    
-//    private weak var navigationController: UINavigationController?
-//    private let dependencies: ExampleSwiftListFlowCoordinatorDependencies
-//
-//    private weak var moviesListVC: MoviesListViewController?
-//    private weak var moviesQueriesSuggestionsVC: UIViewController?
-//
-//    init(navigationController: UINavigationController,
-//         dependencies: MoviesSearchFlowCoordinatorDependencies) {
-//        self.navigationController = navigationController
-//        self.dependencies = dependencies
-//    }
-//    
-//    func start() {
-//        // Note: here we keep strong reference with actions, this way this flow do not need to be strong referenced
-//        let actions = MoviesListViewModelActions(showMovieDetails: showMovieDetails,
-//                                                 showMovieQueriesSuggestions: showMovieQueriesSuggestions,
-//                                                 closeMovieQueriesSuggestions: closeMovieQueriesSuggestions)
-//        let vc = dependencies.makeMoviesListViewController(actions: actions)
-//
-//        navigationController?.pushViewController(vc, animated: false)
-//        moviesListVC = vc
-//    }
-//
-//    private func showMovieDetails(movie: Movie) {
-//        let vc = dependencies.makeMoviesDetailsViewController(movie: movie)
-//        navigationController?.pushViewController(vc, animated: true)
-//    }
-//
-//    private func showMovieQueriesSuggestions(didSelect: @escaping (MovieQuery) -> Void) {
-//        guard let moviesListViewController = moviesListVC, moviesQueriesSuggestionsVC == nil,
-//            let container = moviesListViewController.suggestionsListContainer else { return }
-//
-//        let vc = dependencies.makeMoviesQueriesSuggestionsListViewController(didSelect: didSelect)
-//
-//        moviesListViewController.add(child: vc, container: container)
-//        moviesQueriesSuggestionsVC = vc
-//        container.isHidden = false
-//    }
-//
-//    private func closeMovieQueriesSuggestions() {
-//        moviesQueriesSuggestionsVC?.remove()
-//        moviesQueriesSuggestionsVC = nil
-//        moviesListVC?.suggestionsListContainer.isHidden = true
-//    }
-//}
+
+import UIKit
+
+protocol ExampleSwiftFlowCoordinatorDependency {
+    func makeExampleSwiftListViewController(action: ExampleSwiftListViewModelAction) -> ExampleSwiftListViewController
+    func makeExampleDetailViewController(exampleSwift: ExampleSwift) -> UIViewController
+    func makeExampleQuerySuggestionListViewController(didSelect: @escaping ExampleSwiftQueryListViewModelDidSelectAction) -> UIViewController
+}
+
+final class ExampleSwiftFlowCoordinator {
+    
+    private weak var navigationController: UINavigationController?
+    private let dependency: ExampleSwiftFlowCoordinatorDependency
+    
+    private weak var exampleSwiftListVC: ExampleSwiftListViewController?
+    private weak var exampleQuerySuggestionVC: UIViewController?
+    
+    init(navigationController: UINavigationController,
+         dependency: ExampleSwiftFlowCoordinatorDependency) {
+        self.navigationController = navigationController
+        self.dependency = dependency
+    }
+    
+    func start() {
+        // Note: here we keep strong reference with actions, this way this flow do not need to be strong referenced
+        let action = ExampleSwiftListViewModelAction(showExampleDetail: <#T##(ExampleSwift) -> Void#>, showExampleQuerySuggestion: <#T##(@escaping (ExampleSwiftQuery) -> Void) -> Void##(@escaping (ExampleSwiftQuery) -> Void) -> Void##(@escaping (_ didSelect: ExampleSwiftQuery) -> Void) -> Void#>, closeExampleQuerySuggestion: <#T##() -> Void#>)
+    }
+    
+    private func showExampleDetail(exampleSwift: ExampleSwift) {
+        let vc = dependency.makeExampleDetailViewController(exampleSwift: exampleSwift)
+        navigationController?.pushViewController( vc, animated: true)
+    }
+    
+    private func showExampleQuerySuggestion(didSelect: @escaping (ExampleSwiftQuery) -> Void) {
+        guard let 
+    }
+}

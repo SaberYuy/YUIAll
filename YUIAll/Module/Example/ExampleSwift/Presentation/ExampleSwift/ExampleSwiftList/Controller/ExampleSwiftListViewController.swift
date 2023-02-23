@@ -33,15 +33,16 @@ final class ExampleSwiftListViewController: UIViewController, StoryboardInstanti
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        setupBehaviours()
+        setupBehaviour()
         bind(to: viewModel)
         viewModel.viewDidLoad()
     }
     
     private func bind(to viewModel: ExampleSwiftListViewModel) {
-        //        viewModel.items.observe(on: self) { [weak self] in self?.upda
-        //
-        //        }
+        viewModel.items.observe(on: self) { [weak self] _ in  self?.updateItems() }
+        viewModel.loading.observe(on: self) { [weak self] in self?.updateLoading($0) }
+        viewModel.query.observe(on: self) { [weak self] in self?.updateSearchQuery($0) }
+        viewModel.error.observe(on: self) { [weak self] in self?.showAlert(message: $0) }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -52,7 +53,6 @@ final class ExampleSwiftListViewController: UIViewController, StoryboardInstanti
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == String(describing: ExampleSwiftListTableViewController.self),
            let destinationVC = segue.destination as? ExampleSwiftListTableViewController {
-            
             exampleSwiftListTableViewController = destinationVC
             exampleSwiftListTableViewController?.viewModel = viewModel
             exampleSwiftListTableViewController?.posterImagesRepository = posterImageRepository
@@ -67,7 +67,7 @@ final class ExampleSwiftListViewController: UIViewController, StoryboardInstanti
         setupSearchController()
     }
     
-    private func setupBehaviours() {
+    private func setupBehaviour() {
         addBehaviors([BackButtonEmptyTitleNavigationBarBehavior(),
                       BlackStyleNavigationBarBehavior()])
     }
@@ -91,17 +91,32 @@ final class ExampleSwiftListViewController: UIViewController, StoryboardInstanti
         }
         
         exampleSwiftListTableViewController?.updateLoading(loading)
-        
+        updateQuerySuggestion()
     }
     
     private func updateQuerySuggestion() {
-        
+        guard searchController.searchBar.isFirstResponder else {
+            viewModel.closeQuerySuggestion()
+            return
+        }
+        viewModel.showQuerySuggestion()
+    }
+    
+    private func updateSearchQuery(_ query: String) {
+        searchController.isActive = false
+        searchController.searchBar.text = query
+    }
+    
+    private func showError(_ error: String) {
+        guard !error.isEmpty else { return }
+        showAlert(title: viewModel.errorTitle, message: error)
     }
 }
 
 // MARK: - Search Controller
 
 extension ExampleSwiftListViewController {
+    
     private func setupSearchController() {
         searchController.delegate = self
         searchController.searchBar.delegate = self
@@ -134,6 +149,12 @@ extension ExampleSwiftListViewController: UISearchBarDelegate {
 
 extension ExampleSwiftListViewController: UISearchControllerDelegate {
     public func willPresentSearchController(_ searchController: UISearchController) {
-        
+        updateQuerySuggestion()
+    }
+    public func willDismissSearchController(_ searchController: UISearchController) {
+        updateQuerySuggestion()
+    }
+    public func didDismissSearchController(_ searchController: UISearchController) {
+        updateQuerySuggestion()
     }
 }

@@ -38,7 +38,37 @@ final class ExampleSwiftListTableViewController: UITableViewController {
     // MARK: - Private
     
     private func setupViews() {
-//        tableView.estimatedRowHeight = ExampleSwiftlistite
+        tableView.estimatedRowHeight = ExampleSwiftListItemCell.height
         tableView.rowHeight = UITableView.automaticDimension
+    }
+}
+
+// MARK: - UITableViewDataSource, UITableViewDelegate
+
+extension ExampleSwiftListTableViewController {
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.items.value.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ExampleSwiftListItemCell.reuseIdentifier, for: indexPath) as? ExampleSwiftListItemCell else {
+            assertionFailure("Cannot dequeue reusable cell \(ExampleSwiftListItemCell.self) with reuseIdentifier: \(ExampleSwiftListItemCell.reuseIdentifier)")
+            return UITableViewCell()
+        }
+        cell.fill(will: viewModel.items.value[indexPath.row], posterImageRepository: posterImagesRepository)
+        
+        if indexPath.row == viewModel.items.value.count - 1 {
+            viewModel.didLoadNextPage()
+        }
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return viewModel.isEmpty ? tableView.frame.height : super.tableView( tableView, heightForRowAt: indexPath)
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel.didSelectItem(at: indexPath.row)
     }
 }

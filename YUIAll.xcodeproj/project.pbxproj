@@ -42,6 +42,8 @@
 		B49F519E29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F519D29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift */; };
 		B49F51A029A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F519F29A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift */; };
 		B49F51A329A615F800D762C3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F51A229A615F800D762C3 /* LoadingView.swift */; };
+		B49F51A829A7420700D762C3 /* ExampleSwiftQueryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F51A729A7420700D762C3 /* ExampleSwiftQueryListViewModel.swift */; };
+		B49F51AA29A7422F00D762C3 /* ExampleSwiftQueryListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F51A929A7422F00D762C3 /* ExampleSwiftQueryListItemViewModel.swift */; };
 		B4A2043D2990D6240042AFD2 /* HUDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2043C2990D6240042AFD2 /* HUDService.swift */; };
 		B4A2044E29934DB30042AFD2 /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */; };
 		B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */; };
@@ -227,6 +229,8 @@
 		B49F519D29A6134300D762C3 /* BackButtonEmptyTitleNavigationBarBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonEmptyTitleNavigationBarBehavior.swift; sourceTree = "<group>"; };
 		B49F519F29A613E600D762C3 /* BlackStyleNavigationBarBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackStyleNavigationBarBehavior.swift; sourceTree = "<group>"; };
 		B49F51A229A615F800D762C3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B49F51A729A7420700D762C3 /* ExampleSwiftQueryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftQueryListViewModel.swift; sourceTree = "<group>"; };
+		B49F51A929A7422F00D762C3 /* ExampleSwiftQueryListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftQueryListItemViewModel.swift; sourceTree = "<group>"; };
 		B4A2043C2990D6240042AFD2 /* HUDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDService.swift; sourceTree = "<group>"; };
 		B4A2044D29934DB30042AFD2 /* AppConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
 		B4A2044F29934F3D0042AFD2 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
@@ -696,6 +700,31 @@
 			path = Behaviors;
 			sourceTree = "<group>";
 		};
+		B49F51A429A7415000D762C3 /* ExampleSwiftQueryList */ = {
+			isa = PBXGroup;
+			children = (
+				B49F51A529A741B300D762C3 /* ViewModel */,
+				B49F51A629A741C800D762C3 /* View */,
+			);
+			path = ExampleSwiftQueryList;
+			sourceTree = "<group>";
+		};
+		B49F51A529A741B300D762C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B49F51A729A7420700D762C3 /* ExampleSwiftQueryListViewModel.swift */,
+				B49F51A929A7422F00D762C3 /* ExampleSwiftQueryListItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B49F51A629A741C800D762C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B4A2043B2990D6070042AFD2 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -912,6 +941,7 @@
 				B4AE9F2929909E97005F9C7A /* Behavior */,
 				B4AE9EED298CA90F005F9C7A /* ExampleSwiftList */,
 				B4AE9EF3298CAAEC005F9C7A /* ExampleSwiftDetail */,
+				B49F51A429A7415000D762C3 /* ExampleSwiftQueryList */,
 			);
 			path = ExampleSwift;
 			sourceTree = "<group>";
@@ -1899,6 +1929,7 @@
 			files = (
 				BA77D547289FADC300F323EB /* MediationKit+MainAction.m in Sources */,
 				BA77D519289FADC300F323EB /* ExampleObjcMVVMViewManager.m in Sources */,
+				B49F51A829A7420700D762C3 /* ExampleSwiftQueryListViewModel.swift in Sources */,
 				B4C087F9299B8066006230EF /* YACommonViewController.m in Sources */,
 				B4A2045029934F3D0042AFD2 /* AppFlowCoordinator.swift in Sources */,
 				B46DB5C4299F4B070003B044 /* ExampleSwiftListItemViewModel.swift in Sources */,
@@ -1942,6 +1973,7 @@
 				B449E760294AC6A100FD84E3 /* YACommonArchitectureViewController+MVP.m in Sources */,
 				B4A2045529939A0B0042AFD2 /* AppAppearance.swift in Sources */,
 				B48E5AC4294071A200B3741F /* YACommonViewController+YASubclassingHooks.m in Sources */,
+				B49F51AA29A7422F00D762C3 /* ExampleSwiftQueryListItemViewModel.swift in Sources */,
 				B4AE9F2829909DC4005F9C7A /* ExampleSwiftListViewModel.swift in Sources */,
 				B48E5ABF294071A200B3741F /* YUIViewModel+Common.m in Sources */,
 				B4C0884C299E1A6A006230EF /* ExampleSwiftRepository.swift in Sources */,
