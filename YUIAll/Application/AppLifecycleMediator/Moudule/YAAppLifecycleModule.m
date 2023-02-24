@@ -60,11 +60,11 @@
     
     [self setup];
     
-    if (@available(iOS 13.0, *)) {
-        if ([scene isKindOfClass:UIWindowScene.class]) {
-            [self didInitWindow];
-        }
-    }
+//    if (@available(iOS 13.0, *)) {
+//        if ([scene isKindOfClass:UIWindowScene.class]) {
+//            [self didInitWindow];
+//        }
+//    }
 }
 
 - (void)setup{

@@ -27,7 +27,7 @@ typealias FetchRecentExampleSwiftQueryUseCaseFactory = (
 
 final class DefaultExampleSwiftQueryListViewModel: ExampleSwiftQueryListViewModel {
     
-    private let numberOfQueriesToShow: Int
+    private let numberOfQueryToShow: Int
     private let fetchRecentExampleSwiftQueryUseCaseFactory: FetchRecentExampleSwiftQueryUseCaseFactory
     private let didSelect: ExampleSwiftQueryListViewModelDidSelectAction?
     
@@ -35,13 +35,13 @@ final class DefaultExampleSwiftQueryListViewModel: ExampleSwiftQueryListViewMode
     let items: Observable<[ExampleSwiftQueryListItemViewModel]> = Observable([])
     
     init(numberOfQueryToShow: Int, fetchRecentExampleSwiftQueryUseCaseFactory: @escaping FetchRecentExampleSwiftQueryUseCaseFactory, didSelect: ExampleSwiftQueryListViewModelDidSelectAction? = nil) {
-        self.numberOfQueriesToShow = numberOfQueryToShow
+        self.numberOfQueryToShow = numberOfQueryToShow
         self.fetchRecentExampleSwiftQueryUseCaseFactory = fetchRecentExampleSwiftQueryUseCaseFactory
         self.didSelect = didSelect
     }
     
     private func updateExampleQuery() {
-        let request = FetchRecentExampleSwiftQueryUseCase.RequestValue(maxCount: numberOfQueriesToShow)
+        let request = FetchRecentExampleSwiftQueryUseCase.RequestValue(maxCount: numberOfQueryToShow)
         let completion: (FetchRecentExampleSwiftQueryUseCase.ResultValue) -> Void = { result in
             switch result {
             case .success(let items):

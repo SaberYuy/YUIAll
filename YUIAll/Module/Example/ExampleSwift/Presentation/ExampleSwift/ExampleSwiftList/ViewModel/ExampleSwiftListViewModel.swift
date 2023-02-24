@@ -73,7 +73,7 @@ final class DefaultExampleSwiftListViewModel: ExampleSwiftListViewModel {
     
     // MARK: - Init
     
-    init(searchExampleSwiftUseCase: SearchExampleSwiftUseCase, actions: ExampleSwiftListViewModelAction?, currentPage: Int, totalPageCount: Int, pages: [ExampleSwiftPage], exampleSwiftLoadTask: Cancellable) {
+    init(searchExampleSwiftUseCase: SearchExampleSwiftUseCase, actions: ExampleSwiftListViewModelAction?) {
         self.searchExampleSwiftUseCase = searchExampleSwiftUseCase
         self.actions = actions
     }

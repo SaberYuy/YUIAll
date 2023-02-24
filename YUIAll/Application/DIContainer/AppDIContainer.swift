@@ -26,10 +26,9 @@ final class AppDIContainer {
         return DefaultDataTransferService(with: imagesDataNetwork)
     }()
     
-//    // MARK: - DIContainers of scenes
-//    func makeMoviesSceneDIContainer() -> MoviesSceneDIContainer {
-//        let dependencies = MoviesSceneDIContainer.Dependencies(apiDataTransferService: apiDataTransferService,
-//                                                               imageDataTransferService: imageDataTransferService)
-//        return MoviesSceneDIContainer(dependencies: dependencies)
-//    }
+    // MARK: - DIContainers of scenes
+    func makeExampleSwiftDIContainer() -> ExampleSwiftDIContainer {
+        let dependency = ExampleSwiftDIContainer.Dependency(apiDataTransferService: apiDataTransferService, imageDateTransferService: imageDataTransferService)
+        return ExampleSwiftDIContainer(dependency: dependency)
+    }
 }

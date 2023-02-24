@@ -21,6 +21,8 @@
 		B46DB5CB29A344A50003B044 /* PosterImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5CA29A344A50003B044 /* PosterImageRepository.swift */; };
 		B46DB5CE29A348080003B044 /* ExampleSwiftListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5CD29A348080003B044 /* ExampleSwiftListTableViewController.swift */; };
 		B46DB5D129A34C4F0003B044 /* ExampleSwiftListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DB5D029A34C4F0003B044 /* ExampleSwiftListItemCell.swift */; };
+		B47C4F7729A8978D003D93D0 /* ExampleSwiftDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C4F7629A8978D003D93D0 /* ExampleSwiftDIContainer.swift */; };
+		B47C4F7A29A8B0E0003D93D0 /* DefaultExampleSwiftRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C4F7929A8B0E0003D93D0 /* DefaultExampleSwiftRepository.swift */; };
 		B48E5AB0294071A200B3741F /* LookinConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A54294071A100B3741F /* LookinConfig.m */; };
 		B48E5ABD294071A200B3741F /* YUIViewManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A78294071A200B3741F /* YUIViewManager+Common.m */; };
 		B48E5ABE294071A200B3741F /* YACommonViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E5A7A294071A200B3741F /* YACommonViewManager.m */; };
@@ -191,6 +193,8 @@
 		B46DB5CA29A344A50003B044 /* PosterImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageRepository.swift; sourceTree = "<group>"; };
 		B46DB5CD29A348080003B044 /* ExampleSwiftListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListTableViewController.swift; sourceTree = "<group>"; };
 		B46DB5D029A34C4F0003B044 /* ExampleSwiftListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftListItemCell.swift; sourceTree = "<group>"; };
+		B47C4F7629A8978D003D93D0 /* ExampleSwiftDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftDIContainer.swift; sourceTree = "<group>"; };
+		B47C4F7929A8B0E0003D93D0 /* DefaultExampleSwiftRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultExampleSwiftRepository.swift; sourceTree = "<group>"; };
 		B48E5A53294071A100B3741F /* LookinConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookinConfig.h; sourceTree = "<group>"; };
 		B48E5A54294071A100B3741F /* LookinConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookinConfig.m; sourceTree = "<group>"; };
 		B48E5A77294071A200B3741F /* YUIViewManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YUIViewManager+Common.h"; sourceTree = "<group>"; };
@@ -525,6 +529,14 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		B47C4F7829A8B086003D93D0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B47C4F7929A8B0E0003D93D0 /* DefaultExampleSwiftRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		B48E5A4B294071A100B3741F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -748,6 +760,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A20452299374AC0042AFD2 /* AppDIContainer.swift */,
+				B47C4F7629A8978D003D93D0 /* ExampleSwiftDIContainer.swift */,
 			);
 			path = DIContainer;
 			sourceTree = "<group>";
@@ -773,6 +786,7 @@
 		B4AE9EEC298CA8FB005F9C7A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B47C4F7829A8B086003D93D0 /* Repository */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -2021,6 +2035,7 @@
 				BA77D50B289FADC300F323EB /* ExampleObjcMVCViewController.m in Sources */,
 				B4AE9F1D299090AE005F9C7A /* ExampleSwiftFlowCoordinator.swift in Sources */,
 				BA77D54A289FADC300F323EB /* UIViewController+YUI.m in Sources */,
+				B47C4F7A29A8B0E0003D93D0 /* DefaultExampleSwiftRepository.swift in Sources */,
 				B4C087D6299A1EC6006230EF /* QMUIInteractiveDebugPanelItem.m in Sources */,
 				B4C08824299B9071006230EF /* YUIConfigurationTemplateGrass.m in Sources */,
 				B46DB5C2299F145E0003B044 /* Observable.swift in Sources */,
@@ -2036,6 +2051,7 @@
 				B449E75F294AC6A100FD84E3 /* YACommonArchitectureViewController+MVVM.m in Sources */,
 				BA77D50D289FADC300F323EB /* ExampleObjcMVCEmptyDataSetDelegateObject.m in Sources */,
 				BA77D520289FADC300F323EB /* LoginRequest.m in Sources */,
+				B47C4F7729A8978D003D93D0 /* ExampleSwiftDIContainer.swift in Sources */,
 				B4C08828299B9071006230EF /* YUIConfigurationTemplateGrapefruit.m in Sources */,
 				BA77D518289FADC300F323EB /* ExampleObjcRequest.m in Sources */,
 				B46DB5C729A318C00003B044 /* Alertable.swift in Sources */,

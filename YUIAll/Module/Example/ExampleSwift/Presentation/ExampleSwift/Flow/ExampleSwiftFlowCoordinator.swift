@@ -29,7 +29,13 @@ final class ExampleSwiftFlowCoordinator {
     
     func start() {
         // Note: here we keep strong reference with actions, this way this flow do not need to be strong referenced
-        let action = ExampleSwiftListViewModelAction(showExampleDetail: <#T##(ExampleSwift) -> Void#>, showExampleQuerySuggestion: <#T##(@escaping (ExampleSwiftQuery) -> Void) -> Void##(@escaping (ExampleSwiftQuery) -> Void) -> Void##(@escaping (_ didSelect: ExampleSwiftQuery) -> Void) -> Void#>, closeExampleQuerySuggestion: <#T##() -> Void#>)
+        let action = ExampleSwiftListViewModelAction(showExampleDetail: showExampleDetail,
+                                                     showExampleQuerySuggestion: showExampleQuerySuggestion,
+                                                     closeExampleQuerySuggestion: closeExampleQuerySuggestion)
+        let vc = dependency.makeExampleSwiftListViewController(action: action)
+        
+        navigationController?.pushViewController( vc, animated: false)
+        exampleSwiftListVC = vc
     }
     
     private func showExampleDetail(exampleSwift: ExampleSwift) {
@@ -38,6 +44,19 @@ final class ExampleSwiftFlowCoordinator {
     }
     
     private func showExampleQuerySuggestion(didSelect: @escaping (ExampleSwiftQuery) -> Void) {
-        guard let 
+        guard let exampleSwiftListViewController = exampleSwiftListVC, exampleQuerySuggestionVC == nil,
+              let container = exampleSwiftListViewController.suggestionListContainer else { return }
+        
+        let vc = dependency.makeExampleQuerySuggestionListViewController(didSelect: didSelect)
+        
+        exampleSwiftListViewController.add(child: vc, container: container)
+        exampleQuerySuggestionVC = vc
+        container.isHidden = false
+    }
+    
+    private func closeExampleQuerySuggestion() {
+        exampleQuerySuggestionVC?.remove()
+        exampleQuerySuggestionVC = nil
+        exampleSwiftListVC?.suggestionListContainer.isHidden = true
     }
 }
