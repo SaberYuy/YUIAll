@@ -8,7 +8,6 @@
 import Foundation
 
 struct ExampleSwiftListViewModelAction {
-    
     /// Note: if you would need to edit example inside Details screen and update this Movies List screen with updated example then you would need this closure:
     //    let showExampleDetails: (Example, @escaping (_ updated: Example) -> Void) -> Void
     let showExampleDetail: (ExampleSwift) -> Void
@@ -122,7 +121,7 @@ final class DefaultExampleSwiftListViewModel: ExampleSwiftListViewModel {
     }
 }
 
-// MARK: - INPUT. View event methods
+// MARK: - INPUT. View event method
 
 extension DefaultExampleSwiftListViewModel {
     

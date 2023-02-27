@@ -34,21 +34,11 @@ final class ExampleSwiftDIContainer {
     
     // MARK: - Repository
     
-//    func makePosterImageRepository() -> PosterImageRepository {
-//        return 
-//    }
-    
-    // MARK: - ExampleSwift List
-    func makeExampleSwiftListViewController(action: ExampleSwiftListViewModelAction) -> ExampleSwiftListViewController {
-        return ExampleSwiftListViewController.create(with: makeExampleSwiftListViewModel(action: action), posterImageRepository: nil)
+    func makePosterImageRepository() -> PosterImageRepository {
+        return DefaultPosterImageRepository(dataTransferService: )
     }
-    
-    
-    func makeExampleSwiftListViewModel(action: ExampleSwiftListViewModelAction) -> ExampleSwiftListViewModel {
-        return DefaultExampleSwiftListViewModel(searchExampleSwiftUseCase: makeSearchExampleSwiftUseCase(), actions: action)
-    }
-    
-    // MARK: - Movie Details
+   
+    // MARK: - Movie Detail
     
     // MARK: - Flow Coordinator
     func makeExampleSwiftFlowCoordinator(navigationController: UINavigationController) -> ExampleSwiftFlowCoordinator {
@@ -56,4 +46,30 @@ final class ExampleSwiftDIContainer {
     }
 }
 
-extension ExampleSwiftDIContainer: ExampleSwiftFlowCoordinatorDependency {}
+extension ExampleSwiftDIContainer: ExampleSwiftFlowCoordinatorDependency {
+    
+    // MARK: - ExampleSwift List
+    func makeExampleSwiftListViewController(action: ExampleSwiftListViewModelAction) -> ExampleSwiftListViewController {
+        return ExampleSwiftListViewController.create(with: makeExampleSwiftListViewModel(action: action), posterImageRepository: nil)
+    }
+
+    func makeExampleSwiftListViewModel(action: ExampleSwiftListViewModelAction) -> ExampleSwiftListViewModel {
+        return DefaultExampleSwiftListViewModel(searchExampleSwiftUseCase: makeSearchExampleSwiftUseCase(),
+                                                actions: action)
+    }
+    
+    // MARK: - ExampleSwift Detail
+    func makeExampleDetailViewController(exampleSwift: ExampleSwift) -> UIViewController {
+        return ExampleSwiftDetailViewController.create(with: makeExampleDetailViewModel(exampleSwift: exampleSwift))
+    }
+    
+    func makeExampleDetailViewModel(exampleSwift: ExampleSwift) -> ExampleSwiftDetailViewModel {
+        return DefaultExampleSwiftDetailViewModel(exampleSwift: exampleSwift,
+                                                  posterImageRepository: nil)
+    }
+    
+    // MARK: - ExampleSwift Query Suggestion List
+    func makeExampleQuerySuggestionListViewController(didSelect: @escaping ExampleSwiftQueryListViewModelDidSelectAction) -> UIViewController {
+        
+    }
+}

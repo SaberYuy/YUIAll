@@ -54,7 +54,7 @@ final class DefaultExampleSwiftQueryListViewModel: ExampleSwiftQueryListViewMode
     }
 }
 
-// MARK: - INPUT. View event methods
+// MARK: - INPUT. View event method
 extension DefaultExampleSwiftQueryListViewModel {
     
     func viewWillAppear() {

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+final class DefaultExampleSwiftRepository {
+    
+    private let dataTransferService: DataTransferService
+    private let cache: example
+}
